@@ -425,4 +425,16 @@ def main():
             print(f"🎉 Newsletter generated successfully!")
             print(f"📊 {len(articles)} news reports processed")
             print(f"📂 {len(categories)} categories organized")
-            print(f"🌐 Ready for GitHub Pages d
+            print(f"🌐 Ready for GitHub Pages deployment")
+        else:
+            print("❌ Failed to save newsletter")
+            return False
+            
+    except Exception as e:
+        print(f"❌ Error generating newsletter: {e}")
+        return False
+    
+    return True
+
+if __name__ == "__main__":
+    main()
