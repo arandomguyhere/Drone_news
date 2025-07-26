@@ -8,7 +8,7 @@
 
 ## 🌐 Live Intelligence Brief
 
-**👉 [View Live Brief](https://yourusername.github.io/drone-intelligence-system/) 👈**
+**👉 [View Live Brief](https://arandomguyhere.github.io/Drone_news/) 👈**
 
 Automatically updated every 6 hours with the latest drone intelligence from 60+ sources across military, commercial, and geopolitical domains.
 
