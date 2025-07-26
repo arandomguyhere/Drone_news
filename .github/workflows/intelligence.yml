@@ -2,9 +2,8 @@ name: Drone Intelligence Collection
 
 on:
   schedule:
-    # Run every 6 hours
     - cron: '0 */6 * * *'
-  workflow_dispatch: # Allow manual triggering
+  workflow_dispatch:
     inputs:
       priority_mode:
         description: 'Use priority mode for faster collection'
@@ -18,13 +17,11 @@ on:
       - 'generate_newsletter.py'
       - '.github/workflows/intelligence.yml'
 
-# Permissions for GitHub Pages
 permissions:
   contents: write
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -80,13 +77,11 @@ jobs:
           python drone_scraper.py
         fi
         
-        # Check if data was generated
         if [ ! -f "data/latest_news.json" ]; then
           echo "⚠️ No data file generated, creating empty file..."
           echo "[]" > data/latest_news.json
         fi
         
-        # Show what we collected
         if [ -f "data/latest_news.json" ]; then
           echo "✅ Data file created"
           python -c "
@@ -117,33 +112,34 @@ except Exception as e:
           echo "📁 File size: $(wc -c < docs/index.html) bytes"
         else
           echo "⚠️ Newsletter generation failed, creating minimal page..."
+          mkdir -p docs
           cat > docs/index.html << 'EOF'
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drone Intelligence Brief</title>
-    <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-        .header { background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; padding: 40px; text-align: center; border-radius: 10px; }
-        .status { background: #f8f9fa; padding: 20px; margin: 20px 0; border-radius: 10px; border-left: 5px solid #007acc; }
-    </style>
-</head>
-<body>
-    <div class="header">
-        <h1>🚁 Drone Intelligence Brief</h1>
-        <p>Comprehensive UAV/UAS Intelligence Collection</p>
-    </div>
-    <div class="status">
-        <h2>🔄 System Status</h2>
-        <p>Intelligence collection system is initializing. Data collection in progress.</p>
-        <p><strong>Repository:</strong> <a href="https://github.com/${{ github.repository }}">View on GitHub</a></p>
-        <p><strong>Last Update:</strong> ${{ github.run_id }} - $(date)</p>
-    </div>
-</body>
-</html>
-EOF
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Drone Intelligence Brief</title>
+            <style>
+                body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+                .header { background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; padding: 40px; text-align: center; border-radius: 10px; }
+                .status { background: #f8f9fa; padding: 20px; margin: 20px 0; border-radius: 10px; border-left: 5px solid #007acc; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>🚁 Drone Intelligence Brief</h1>
+                <p>Comprehensive UAV/UAS Intelligence Collection</p>
+            </div>
+            <div class="status">
+                <h2>🔄 System Status</h2>
+                <p>Intelligence collection system is initializing. Data collection in progress.</p>
+                <p><strong>Repository:</strong> <a href="https://github.com/${{ github.repository }}">View on GitHub</a></p>
+                <p><strong>Last Update:</strong> ${{ github.run_id }}</p>
+            </div>
+        </body>
+        </html>
+        EOF
         fi
         
     - name: 🌐 Setup Pages
@@ -163,7 +159,6 @@ EOF
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         
-        # Add data files
         git add data/ docs/ || true
         
         if git diff --staged --quiet; then
