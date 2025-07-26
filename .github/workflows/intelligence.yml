@@ -22,7 +22,7 @@ jobs:
       with:
         python-version: '3.11'
         
-    - run: pip install beautifulsoup4 pandas urllib3 lxml
+    - run: pip install requests beautifulsoup4 pandas urllib3 lxml
     
     - run: mkdir -p data docs
     
