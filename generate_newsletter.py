@@ -1,75 +1,95 @@
 #!/usr/bin/env python3
 """
-Simplified Drone Intelligence Newsletter Generator
-GitHub Actions Compatible - Error Resistant Version
+Drone News Newsletter Generator - GitHub-Only Version
+Creates professional GitHub Pages intelligence briefing
 """
 
 import json
 import os
 from datetime import datetime
 
-def load_data():
-    """Load intelligence data with error handling"""
-    
-    print("📁 Loading intelligence data...")
+print("📰 DRONE NEWS NEWSLETTER GENERATOR")
+print("🌐 GitHub Pages Compatible")
+print("=" * 60)
+
+def load_intelligence_data():
+    """Load intelligence data from JSON file"""
     
     try:
-        data_file = "data/latest_news.json"
-        
-        if os.path.exists(data_file):
-            with open(data_file, "r", encoding="utf-8") as f:
+        if os.path.exists("data/latest_news.json"):
+            with open("data/latest_news.json", "r", encoding="utf-8") as f:
                 data = json.load(f)
             print(f"✅ Loaded {len(data)} intelligence reports")
             return data
         else:
-            print("⚠️ No data file found, using empty dataset")
+            print("⚠️ No intelligence data file found")
             return []
-            
     except Exception as e:
         print(f"❌ Error loading data: {e}")
         return []
 
-def categorize_articles(articles):
-    """Simple categorization of articles"""
+def organize_by_categories(articles):
+    """Organize articles into categories"""
     
     categories = {}
     
     for article in articles:
-        # Get category from article or determine from content
         category = article.get('Category', '📄 General Intelligence')
-        
-        # Clean up category name
-        if not category.startswith(('🚁', '🎯', '🤖', '🌍', '🛡️', '📦', '👁️', '📋', '🎮', '🔄', '📰', '📺', '💻', '🌐', '🛩️', '📄')):
-            category = f"📄 {category}"
         
         if category not in categories:
             categories[category] = []
         categories[category].append(article)
     
-    print(f"📂 Organized into {len(categories)} categories")
-    return categories
+    # Sort categories by importance and article count
+    priority_categories = [
+        '🎯 Military Drones',
+        '🇨🇳 China Drones', 
+        '🇷🇺 Russia Drones',
+        '🤖 Autonomous Drones',
+        '⚔️ Drone Warfare',
+        '💥 Drone Strikes'
+    ]
+    
+    sorted_categories = {}
+    
+    # Add priority categories first
+    for cat in priority_categories:
+        if cat in categories:
+            sorted_categories[cat] = categories[cat]
+    
+    # Add remaining categories by article count
+    remaining = {k: v for k, v in categories.items() if k not in priority_categories}
+    for cat in sorted(remaining.keys(), key=lambda x: len(remaining[x]), reverse=True):
+        sorted_categories[cat] = remaining[cat]
+    
+    print(f"📂 Organized into {len(sorted_categories)} categories")
+    return sorted_categories
 
-def generate_html(articles, categories):
-    """Generate HTML newsletter"""
+def generate_html_newsletter(articles, categories):
+    """Generate HTML newsletter for GitHub Pages"""
     
+    # Get repository name from environment or use default
+    repo_name = os.environ.get('GITHUB_REPOSITORY', 'user/Drone_news')
+    
+    # Current date and stats
     current_date = datetime.now()
-    date_formatted = current_date.strftime("%B %d, %Y")
-    time_formatted = current_date.strftime("%H:%M UTC")
+    date_str = current_date.strftime("%B %d, %Y")
+    time_str = current_date.strftime("%H:%M UTC")
     
-    # Calculate statistics
     total_articles = len(articles)
-    military_count = sum(len(arts) for cat, arts in categories.items() 
-                        if any(term in cat.lower() for term in ['military', 'combat', 'warfare']))
-    commercial_count = sum(len(arts) for cat, arts in categories.items() 
-                          if any(term in cat.lower() for term in ['commercial', 'delivery', 'civilian']))
+    military_articles = sum(len(arts) for cat, arts in categories.items() 
+                           if any(term in cat.lower() for term in ['military', 'combat', 'warfare', 'strike']))
+    geopolitical_articles = sum(len(arts) for cat, arts in categories.items() 
+                               if any(term in cat.lower() for term in ['china', 'russia', 'iran', 'dprk', 'ukraine']))
     
-    html = f"""<!DOCTYPE html>
+    html = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drone Intelligence Brief - {date_formatted}</title>
-    <meta name="description" content="Comprehensive drone intelligence collection from {len(articles)} sources">
+    <title>Drone News Brief - {date_str}</title>
+    <meta name="description" content="Latest drone intelligence from {total_articles} sources">
+    
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
         
@@ -111,7 +131,6 @@ def generate_html(articles, categories):
         .header .subtitle {{
             font-size: 1.3em;
             opacity: 0.9;
-            font-weight: 300;
             margin-bottom: 20px;
         }}
         
@@ -127,7 +146,7 @@ def generate_html(articles, categories):
             font-size: 0.9em;
         }}
         
-        .summary {{
+        .stats {{
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             padding: 30px;
@@ -137,22 +156,20 @@ def generate_html(articles, categories):
             text-align: center;
         }}
         
-        .summary-card {{
+        .stat-card {{
             background: rgba(255, 255, 255, 0.2);
             backdrop-filter: blur(10px);
             border-radius: 15px;
             padding: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.3);
         }}
         
-        .summary-number {{
+        .stat-number {{
             font-size: 2.5em;
             font-weight: bold;
             margin-bottom: 5px;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
         }}
         
-        .summary-label {{
+        .stat-label {{
             font-size: 0.9em;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -194,7 +211,7 @@ def generate_html(articles, categories):
             box-shadow: 0 20px 40px rgba(0,0,0,0.15);
         }}
         
-        .article-image {{
+        .article-header {{
             width: 100%;
             height: 120px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -229,24 +246,21 @@ def generate_html(articles, categories):
         .article-meta {{
             display: flex;
             justify-content: space-between;
-            align-items: center;
             color: #6c757d;
             font-size: 0.9em;
-            margin-bottom: 15px;
             flex-wrap: wrap;
             gap: 10px;
         }}
         
-        .source-badge {{
+        .source-tag {{
             background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
             color: white;
             padding: 5px 12px;
             border-radius: 20px;
             font-size: 0.8em;
-            font-weight: 500;
         }}
         
-        .no-articles {{
+        .no-data {{
             text-align: center;
             padding: 60px 40px;
             color: #6c757d;
@@ -266,136 +280,127 @@ def generate_html(articles, categories):
         }}
         
         @media (max-width: 768px) {{
-            .container {{ margin: 10px; border-radius: 10px; }}
+            .container {{ margin: 10px; }}
             .header h1 {{ font-size: 2.5em; }}
-            .summary {{ grid-template-columns: 1fr; padding: 20px; }}
-            .articles-grid {{ grid-template-columns: 1fr; padding: 20px; }}
-            .category-header {{ padding: 15px 20px; }}
+            .stats {{ grid-template-columns: 1fr; }}
+            .articles-grid {{ grid-template-columns: 1fr; }}
         }}
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <a href="https://github.com/arandomguyhere/drone-intelligence-system" class="github-link">
-                🔗 GitHub Repository
+            <a href="https://github.com/{repo_name}" class="github-link">
+                📊 GitHub Repository
             </a>
-            <h1>🚁 Drone Intelligence Brief</h1>
-            <div class="subtitle">Comprehensive UAV/UAS Intelligence Collection & Analysis</div>
-            <div class="date-info">
-                <strong>{date_formatted}</strong> • Generated at {time_formatted}
+            <h1>🚁 Drone News Brief</h1>
+            <div class="subtitle">Comprehensive Drone Intelligence Collection</div>
+            <div>
+                <strong>{date_str}</strong> • Generated at {time_str}
             </div>
         </div>
         
-        <div class="summary">
-            <div class="summary-card">
-                <div class="summary-number">{total_articles}</div>
-                <div class="summary-label">Intelligence Reports</div>
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">{total_articles}</div>
+                <div class="stat-label">News Reports</div>
             </div>
-            <div class="summary-card">
-                <div class="summary-number">{military_count}</div>
-                <div class="summary-label">Military & Defense</div>
+            <div class="stat-card">
+                <div class="stat-number">{military_articles}</div>
+                <div class="stat-label">Military & Defense</div>
             </div>
-            <div class="summary-card">
-                <div class="summary-number">{commercial_count}</div>
-                <div class="summary-label">Commercial & Civilian</div>
+            <div class="stat-card">
+                <div class="stat-number">{geopolitical_articles}</div>
+                <div class="stat-label">Geopolitical</div>
             </div>
-            <div class="summary-card">
-                <div class="summary-number">{len(categories)}</div>
-                <div class="summary-label">Categories</div>
+            <div class="stat-card">
+                <div class="stat-number">{len(categories)}</div>
+                <div class="stat-label">Categories</div>
             </div>
         </div>
-"""
+'''
 
     # Add categories and articles
     if categories:
         for category, category_articles in categories.items():
-            # Get emoji for category
+            # Get emoji for visual representation
             emoji = category.split()[0] if category.split() else '🚁'
             
-            html += f"""
+            html += f'''
         <div class="category-section">
             <div class="category-header">
                 {category} ({len(category_articles)} reports)
             </div>
-            <div class="articles-grid">"""
+            <div class="articles-grid">'''
             
             # Show up to 6 articles per category
             for article in category_articles[:6]:
-                title = article.get('Title', 'No Title')
-                source = article.get('Source', 'Unknown Source')
-                published = article.get('Published', 'Unknown Date')
+                title = article.get('Title', 'News Report')
+                source = article.get('Source', 'News Source')
+                published = article.get('Published', 'Recent')
                 link = article.get('Link', '#')
                 
-                # Ensure safe links
-                if not link.startswith('http'):
-                    link = '#'
-                
-                html += f"""
+                html += f'''
                 <div class="article-card">
-                    <div class="article-image">
+                    <div class="article-header">
                         <span>{emoji}</span>
                     </div>
                     <div class="article-content">
                         <div class="article-title">
-                            <a href="{link}" target="_blank" rel="noopener noreferrer">{title}</a>
+                            <a href="{link}" target="_blank">{title}</a>
                         </div>
                         <div class="article-meta">
-                            <span class="source-badge">{source}</span>
+                            <span class="source-tag">{source}</span>
                             <span>{published}</span>
                         </div>
                     </div>
-                </div>"""
+                </div>'''
             
-            html += """
+            html += '''
             </div>
-        </div>"""
+        </div>'''
     else:
-        html += """
-        <div class="no-articles">
-            <h3>🔍 No Intelligence Reports Available</h3>
-            <p>Intelligence collection is in progress. The system will update automatically every 6 hours.</p>
-            <p>Check the <a href="https://github.com/arandomguyhere/drone-intelligence-system/actions">GitHub Actions</a> for collection status.</p>
-        </div>"""
+        html += '''
+        <div class="no-data">
+            <h3>🔄 News Collection in Progress</h3>
+            <p>The system is currently collecting drone news data.</p>
+            <p>Check back in a few minutes for the latest reports.</p>
+        </div>'''
     
-    # Footer
-    html += f"""
+    # Add footer
+    html += f'''
         <div class="footer">
             <p>
-                <strong>🚁 Drone Intelligence Collection System</strong> • 
-                <a href="https://github.com/arandomguyhere/drone-intelligence-system">Open Source Intelligence Platform</a>
+                <strong>🚁 Drone News Collection System</strong> • 
+                <a href="https://github.com/{repo_name}">Open Source Project</a>
             </p>
             <p style="margin-top: 10px; opacity: 0.8;">
-                Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')} • 
-                {len(articles)} intelligence reports processed • 
-                Automated collection every 6 hours
+                Automated collection every 6 hours • 
+                {len(articles)} reports processed • 
+                Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}
             </p>
         </div>
     </div>
     
     <script>
-        console.log('🚁 Drone Intelligence Brief loaded');
-        console.log('📊 Statistics:', {{
-            total_articles: {total_articles},
-            categories: {len(categories)},
-            timestamp: '{datetime.now().isoformat()}'
-        }});
+        console.log('🚁 Drone News Brief loaded');
+        console.log('📊 Stats: {{total: {total_articles}, categories: {len(categories)}}}');
     </script>
 </body>
-</html>"""
+</html>'''
     
     return html
 
-def save_newsletter(html):
-    """Save HTML newsletter"""
+def save_newsletter(html_content):
+    """Save newsletter to docs folder for GitHub Pages"""
     
     try:
         os.makedirs("docs", exist_ok=True)
         
         with open("docs/index.html", "w", encoding="utf-8") as f:
-            f.write(html)
+            f.write(html_content)
         
-        print("✅ Newsletter saved to docs/index.html")
+        print(f"✅ Newsletter saved to docs/index.html")
         return True
         
     except Exception as e:
@@ -403,61 +408,21 @@ def save_newsletter(html):
         return False
 
 def main():
-    """Main function"""
-    
-    print("📰 DRONE INTELLIGENCE NEWSLETTER GENERATOR")
-    print("🌐 GitHub Pages Compatible")
-    print("=" * 60)
+    """Main newsletter generation function"""
     
     try:
-        # Load data
-        articles = load_data()
+        # Load intelligence data
+        articles = load_intelligence_data()
         
-        # Categorize
-        categories = categorize_articles(articles)
+        # Organize by categories
+        categories = organize_by_categories(articles)
         
         # Generate HTML
-        html = generate_html(articles, categories)
+        html = generate_html_newsletter(articles, categories)
         
         # Save newsletter
         if save_newsletter(html):
             print(f"🎉 Newsletter generated successfully!")
-            print(f"📊 Processed {len(articles)} intelligence reports")
-            print(f"📂 Organized into {len(categories)} categories")
-            print(f"🌐 Ready for GitHub Pages deployment")
-            
-            if categories:
-                print(f"\n📈 Category Summary:")
-                for cat, arts in list(categories.items())[:5]:
-                    print(f"  • {cat}: {len(arts)} reports")
-        else:
-            print("❌ Newsletter generation failed")
-            return False
-            
-    except Exception as e:
-        print(f"❌ Error: {e}")
-        import traceback
-        traceback.print_exc()
-        
-        # Create minimal newsletter as fallback
-        try:
-            minimal_html = f"""<!DOCTYPE html>
-<html><head><title>Drone Intelligence Brief</title></head>
-<body style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px;">
-<h1>🚁 Drone Intelligence Brief</h1>
-<p>Intelligence collection system is initializing. Please check back later.</p>
-<p>Generated: {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}</p>
-<p><a href="https://github.com/arandomguyhere/drone-intelligence-system">View Repository</a></p>
-</body></html>"""
-            
-            os.makedirs("docs", exist_ok=True)
-            with open("docs/index.html", "w", encoding="utf-8") as f:
-                f.write(minimal_html)
-            print("📄 Created minimal newsletter as fallback")
-        except:
-            pass
-        
-        return False
-
-if __name__ == "__main__":
-    main()
+            print(f"📊 {len(articles)} news reports processed")
+            print(f"📂 {len(categories)} categories organized")
+            print(f"🌐 Ready for GitHub Pages d
