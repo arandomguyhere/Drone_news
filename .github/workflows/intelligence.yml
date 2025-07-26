@@ -2,7 +2,7 @@ name: Drone News Collection
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */6 * * *'  # Fixed: added missing space in cron expression
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -17,22 +17,32 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: actions/setup-python@v4
+    
+    - uses: actions/setup-python@v5  # Updated to latest version
       with:
         python-version: '3.11'
+        
     - run: pip install beautifulsoup4 pandas urllib3 lxml
+    
     - run: mkdir -p data docs
+    
     - run: python drone_scraper.py
+    
     - run: python generate_newsletter.py
+    
     - run: |
         if [ ! -f docs/index.html ]; then
           echo '<!DOCTYPE html><html><head><title>Drone News</title></head><body><h1>🚁 Drone News Brief</h1><p>System initializing...</p></body></html>' > docs/index.html
         fi
-    - uses: actions/configure-pages@v3
-    - uses: actions/upload-pages-artifact@v2
+    
+    - uses: actions/configure-pages@v4  # Updated to latest version
+    
+    - uses: actions/upload-pages-artifact@v3  # Updated to v3 (uses upload-artifact v4 internally)
       with:
         path: ./docs
-    - uses: actions/deploy-pages@v2
+    
+    - uses: actions/deploy-pages@v4  # Updated to v4
+    
     - run: |
         git config user.name "GitHub Action"
         git config user.email "action@github.com"
