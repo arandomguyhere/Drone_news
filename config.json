@@ -1,0 +1,25 @@
+{
+  "system": {
+    "name": "Drone Intelligence Collection System",
+    "version": "2.0.0",
+    "description": "Advanced drone intelligence gathering platform"
+  },
+  "collection": {
+    "language": "en",
+    "max_articles_per_search": 8,
+    "delay_between_requests": {"min": 2, "max": 4},
+    "timeout": 30
+  },
+  "intelligence_categories": {
+    "enable_core_searches": true,
+    "enable_military_searches": true,
+    "enable_geopolitical_searches": true,
+    "enable_commercial_searches": true,
+    "enable_defense_sources": true
+  },
+  "output": {
+    "save_csv": true,
+    "save_json": true,
+    "generate_newsletter": true
+  }
+}
