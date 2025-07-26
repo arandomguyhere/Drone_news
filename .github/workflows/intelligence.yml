@@ -1,175 +1,41 @@
-name: Drone Intelligence Collection
+name: Drone News Collection
 
 on:
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
-    inputs:
-      priority_mode:
-        description: 'Use priority mode for faster collection'
-        required: false
-        default: 'false'
-        type: boolean
   push:
     branches: [ main ]
-    paths:
-      - 'drone_scraper.py'
-      - 'generate_newsletter.py'
-      - '.github/workflows/intelligence.yml'
 
 permissions:
   contents: write
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-env:
-  PRIORITY_MODE: ${{ github.event.inputs.priority_mode || 'false' }}
-
 jobs:
-  collect-and-deploy:
+  collect:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: 🚁 Checkout Repository
-      uses: actions/checkout@v4
-      
-    - name: 🐍 Setup Python
-      uses: actions/setup-python@v4
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-        
-    - name: 📦 Install Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install beautifulsoup4 pandas urllib3 lxml
-        
-    - name: 📁 Create Directories
-      run: |
-        mkdir -p data docs archives
-        
-    - name: 🔍 Verify Files
-      run: |
-        echo "Checking required files..."
-        ls -la
-        if [ ! -f "drone_scraper.py" ]; then
-          echo "❌ drone_scraper.py not found"
-          exit 1
+    - run: pip install beautifulsoup4 pandas urllib3 lxml
+    - run: mkdir -p data docs
+    - run: python drone_scraper.py
+    - run: python generate_newsletter.py
+    - run: |
+        if [ ! -f docs/index.html ]; then
+          echo '<!DOCTYPE html><html><head><title>Drone News</title></head><body><h1>🚁 Drone News Brief</h1><p>System initializing...</p></body></html>' > docs/index.html
         fi
-        if [ ! -f "generate_newsletter.py" ]; then
-          echo "❌ generate_newsletter.py not found"
-          exit 1
-        fi
-        echo "✅ Required files found"
-        
-    - name: 🎯 Run Intelligence Collection
-      run: |
-        echo "🚁 Starting drone intelligence collection..."
-        
-        if [ "$PRIORITY_MODE" = "true" ]; then
-          echo "Running in priority mode..."
-          python drone_scraper.py --priority || python drone_scraper.py
-        else
-          echo "Running comprehensive collection..."
-          python drone_scraper.py
-        fi
-        
-        if [ ! -f "data/latest_news.json" ]; then
-          echo "⚠️ No data file generated, creating empty file..."
-          echo "[]" > data/latest_news.json
-        fi
-        
-        if [ -f "data/latest_news.json" ]; then
-          echo "✅ Data file created"
-          python -c "
-import json
-try:
-    with open('data/latest_news.json', 'r') as f:
-        data = json.load(f)
-    print(f'📊 Articles collected: {len(data)}')
-    if data:
-        categories = set(article.get('Category', 'Unknown') for article in data)
-        print(f'📂 Categories: {len(categories)}')
-        for i, cat in enumerate(sorted(categories)[:5]):
-            print(f'  • {cat}')
-        if len(categories) > 5:
-            print(f'  ... and {len(categories) - 5} more')
-except Exception as e:
-    print(f'Error reading data: {e}')
-"
-        fi
-        
-    - name: 📰 Generate Newsletter
-      run: |
-        echo "📰 Generating intelligence newsletter..."
-        python generate_newsletter.py
-        
-        if [ -f "docs/index.html" ]; then
-          echo "✅ Newsletter generated successfully"
-          echo "📁 File size: $(wc -c < docs/index.html) bytes"
-        else
-          echo "⚠️ Newsletter generation failed, creating minimal page..."
-          mkdir -p docs
-          cat > docs/index.html << 'EOF'
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Drone Intelligence Brief</title>
-            <style>
-                body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-                .header { background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; padding: 40px; text-align: center; border-radius: 10px; }
-                .status { background: #f8f9fa; padding: 20px; margin: 20px 0; border-radius: 10px; border-left: 5px solid #007acc; }
-            </style>
-        </head>
-        <body>
-            <div class="header">
-                <h1>🚁 Drone Intelligence Brief</h1>
-                <p>Comprehensive UAV/UAS Intelligence Collection</p>
-            </div>
-            <div class="status">
-                <h2>🔄 System Status</h2>
-                <p>Intelligence collection system is initializing. Data collection in progress.</p>
-                <p><strong>Repository:</strong> <a href="https://github.com/${{ github.repository }}">View on GitHub</a></p>
-                <p><strong>Last Update:</strong> ${{ github.run_id }}</p>
-            </div>
-        </body>
-        </html>
-        EOF
-        fi
-        
-    - name: 🌐 Setup Pages
-      uses: actions/configure-pages@v3
-      
-    - name: 📦 Upload Pages Artifact
-      uses: actions/upload-pages-artifact@v2
+    - uses: actions/configure-pages@v3
+    - uses: actions/upload-pages-artifact@v2
       with:
         path: ./docs
-        
-    - name: 🚀 Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v2
-      
-    - name: 💾 Commit Data
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        
-        git add data/ docs/ || true
-        
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "🚁 Intelligence update - $(date '+%Y-%m-%d %H:%M UTC')" || true
-          git push || true
-        fi
-        
-    - name: 📊 Summary
-      run: |
-        echo "🎉 Workflow completed!"
-        echo "🌐 GitHub Pages: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
-        echo "📊 Repository: https://github.com/${{ github.repository }}"
+    - uses: actions/deploy-pages@v2
+    - run: |
+        git config user.name "GitHub Action"
+        git config user.email "action@github.com"
+        git add -A
+        git commit -m "🚁 Update drone news data" || true
+        git push || true
