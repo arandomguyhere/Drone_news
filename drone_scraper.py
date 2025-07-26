@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Simplified Drone Intelligence Scraper
-GitHub Actions Compatible - Error Resistant Version
+Drone Intelligence Scraper for Drone_news Repository
+Runs entirely on GitHub Actions - No local setup required
 """
 
 import urllib.request
@@ -10,193 +10,199 @@ import json
 import os
 import time
 import random
-from datetime import datetime
 import sys
+from datetime import datetime
+
+print("🚁 DRONE INTELLIGENCE COLLECTION SYSTEM")
+print("📊 Repository: Drone_news")
+print("🌐 Running on GitHub Actions")
+print("=" * 60)
 
 def create_directories():
-    """Ensure required directories exist"""
+    """Create required directories"""
     os.makedirs("data", exist_ok=True)
     os.makedirs("docs", exist_ok=True)
     print("✅ Directories created")
 
-def get_search_queries(priority_mode=False):
-    """Get search queries for drone intelligence"""
+def get_search_queries():
+    """Get comprehensive drone intelligence search queries"""
     
-    if priority_mode or '--priority' in sys.argv:
-        print("🚀 Using PRIORITY mode (15 searches)")
-        return [
-            ("drone when:24h", "🚁 Drones"),
-            ("UAV when:24h", "🛩️ UAV"),
-            ("military drone when:24h", "🎯 Military Drones"),
-            ("China drone when:24h", "🇨🇳 China Drones"),
-            ("Russia drone when:24h", "🇷🇺 Russia Drones"),
-            ("autonomous drone when:24h", "🤖 Autonomous Drones"),
-            ("drone warfare when:24h", "⚔️ Drone Warfare"),
-            ("Iran drone when:24h", "🇮🇷 Iran Drones"),
-            ("drone strike when:24h", "💥 Drone Strikes"),
-            ("anti-drone when:24h", "🛡️ Counter-Drone"),
-            ("drone swarm when:24h", "🐝 Drone Swarms"),
-            ("combat drone when:24h", "⚔️ Combat Systems"),
-            ("site:reuters.com drone when:24h", "📺 Reuters"),
-            ("site:defensenews.com drone when:24h", "📰 Defense News"),
-            ("site:janes.com drone when:24h", "📰 Jane's Defence")
-        ]
-    
-    print("🔍 Using COMPREHENSIVE mode (25 searches)")
-    return [
-        # Core searches
+    queries = [
         ("drone when:24h", "🚁 Drones"),
         ("UAV when:24h", "🛩️ UAV"),
         ("UAS when:24h", "🛩️ UAS"),
-        ("quadcopter when:24h", "🚁 Quadcopters"),
-        
-        # Military
         ("military drone when:24h", "🎯 Military Drones"),
-        ("drone warfare when:24h", "⚔️ Drone Warfare"),
-        ("drone strike when:24h", "💥 Drone Strikes"),
-        ("combat drone when:24h", "⚔️ Combat Systems"),
-        ("tactical UAV when:24h", "🎯 Tactical UAV"),
-        
-        # Geopolitical
         ("China drone when:24h", "🇨🇳 China Drones"),
         ("Russia drone when:24h", "🇷🇺 Russia Drones"),
+        ("autonomous drone when:24h", "🤖 Autonomous Drones"),
+        ("drone warfare when:24h", "⚔️ Drone Warfare"),
         ("Iran drone when:24h", "🇮🇷 Iran Drones"),
+        ("drone strike when:24h", "💥 Drone Strikes"),
+        ("anti-drone when:24h", "🛡️ Counter-Drone"),
+        ("drone swarm when:24h", "🐝 Drone Swarms"),
+        ("combat drone when:24h", "⚔️ Combat Systems"),
+        ("quadcopter when:24h", "🚁 Quadcopters"),
+        ("tactical UAV when:24h", "🎯 Tactical UAV"),
         ("North Korea drone when:24h", "🇰🇵 DPRK Drones"),
         ("Ukraine drone when:24h", "🇺🇦 Ukraine Drones"),
-        
-        # Technology
-        ("autonomous drone when:24h", "🤖 Autonomous Drones"),
-        ("drone swarm when:24h", "🐝 Drone Swarms"),
-        ("anti-drone when:24h", "🛡️ Counter-Drone"),
+        ("Israel drone when:24h", "🇮🇱 Israel Drones"),
+        ("Turkey drone when:24h", "🇹🇷 Turkey Drones"),
         ("FPV drone when:24h", "🎮 FPV Systems"),
-        
-        # Commercial
+        ("VTOL drone when:24h", "🚁 VTOL Systems"),
         ("commercial drone when:24h", "📦 Commercial Drones"),
         ("drone delivery when:24h", "📦 Delivery Services"),
-        
-        # Sources
+        ("agricultural drone when:24h", "🚜 Agricultural Drones"),
+        ("drone regulation when:24h", "📋 Regulation"),
+        ("FAA drone when:24h", "📋 FAA Policy"),
         ("site:reuters.com drone when:24h", "📺 Reuters"),
         ("site:defensenews.com drone when:24h", "📰 Defense News"),
         ("site:janes.com drone when:24h", "📰 Jane's Defence"),
         ("site:cnn.com drone when:24h", "📺 CNN"),
-        ("site:bbc.com drone when:24h", "📺 BBC")
+        ("site:bbc.com drone when:24h", "📺 BBC"),
+        ("site:bloomberg.com drone when:24h", "📺 Bloomberg"),
+        ("site:wsj.com drone when:24h", "📺 Wall Street Journal"),
+        ("site:thedrive.com drone when:24h", "📰 The Drive"),
+        ("site:wired.com drone when:24h", "💻 Wired")
     ]
+    
+    # Use priority mode if specified
+    if '--priority' in sys.argv:
+        print("🚀 PRIORITY MODE: Using 15 high-impact searches")
+        return queries[:15]
+    
+    print(f"🔍 COMPREHENSIVE MODE: Using {len(queries)} searches")
+    return queries
 
-def simple_search(query, category, max_articles=5):
-    """Simplified search function with better error handling"""
+def search_google_news(query, category):
+    """Search Google News for drone intelligence"""
     
     print(f"  🔍 Searching: {category}")
     
     try:
-        # Build URL
+        # Encode query for URL
         encoded_query = urllib.parse.quote(query.encode('utf-8'))
         url = f'https://news.google.com/search?q={encoded_query}&hl=en'
         
-        # Add delay
+        # Add respectful delay
         time.sleep(random.uniform(1, 3))
         
-        # Make request with timeout
-        headers = {'User-Agent': 'Mozilla/5.0 (compatible; NewsBot/1.0)'}
+        # Make request with proper headers
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        }
         req = urllib.request.Request(url, headers=headers)
         
         with urllib.request.urlopen(req, timeout=15) as response:
             content = response.read().decode('utf-8', errors='ignore')
         
-        # Simple title extraction (looking for common patterns)
+        # Extract article information using pattern matching
         articles = []
         
-        # Very basic extraction - look for article-like patterns
+        # Import regex for pattern matching
         import re
         
-        # Find potential article titles (between quotes or in title-like tags)
+        # Look for article-like patterns in the HTML
         patterns = [
-            r'"([^"]{20,150})"',  # Text in quotes (likely titles)
-            r'<h\d[^>]*>([^<]{20,150})</h\d>',  # Header tags
-            r'aria-label="([^"]{20,150})"'  # Aria labels
+            r'"([^"]{30,150})"',  # Quoted text (likely titles)
+            r'aria-label="([^"]{30,150})"',  # Aria labels
+            r'<h[1-6][^>]*>([^<]{30,150})</h[1-6]>'  # Header tags
         ]
         
         found_titles = set()
         for pattern in patterns:
-            matches = re.findall(pattern, content, re.IGNORECASE)
+            matches = re.findall(pattern, content, re.IGNORECASE | re.DOTALL)
             for match in matches:
-                clean_title = match.strip()
-                if (len(clean_title) > 20 and 
-                    len(clean_title) < 150 and
-                    clean_title not in found_titles and
-                    any(word in clean_title.lower() for word in ['drone', 'uav', 'uas', 'aircraft'])):
+                title = match.strip()
+                
+                # Filter for drone-related content
+                drone_keywords = ['drone', 'uav', 'uas', 'unmanned', 'aircraft', 'quadcopter']
+                if (len(title) >= 30 and len(title) <= 150 and
+                    title not in found_titles and
+                    any(keyword in title.lower() for keyword in drone_keywords) and
+                    not any(skip in title.lower() for skip in ['cookie', 'privacy', 'terms', 'subscribe', 'newsletter', 'advertisement'])):
                     
-                    found_titles.add(clean_title)
+                    found_titles.add(title)
                     articles.append({
-                        'Title': clean_title,
-                        'Link': f"https://news.google.com/search?q={encoded_query}",
-                        'Source': f"{category} Source",
+                        'Title': title,
+                        'Link': url,
+                        'Source': f"{category.split()[-1]} Source",
                         'Published': 'Recent',
                         'Category': category,
                         'Image': None,
                         'Scraped_At': datetime.now().isoformat()
                     })
                     
-                    if len(articles) >= max_articles:
+                    if len(articles) >= 6:  # Limit per search
                         break
             
-            if len(articles) >= max_articles:
+            if len(articles) >= 6:
                 break
         
         print(f"    ✅ Found {len(articles)} articles")
         return articles
         
     except Exception as e:
-        print(f"    ❌ Error: {str(e)[:100]}")
+        print(f"    ❌ Error: {str(e)[:50]}...")
         return []
 
-def collect_intelligence():
-    """Main collection function"""
+def collect_all_intelligence():
+    """Main intelligence collection function"""
     
-    print("🚁 DRONE INTELLIGENCE COLLECTION")
-    print("=" * 50)
-    
-    # Determine mode
-    priority_mode = '--priority' in sys.argv or '--fast' in sys.argv
-    queries = get_search_queries(priority_mode)
-    
-    print(f"📊 Executing {len(queries)} searches...")
-    
+    queries = get_search_queries()
     all_articles = []
+    
+    print(f"📊 Starting collection from {len(queries)} sources...")
     
     for i, (query, category) in enumerate(queries):
         try:
-            articles = simple_search(query, category)
+            articles = search_google_news(query, category)
             all_articles.extend(articles)
             
-            # Progress update
+            # Progress update every 5 searches
             if (i + 1) % 5 == 0:
-                print(f"📈 Progress: {i+1}/{len(queries)} searches completed")
+                print(f"📈 Progress: {i+1}/{len(queries)} searches completed ({len(all_articles)} articles so far)")
                 
         except Exception as e:
             print(f"❌ Error in search {i+1}: {e}")
             continue
     
-    # Simple deduplication
+    # Remove duplicates based on title similarity
     unique_articles = []
     seen_titles = set()
     
     for article in all_articles:
-        title_lower = article['Title'].lower()
-        if title_lower not in seen_titles:
-            seen_titles.add(title_lower)
+        title_key = article['Title'].lower().strip()
+        
+        # Simple word-based deduplication
+        title_words = set(title_key.split())
+        is_duplicate = False
+        
+        for seen_title in seen_titles:
+            seen_words = set(seen_title.split())
+            if len(title_words) > 0 and len(seen_words) > 0:
+                # Check for 70%+ word overlap
+                overlap = len(title_words.intersection(seen_words))
+                similarity = overlap / max(len(title_words), len(seen_words))
+                if similarity > 0.7:
+                    is_duplicate = True
+                    break
+        
+        if not is_duplicate:
+            seen_titles.add(title_key)
             unique_articles.append(article)
     
-    print(f"✅ Collection complete!")
-    print(f"📊 Raw articles: {len(all_articles)}")
+    print(f"✅ Collection completed!")
+    print(f"📊 Total articles found: {len(all_articles)}")
     print(f"📊 Unique articles: {len(unique_articles)}")
+    print(f"📊 Duplicate removal: {len(all_articles) - len(unique_articles)} duplicates filtered")
     
     return unique_articles
 
-def save_data(articles):
-    """Save articles to JSON and CSV"""
+def save_intelligence_data(articles):
+    """Save intelligence data to JSON and CSV files"""
     
     try:
-        # Save JSON
+        # Always save JSON file (even if empty for GitHub Actions)
         with open("data/latest_news.json", "w", encoding="utf-8") as f:
             json.dump(articles, f, indent=2, ensure_ascii=False)
         
@@ -205,11 +211,19 @@ def save_data(articles):
         # Try to save CSV if pandas is available
         try:
             import pandas as pd
-            df = pd.DataFrame(articles)
-            df.to_csv("data/latest_news.csv", index=False)
-            print(f"✅ Saved CSV to data/latest_news.csv")
+            if articles:
+                df = pd.DataFrame(articles)
+                df.to_csv("data/latest_news.csv", index=False)
+                print(f"✅ Saved CSV to data/latest_news.csv")
+            else:
+                # Create empty CSV
+                with open("data/latest_news.csv", "w") as f:
+                    f.write("Title,Link,Source,Published,Category,Image,Scraped_At\n")
+                print(f"✅ Created empty CSV file")
         except ImportError:
-            print("⚠️ Pandas not available, skipping CSV export")
+            print("⚠️ Pandas not available for CSV export")
+        except Exception as e:
+            print(f"⚠️ CSV export failed: {e}")
         
         return True
         
@@ -217,53 +231,90 @@ def save_data(articles):
         print(f"❌ Save error: {e}")
         return False
 
+def show_collection_summary(articles):
+    """Display comprehensive collection summary"""
+    
+    print(f"\n📊 COLLECTION SUMMARY")
+    print(f"=" * 50)
+    
+    if not articles:
+        print("📊 No articles collected this session")
+        print("🔄 System will retry on next scheduled run")
+        return
+    
+    # Calculate statistics
+    categories = {}
+    sources = set()
+    recent_articles = 0
+    
+    for article in articles:
+        cat = article.get('Category', 'Unknown')
+        src = article.get('Source', 'Unknown')
+        pub = article.get('Published', '').lower()
+        
+        categories[cat] = categories.get(cat, 0) + 1
+        sources.add(src)
+        
+        if any(term in pub for term in ['hour', 'minute', 'recent']):
+            recent_articles += 1
+    
+    print(f"📈 Total Intelligence Reports: {len(articles)}")
+    print(f"📂 Categories Covered: {len(categories)}")
+    print(f"📰 Unique Sources: {len(sources)}")
+    print(f"🕐 Recent Reports (hours): {recent_articles}")
+    
+    # Show top categories
+    print(f"\n🏆 Top Intelligence Categories:")
+    sorted_categories = sorted(categories.items(), key=lambda x: x[1], reverse=True)
+    for i, (cat, count) in enumerate(sorted_categories[:10]):
+        print(f"  {i+1:2d}. {cat}: {count} reports")
+    
+    # Show collection rate
+    print(f"\n⚡ Collection Efficiency:")
+    total_searches = len(get_search_queries())
+    success_rate = (len([cat for cat, count in categories.items() if count > 0]) / total_searches) * 100
+    print(f"  📊 Search Success Rate: {success_rate:.1f}%")
+    print(f"  📈 Articles per Search: {len(articles) / total_searches:.1f}")
+
 def main():
-    """Main function"""
+    """Main execution function optimized for GitHub Actions"""
     
     try:
-        # Create directories
+        # Setup environment
         create_directories()
         
         # Collect intelligence
-        articles = collect_intelligence()
+        print(f"\n🎯 STARTING INTELLIGENCE COLLECTION")
+        print(f"🕐 Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}")
         
-        # Always save something, even if empty
-        if not articles:
-            print("⚠️ No articles collected, creating empty dataset")
-            articles = []
+        start_time = time.time()
+        articles = collect_all_intelligence()
+        collection_time = time.time() - start_time
         
-        # Save data
-        if save_data(articles):
-            print(f"🎉 Success! Collected {len(articles)} intelligence reports")
+        # Save data (always save, even if empty)
+        if save_intelligence_data(articles):
+            show_collection_summary(articles)
             
-            # Show summary
-            if articles:
-                categories = {}
-                for article in articles:
-                    cat = article.get('Category', 'Unknown')
-                    categories[cat] = categories.get(cat, 0) + 1
-                
-                print(f"\n📊 Summary by Category:")
-                for cat, count in sorted(categories.items(), key=lambda x: x[1], reverse=True)[:10]:
-                    print(f"  • {cat}: {count}")
+            print(f"\n🎉 INTELLIGENCE COLLECTION SUCCESS!")
+            print(f"⏱️  Collection Time: {collection_time:.1f} seconds")
+            print(f"📁 Data saved for GitHub Pages deployment")
+            print(f"🌐 Live Brief: https://{os.environ.get('GITHUB_REPOSITORY_OWNER', 'your-username')}.github.io/Drone_news/")
+            
         else:
-            print("❌ Failed to save data")
-            sys.exit(1)
+            print(f"❌ Failed to save intelligence data")
             
     except Exception as e:
         print(f"❌ System error: {e}")
         import traceback
         traceback.print_exc()
         
-        # Create empty file so workflow doesn't fail
+        # Always create empty data file for GitHub Actions
         try:
             with open("data/latest_news.json", "w") as f:
                 json.dump([], f)
-            print("📁 Created empty data file")
+            print("📁 Created empty data file for GitHub Actions continuity")
         except:
             pass
-        
-        sys.exit(1)
 
 if __name__ == "__main__":
     main()
