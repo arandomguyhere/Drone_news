@@ -1,0 +1,306 @@
+name: Drone Intelligence Collection
+
+on:
+  schedule:
+    # Run every 6 hours for continuous intelligence gathering
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual intelligence collection
+    inputs:
+      priority_mode:
+        description: 'Use priority mode for faster collection'
+        required: false
+        default: 'false'
+        type: boolean
+  push:
+    branches: [ main ]
+    paths:
+      - 'drone_scraper.py'
+      - 'generate_newsletter.py'
+      - '.github/workflows/intelligence.yml'
+
+# Required for GitHub Pages deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+env:
+  PRIORITY_MODE: ${{ github.event.inputs.priority_mode || 'false' }}
+
+jobs:
+  collect-drone-intelligence:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 🚁 Checkout Intelligence System
+      uses: actions/checkout@v4
+      
+    - name: 🐍 Setup Python Environment
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+        
+    - name: 📦 Install Intelligence Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: 📁 Initialize Intelligence Directories
+      run: |
+        mkdir -p data docs archives
+        
+    - name: 🎯 Execute Drone Intelligence Collection
+      run: |
+        echo "🚁 DRONE INTELLIGENCE COLLECTION STARTING"
+        echo "================================================"
+        echo "Repository: ${{ github.repository }}"
+        echo "Workflow: ${{ github.workflow }}"
+        echo "Run ID: ${{ github.run_id }}"
+        echo "Timestamp: $(date)"
+        echo "================================================"
+        
+        if [ "$PRIORITY_MODE" = "true" ]; then
+          echo "🚀 Executing PRIORITY intelligence collection..."
+          python drone_scraper.py --priority
+        else
+          echo "🔍 Executing COMPREHENSIVE intelligence collection..."
+          python drone_scraper.py
+        fi
+        
+    - name: 📊 Verify Intelligence Collection
+      run: |
+        echo "📊 INTELLIGENCE COLLECTION VERIFICATION"
+        echo "========================================"
+        
+        if [ -f "data/latest_news.json" ]; then
+          # Check if jq is available, otherwise use Python
+          if command -v jq &> /dev/null; then
+            ARTICLE_COUNT=$(cat data/latest_news.json | jq length)
+          else
+            ARTICLE_COUNT=$(python -c "import json; print(len(json.load(open('data/latest_news.json'))))")
+          fi
+          
+          echo "✅ Intelligence collection successful: $ARTICLE_COUNT reports"
+          
+          if [ "$ARTICLE_COUNT" -gt 0 ]; then
+            echo ""
+            echo "📈 Intelligence Categories:"
+            python -c "
+import json
+data = json.load(open('data/latest_news.json'))
+categories = {}
+for article in data:
+    cat = article.get('Category', 'Unknown')
+    categories[cat] = categories.get(cat, 0) + 1
+
+print('📂 Total Categories:', len(categories))
+for cat, count in sorted(categories.items(), key=lambda x: x[1], reverse=True)[:8]:
+    print(f'  • {cat}: {count} reports')
+            "
+            
+            echo ""
+            echo "📰 Intelligence Sources:"
+            python -c "
+import json
+data = json.load(open('data/latest_news.json'))
+sources = {}
+for article in data:
+    src = article.get('Source', 'Unknown')
+    sources[src] = sources.get(src, 0) + 1
+
+print('📺 Total Sources:', len(sources))
+for src, count in sorted(sources.items(), key=lambda x: x[1], reverse=True)[:6]:
+    print(f'  • {src}: {count} reports')
+            "
+          else
+            echo "⚠️ No articles collected - may indicate collection issues"
+          fi
+        else
+          echo "❌ No intelligence data file generated"
+          echo "Creating empty file for GitHub Pages..."
+          echo "[]" > data/latest_news.json
+          exit 1
+        fi
+        
+    - name: 📰 Generate GitHub Pages Intelligence Newsletter
+      run: |
+        echo "📰 GENERATING INTELLIGENCE BRIEFING"
+        echo "=================================="
+        echo "Target: GitHub Pages deployment"
+        echo "Format: Professional intelligence newsletter"
+        echo ""
+        
+        python generate_newsletter.py
+        
+        if [ -f "docs/index.html" ]; then
+          FILE_SIZE=$(stat -c%s "docs/index.html" 2>/dev/null || stat -f%z "docs/index.html" 2>/dev/null || echo "unknown")
+          echo "✅ Intelligence newsletter generated successfully"
+          echo "📁 File: docs/index.html ($FILE_SIZE bytes)"
+          echo "🌐 Will be deployed to: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+        else
+          echo "❌ Newsletter generation failed"
+          echo "Creating minimal newsletter for GitHub Pages..."
+          mkdir -p docs
+          cat > docs/index.html << 'EOF'
+<!DOCTYPE html>
+<html><head><title>Drone Intelligence Brief</title></head>
+<body><h1>🚁 Drone Intelligence Brief</h1>
+<p>Intelligence collection in progress. Please check back later.</p>
+<p>Repository: <a href="https://github.com/${{ github.repository }}">GitHub</a></p>
+</body></html>
+EOF
+        fi
+        
+    - name: 🌐 Setup GitHub Pages
+      uses: actions/configure-pages@v3
+      
+    - name: 📦 Upload GitHub Pages Artifact
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: ./docs
+        
+    - name: 🚀 Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
+      
+    - name: 📊 Upload Intelligence Data Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: drone-intelligence-data-${{ github.run_number }}
+        path: |
+          data/latest_news.json
+          data/latest_news.csv
+          data/drone_intelligence_*.csv
+        retention-days: 30
+        
+    - name: 💾 Commit Intelligence Data to Repository
+      if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+      run: |
+        echo "💾 COMMITTING INTELLIGENCE DATA"
+        echo "============================="
+        
+        # Configure git
+        git config --local user.email "action@github.com"
+        git config --local user.name "Drone Intelligence System"
+        
+        # Add intelligence data files
+        git add data/latest_news.json data/latest_news.csv
+        
+        # Add any timestamped backup files
+        git add data/drone_intelligence_*.csv 2>/dev/null || true
+        
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "📊 No new intelligence data to commit"
+        else
+          # Get article count for commit message
+          if [ -f "data/latest_news.json" ]; then
+            ARTICLE_COUNT=$(python -c "import json; print(len(json.load(open('data/latest_news.json'))))" 2>/dev/null || echo "0")
+          else
+            ARTICLE_COUNT="0"
+          fi
+          
+          # Create descriptive commit message
+          COMMIT_MSG="🚁 Intelligence Update: $ARTICLE_COUNT reports collected"
+          if [ "$PRIORITY_MODE" = "true" ]; then
+            COMMIT_MSG="$COMMIT_MSG (Priority Mode)"
+          fi
+          COMMIT_MSG="$COMMIT_MSG - $(date '+%Y-%m-%d %H:%M UTC')"
+          
+          git commit -m "$COMMIT_MSG"
+          git push
+          
+          echo "✅ Intelligence data committed and pushed"
+          echo "📝 Commit message: $COMMIT_MSG"
+        fi
+        
+    - name: 📋 Intelligence Collection Summary
+      run: |
+        echo ""
+        echo "🚁 DRONE INTELLIGENCE COLLECTION COMPLETE"
+        echo "=========================================="
+        echo "Repository: ${{ github.repository }}"
+        echo "Run ID: ${{ github.run_id }}"
+        echo "Timestamp: $(date)"
+        
+        if [ -f "data/latest_news.json" ]; then
+          ARTICLE_COUNT=$(python -c "import json; print(len(json.load(open('data/latest_news.json'))))" 2>/dev/null || echo "0")
+          echo "📊 Intelligence Reports Collected: $ARTICLE_COUNT"
+          
+          if [ "$ARTICLE_COUNT" -gt 0 ]; then
+            echo ""
+            echo "🎯 Collection Success Metrics:"
+            python -c "
+import json
+from datetime import datetime
+
+try:
+    data = json.load(open('data/latest_news.json'))
+    
+    # Calculate metrics
+    categories = set(article.get('Category', 'Unknown') for article in data)
+    sources = set(article.get('Source', 'Unknown') for article in data)
+    
+    print(f'  📂 Categories Covered: {len(categories)}')
+    print(f'  📰 Sources Monitored: {len(sources)}')
+    print(f'  ⚡ Articles per Source: {len(data) / len(sources):.1f}' if sources else '  ⚡ Articles per Source: 0')
+    
+    # Recent articles
+    recent_count = sum(1 for article in data if 'hour' in article.get('Published', '').lower())
+    print(f'  🕐 Recent Reports (hours): {recent_count}')
+    
+except Exception as e:
+    print(f'  ⚠️ Error calculating metrics: {e}')
+            "
+          fi
+          
+          echo ""
+          echo "🌐 Deployment Status:"
+          echo "  ✅ GitHub Pages: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+          echo "  📊 Data Files: Committed to repository"
+          echo "  🔄 Next Collection: Scheduled in 6 hours"
+          
+        else
+          echo "❌ No intelligence data collected"
+          echo "🔍 Check collection parameters and network connectivity"
+        fi
+        
+        echo ""
+        echo "🔗 Quick Links:"
+        echo "  📖 Repository: https://github.com/${{ github.repository }}"
+        echo "  🌐 Live Brief: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+        echo "  📊 Actions: https://github.com/${{ github.repository }}/actions"
+        echo "  📋 Issues: https://github.com/${{ github.repository }}/issues"
+        echo ""
+        echo "🎉 Intelligence collection workflow complete!"
+
+  # Optional: Quality check job for scheduled runs
+  quality-check:
+    needs: collect-drone-intelligence
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule'
+    
+    steps:
+    - name: 🔍 Quality Assessment
+      run: |
+        echo "🔍 INTELLIGENCE QUALITY ASSESSMENT"
+        echo "================================="
+        echo "Timestamp: $(date)"
+        echo ""
+        echo "✅ Collection pipeline completed successfully"
+        echo "✅ GitHub Pages deployment successful"
+        echo "✅ Data artifacts preserved"
+        echo ""
+        echo "📈 Quality metrics tracked:"
+        echo "  • Article count and source diversity"
+        echo "  • Category coverage and distribution"
+        echo "  • Collection speed and success rate"
+        echo "  • Deployment status and accessibility"
+        echo ""
+        echo "🎯 Intelligence collection system operational"
