@@ -1,19 +1,14 @@
 #!/usr/bin/env python3
 """
 Cybersecurity News Briefing Generator
-Creates HTML intelligence briefing for GitHub Pages
 """
 
 import json
 import os
 from datetime import datetime
 
-print("Generating cybersecurity news briefing...")
-print("=" * 60)
-
-def load_intelligence_data():
-    """Load intelligence data from JSON file"""
-    
+def load_data():
+    """Load news data from JSON file"""
     try:
         if os.path.exists("data/latest_news.json"):
             with open("data/latest_news.json", "r", encoding="utf-8") as f:
@@ -29,402 +24,297 @@ def load_intelligence_data():
 
 def organize_by_categories(articles):
     """Organize articles into categories"""
-    
     categories = {}
-    
+
     for article in articles:
-        category = article.get('Category', '📄 General Intelligence')
-        
+        category = article.get('Category', 'General')
         if category not in categories:
             categories[category] = []
         categories[category].append(article)
-    
-    # Sort categories by importance and article count
-    priority_categories = [
-        'Russia Cyber',
-        'China Cyber',
-        'Ransomware',
-        'Data Breach',
-        'APT',
-        'Zero Days'
-    ]
-    
-    sorted_categories = {}
-    
-    # Add priority categories first
-    for cat in priority_categories:
-        if cat in categories:
-            sorted_categories[cat] = categories[cat]
-    
-    # Add remaining categories by article count
-    remaining = {k: v for k, v in categories.items() if k not in priority_categories}
-    for cat in sorted(remaining.keys(), key=lambda x: len(remaining[x]), reverse=True):
-        sorted_categories[cat] = remaining[cat]
-    
-    print(f"Organized into {len(sorted_categories)} categories")
-    return sorted_categories
 
-def generate_html_newsletter(articles, categories):
-    """Generate HTML newsletter for GitHub Pages"""
-    
-    # Get repository name from environment or use default
-    repo_name = os.environ.get('GITHUB_REPOSITORY', 'user/Drone_news')
-    
-    # Current date and stats
+    # Sort by article count
+    return dict(sorted(categories.items(), key=lambda x: len(x[1]), reverse=True))
+
+def generate_html(articles, categories):
+    """Generate HTML briefing"""
+
+    repo_name = os.environ.get('GITHUB_REPOSITORY', 'arandomguyhere/Drone_news')
     current_date = datetime.now()
     date_str = current_date.strftime("%B %d, %Y")
     time_str = current_date.strftime("%H:%M UTC")
-    
-    total_articles = len(articles)
-    military_articles = sum(len(arts) for cat, arts in categories.items() 
-                           if any(term in cat.lower() for term in ['military', 'combat', 'warfare', 'strike']))
-    geopolitical_articles = sum(len(arts) for cat, arts in categories.items() 
-                               if any(term in cat.lower() for term in ['china', 'russia', 'iran', 'dprk', 'ukraine']))
-    
+
+    total = len(articles)
+    num_categories = len(categories)
+    sources = len(set(a.get('Source', '') for a in articles))
+
+    # Count threat intel articles
+    threat_keywords = ['apt', 'ransomware', 'malware', 'breach', 'attack', 'hack', 'vulnerability', 'exploit']
+    threat_count = sum(1 for a in articles if any(k in a.get('Title', '').lower() for k in threat_keywords))
+
     html = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber News Brief - {date_str}</title>
-    <meta name="description" content="Cybersecurity news from {total_articles} sources">
-    
+    <title>Cyber News - {date_str}</title>
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-        
+
         body {{
-            font-family: 'Segoe UI', system-ui, sans-serif;
-            line-height: 1.6;
-            color: #2c3e50;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.5;
         }}
-        
+
         .container {{
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-            overflow: hidden;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }}
-        
-        .header {{
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: white;
-            padding: 40px;
-            text-align: center;
-            position: relative;
-        }}
-        
-        .header h1 {{
-            font-size: 3.5em;
-            font-weight: 700;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }}
-        
-        .header .subtitle {{
-            font-size: 1.3em;
-            opacity: 0.9;
-            margin-bottom: 20px;
-        }}
-        
-        .github-link {{
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: rgba(255, 255, 255, 0.2);
-            padding: 10px 15px;
-            border-radius: 20px;
-            text-decoration: none;
-            color: white;
-            font-size: 0.9em;
-        }}
-        
-        .stats {{
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 30px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            text-align: center;
-        }}
-        
-        .stat-card {{
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(10px);
-            border-radius: 15px;
             padding: 20px;
         }}
-        
-        .stat-number {{
-            font-size: 2.5em;
-            font-weight: bold;
-            margin-bottom: 5px;
+
+        header {{
+            border-bottom: 1px solid #222;
+            padding: 30px 0;
+            margin-bottom: 30px;
         }}
-        
-        .stat-label {{
-            font-size: 0.9em;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            opacity: 0.9;
-        }}
-        
-        .category-section {{
-            margin: 0;
-        }}
-        
-        .category-header {{
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: white;
-            padding: 20px 40px;
-            font-size: 1.4em;
-            font-weight: 600;
-            border-left: 5px solid #ffd700;
-        }}
-        
-        .articles-grid {{
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 20px;
-            padding: 30px 40px;
-            background: #f8f9fa;
-        }}
-        
-        .article-card {{
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-            border: 1px solid #e9ecef;
-        }}
-        
-        .article-card:hover {{
-            transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-        }}
-        
-        .article-header {{
-            width: 100%;
-            height: 120px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
+
+        header h1 {{
             font-size: 2em;
-        }}
-        
-        .article-content {{
-            padding: 25px;
-        }}
-        
-        .article-title {{
-            font-size: 1.2em;
             font-weight: 600;
-            color: #2c3e50;
-            margin-bottom: 15px;
-            line-height: 1.4;
+            color: #fff;
+            margin-bottom: 8px;
         }}
-        
-        .article-title a {{
-            color: inherit;
+
+        header .meta {{
+            color: #888;
+            font-size: 0.9em;
+        }}
+
+        header .meta a {{
+            color: #4ade80;
             text-decoration: none;
         }}
-        
-        .article-title a:hover {{
-            color: #1e3c72;
+
+        .stats {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 40px;
         }}
-        
+
+        .stat {{
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }}
+
+        .stat-value {{
+            font-size: 2em;
+            font-weight: 700;
+            color: #4ade80;
+        }}
+
+        .stat-label {{
+            font-size: 0.8em;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }}
+
+        .category {{
+            margin-bottom: 40px;
+        }}
+
+        .category-title {{
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #fff;
+            padding: 12px 0;
+            border-bottom: 1px solid #222;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }}
+
+        .category-count {{
+            font-size: 0.8em;
+            color: #888;
+            font-weight: 400;
+        }}
+
+        .articles {{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 15px;
+        }}
+
+        .article {{
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 8px;
+            padding: 18px;
+            transition: border-color 0.2s;
+        }}
+
+        .article:hover {{
+            border-color: #333;
+        }}
+
+        .article-title {{
+            font-weight: 500;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }}
+
+        .article-title a {{
+            color: #e0e0e0;
+            text-decoration: none;
+        }}
+
+        .article-title a:hover {{
+            color: #4ade80;
+        }}
+
         .article-meta {{
             display: flex;
             justify-content: space-between;
-            color: #6c757d;
-            font-size: 0.9em;
-            flex-wrap: wrap;
-            gap: 10px;
-        }}
-        
-        .source-tag {{
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: white;
-            padding: 5px 12px;
-            border-radius: 20px;
             font-size: 0.8em;
+            color: #666;
         }}
-        
-        .no-data {{
+
+        .source {{
+            color: #4ade80;
+        }}
+
+        footer {{
+            border-top: 1px solid #222;
+            padding: 30px 0;
+            margin-top: 40px;
             text-align: center;
-            padding: 60px 40px;
-            color: #6c757d;
+            color: #666;
+            font-size: 0.85em;
         }}
-        
-        .footer {{
-            background: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 30px;
-            font-size: 0.9em;
-        }}
-        
-        .footer a {{
-            color: #ffd700;
+
+        footer a {{
+            color: #4ade80;
             text-decoration: none;
         }}
-        
-        @media (max-width: 768px) {{
-            .container {{ margin: 10px; }}
-            .header h1 {{ font-size: 2.5em; }}
-            .stats {{ grid-template-columns: 1fr; }}
-            .articles-grid {{ grid-template-columns: 1fr; }}
+
+        .no-data {{
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }}
+
+        @media (max-width: 600px) {{
+            .articles {{
+                grid-template-columns: 1fr;
+            }}
+            .stats {{
+                grid-template-columns: repeat(2, 1fr);
+            }}
         }}
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <a href="https://github.com/{repo_name}" class="github-link">
-                📊 GitHub Repository
-            </a>
+        <header>
             <h1>Cyber News Brief</h1>
-            <div class="subtitle">Cybersecurity Intelligence</div>
-            <div>
-                <strong>{date_str}</strong> • Generated at {time_str}
+            <div class="meta">
+                {date_str} &bull; {time_str} &bull;
+                <a href="https://github.com/{repo_name}">GitHub</a>
             </div>
-        </div>
-        
+        </header>
+
         <div class="stats">
-            <div class="stat-card">
-                <div class="stat-number">{total_articles}</div>
-                <div class="stat-label">News Reports</div>
+            <div class="stat">
+                <div class="stat-value">{total}</div>
+                <div class="stat-label">Articles</div>
             </div>
-            <div class="stat-card">
-                <div class="stat-number">{military_articles}</div>
-                <div class="stat-label">Military & Defense</div>
+            <div class="stat">
+                <div class="stat-value">{sources}</div>
+                <div class="stat-label">Sources</div>
             </div>
-            <div class="stat-card">
-                <div class="stat-number">{geopolitical_articles}</div>
-                <div class="stat-label">Geopolitical</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">{len(categories)}</div>
+            <div class="stat">
+                <div class="stat-value">{num_categories}</div>
                 <div class="stat-label">Categories</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value">{threat_count}</div>
+                <div class="stat-label">Threat Intel</div>
             </div>
         </div>
 '''
 
-    # Add categories and articles
     if categories:
         for category, category_articles in categories.items():
-            # Get emoji for visual representation
-            emoji = category.split()[0] if category.split() else '🔒'
-            
             html += f'''
-        <div class="category-section">
-            <div class="category-header">
-                {category} ({len(category_articles)} reports)
+        <div class="category">
+            <div class="category-title">
+                {category}
+                <span class="category-count">{len(category_articles)} articles</span>
             </div>
-            <div class="articles-grid">'''
-            
-            # Show up to 6 articles per category
-            for article in category_articles[:6]:
-                title = article.get('Title', 'News Report')
-                source = article.get('Source', 'News Source')
-                published = article.get('Published', 'Recent')
+            <div class="articles">
+'''
+            for article in category_articles[:8]:
+                title = article.get('Title', 'Untitled')
+                source = article.get('Source', 'Unknown')
+                published = article.get('Published', '')
                 link = article.get('Link', '#')
-                
+
+                # Escape HTML in title
+                title = title.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+
                 html += f'''
-                <div class="article-card">
-                    <div class="article-header">
-                        <span>{emoji}</span>
+                <div class="article">
+                    <div class="article-title">
+                        <a href="{link}" target="_blank" rel="noopener">{title}</a>
                     </div>
-                    <div class="article-content">
-                        <div class="article-title">
-                            <a href="{link}" target="_blank">{title}</a>
-                        </div>
-                        <div class="article-meta">
-                            <span class="source-tag">{source}</span>
-                            <span>{published}</span>
-                        </div>
+                    <div class="article-meta">
+                        <span class="source">{source}</span>
+                        <span>{published}</span>
                     </div>
-                </div>'''
-            
+                </div>
+'''
             html += '''
             </div>
-        </div>'''
+        </div>
+'''
     else:
         html += '''
         <div class="no-data">
-            <h3>Collection in Progress</h3>
-            <p>The system is currently collecting news data.</p>
-            <p>Check back in a few minutes for the latest reports.</p>
-        </div>'''
-    
-    # Add footer
-    html += f'''
-        <div class="footer">
-            <p>
-                <strong>Cyber News Aggregator</strong> •
-                <a href="https://github.com/{repo_name}">GitHub</a>
-            </p>
-            <p style="margin-top: 10px; opacity: 0.8;">
-                Updated every 6 hours •
-                {len(articles)} articles •
-                Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}
-            </p>
+            <p>No articles available. Check back soon.</p>
         </div>
+'''
+
+    html += f'''
+        <footer>
+            Updated every 6 hours &bull;
+            <a href="https://github.com/{repo_name}">View on GitHub</a>
+        </footer>
     </div>
 </body>
 </html>'''
-    
+
     return html
 
-def save_newsletter(html_content):
-    """Save newsletter to docs folder for GitHub Pages"""
-    
-    try:
-        os.makedirs("docs", exist_ok=True)
-        
-        with open("docs/index.html", "w", encoding="utf-8") as f:
-            f.write(html_content)
-        
-        print(f"Saved to docs/index.html")
-        return True
-
-    except Exception as e:
-        print(f"Error saving: {e}")
-        return False
-
 def main():
-    """Main newsletter generation function"""
-    
-    try:
-        # Load intelligence data
-        articles = load_intelligence_data()
-        
-        # Organize by categories
-        categories = organize_by_categories(articles)
-        
-        # Generate HTML
-        html = generate_html_newsletter(articles, categories)
-        
-        # Save newsletter
-        if save_newsletter(html):
-            print(f"Done: {len(articles)} articles, {len(categories)} categories")
-        else:
-            print("Failed to save newsletter")
-            return False
+    print("Generating briefing...")
 
-    except Exception as e:
-        print(f"Error: {e}")
-        return False
-    
+    articles = load_data()
+    categories = organize_by_categories(articles)
+    html = generate_html(articles, categories)
+
+    os.makedirs("docs", exist_ok=True)
+    with open("docs/index.html", "w", encoding="utf-8") as f:
+        f.write(html)
+
+    print(f"Done: {len(articles)} articles, {len(categories)} categories")
     return True
 
 if __name__ == "__main__":

@@ -50,7 +50,7 @@ def check_github_environment():
 def check_dependencies():
     """Check if required files exist for GitHub deployment"""
     required_files = [
-        "drone_scraper.py",
+        "scraper.py",
         "generate_newsletter.py",
         "requirements.txt",
         "config.json"
@@ -162,7 +162,7 @@ def run_full_intelligence_cycle(priority_mode=False):
 
     # Phase 1: Collection
     print("\n[1/2] Scraping news...")
-    cmd = "python drone_scraper.py"
+    cmd = "python scraper.py"
     if priority_mode:
         cmd += " --priority"
 
