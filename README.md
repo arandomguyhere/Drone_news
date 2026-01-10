@@ -42,12 +42,12 @@ The workflow in `.github/workflows/intelligence.yml` runs every 6 hours and:
 3. Generates the HTML briefing
 4. Commits data and deploys to GitHub Pages
 
-To run manually: Actions tab > "Drone Intelligence Collection" > Run workflow
+To run manually: Actions tab > "Cyber News Collection" > Run workflow
 
 ## Files
 
 ```
-drone_scraper.py          # Main scraper, search queries defined here
+scraper.py                # Main scraper, search queries defined here
 generate_newsletter.py    # Builds the HTML briefing
 intelligence_system.py    # CLI wrapper
 config.json               # Settings
@@ -57,7 +57,7 @@ docs/index.html           # Generated briefing (served by GitHub Pages)
 
 ## Adding sources
 
-Edit the `SEARCH_QUERIES` list in `drone_scraper.py`:
+Edit the `SEARCH_QUERIES` list in `scraper.py`:
 
 ```python
 ("site:example.com security", "Example Security"),

@@ -26,7 +26,7 @@ jobs:
 
     - run: mkdir -p data docs
 
-    - run: python drone_scraper.py
+    - run: python scraper.py
 
     - run: python generate_newsletter.py
 
