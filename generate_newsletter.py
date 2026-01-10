@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 """
-Drone News Newsletter Generator - GitHub-Only Version
-Creates professional GitHub Pages intelligence briefing
+Cybersecurity News Briefing Generator
+Creates HTML intelligence briefing for GitHub Pages
 """
 
 import json
 import os
 from datetime import datetime
 
-print("📰 DRONE NEWS NEWSLETTER GENERATOR")
-print("🌐 GitHub Pages Compatible")
+print("Generating cybersecurity news briefing...")
 print("=" * 60)
 
 def load_intelligence_data():
@@ -19,13 +18,13 @@ def load_intelligence_data():
         if os.path.exists("data/latest_news.json"):
             with open("data/latest_news.json", "r", encoding="utf-8") as f:
                 data = json.load(f)
-            print(f"✅ Loaded {len(data)} intelligence reports")
+            print(f"Loaded {len(data)} articles")
             return data
         else:
-            print("⚠️ No intelligence data file found")
+            print("No data file found")
             return []
     except Exception as e:
-        print(f"❌ Error loading data: {e}")
+        print(f"Error loading data: {e}")
         return []
 
 def organize_by_categories(articles):
@@ -42,12 +41,12 @@ def organize_by_categories(articles):
     
     # Sort categories by importance and article count
     priority_categories = [
-        '🎯 Military Drones',
-        '🇨🇳 China Drones', 
-        '🇷🇺 Russia Drones',
-        '🤖 Autonomous Drones',
-        '⚔️ Drone Warfare',
-        '💥 Drone Strikes'
+        'Russia Cyber',
+        'China Cyber',
+        'Ransomware',
+        'Data Breach',
+        'APT',
+        'Zero Days'
     ]
     
     sorted_categories = {}
@@ -62,7 +61,7 @@ def organize_by_categories(articles):
     for cat in sorted(remaining.keys(), key=lambda x: len(remaining[x]), reverse=True):
         sorted_categories[cat] = remaining[cat]
     
-    print(f"📂 Organized into {len(sorted_categories)} categories")
+    print(f"Organized into {len(sorted_categories)} categories")
     return sorted_categories
 
 def generate_html_newsletter(articles, categories):
@@ -87,8 +86,8 @@ def generate_html_newsletter(articles, categories):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drone News Brief - {date_str}</title>
-    <meta name="description" content="Latest drone intelligence from {total_articles} sources">
+    <title>Cyber News Brief - {date_str}</title>
+    <meta name="description" content="Cybersecurity news from {total_articles} sources">
     
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
@@ -293,8 +292,8 @@ def generate_html_newsletter(articles, categories):
             <a href="https://github.com/{repo_name}" class="github-link">
                 📊 GitHub Repository
             </a>
-            <h1>🚁 Drone News Brief</h1>
-            <div class="subtitle">Comprehensive Drone Intelligence Collection</div>
+            <h1>Cyber News Brief</h1>
+            <div class="subtitle">Cybersecurity Intelligence</div>
             <div>
                 <strong>{date_str}</strong> • Generated at {time_str}
             </div>
@@ -324,7 +323,7 @@ def generate_html_newsletter(articles, categories):
     if categories:
         for category, category_articles in categories.items():
             # Get emoji for visual representation
-            emoji = category.split()[0] if category.split() else '🚁'
+            emoji = category.split()[0] if category.split() else '🔒'
             
             html += f'''
         <div class="category-section">
@@ -362,8 +361,8 @@ def generate_html_newsletter(articles, categories):
     else:
         html += '''
         <div class="no-data">
-            <h3>🔄 News Collection in Progress</h3>
-            <p>The system is currently collecting drone news data.</p>
+            <h3>Collection in Progress</h3>
+            <p>The system is currently collecting news data.</p>
             <p>Check back in a few minutes for the latest reports.</p>
         </div>'''
     
@@ -371,21 +370,16 @@ def generate_html_newsletter(articles, categories):
     html += f'''
         <div class="footer">
             <p>
-                <strong>🚁 Drone News Collection System</strong> • 
-                <a href="https://github.com/{repo_name}">Open Source Project</a>
+                <strong>Cyber News Aggregator</strong> •
+                <a href="https://github.com/{repo_name}">GitHub</a>
             </p>
             <p style="margin-top: 10px; opacity: 0.8;">
-                Automated collection every 6 hours • 
-                {len(articles)} reports processed • 
+                Updated every 6 hours •
+                {len(articles)} articles •
                 Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}
             </p>
         </div>
     </div>
-    
-    <script>
-        console.log('🚁 Drone News Brief loaded');
-        console.log('📊 Stats: {{total: {total_articles}, categories: {len(categories)}}}');
-    </script>
 </body>
 </html>'''
     
@@ -400,11 +394,11 @@ def save_newsletter(html_content):
         with open("docs/index.html", "w", encoding="utf-8") as f:
             f.write(html_content)
         
-        print(f"✅ Newsletter saved to docs/index.html")
+        print(f"Saved to docs/index.html")
         return True
-        
+
     except Exception as e:
-        print(f"❌ Error saving newsletter: {e}")
+        print(f"Error saving: {e}")
         return False
 
 def main():
@@ -422,16 +416,13 @@ def main():
         
         # Save newsletter
         if save_newsletter(html):
-            print(f"🎉 Newsletter generated successfully!")
-            print(f"📊 {len(articles)} news reports processed")
-            print(f"📂 {len(categories)} categories organized")
-            print(f"🌐 Ready for GitHub Pages deployment")
+            print(f"Done: {len(articles)} articles, {len(categories)} categories")
         else:
-            print("❌ Failed to save newsletter")
+            print("Failed to save newsletter")
             return False
-            
+
     except Exception as e:
-        print(f"❌ Error generating newsletter: {e}")
+        print(f"Error: {e}")
         return False
     
     return True
