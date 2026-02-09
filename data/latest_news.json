@@ -1,1243 +1,1543 @@
 [
   {
+    "Title": "Software developers: Prime cyber targets and a rising risk vector for CISOs",
+    "Link": "https://news.google.com/read/CBMivgFBVV95cUxQUUVxWlN2Z00ydml4Q19qY3FFRnBHRWZCR3VCOGd6elR1NHdQRFdfaWUwMFljaGVINGNCVHQ2QmNDQXgydUI5dENEZmN6V0NWclZpOUItaXRHMWp1Zm1PekVrczZYMnBodE5qLTU4LWMxRGF4YUhXVWJwS3RJZHNWZ2VsVWN0ajBzYjJlUjVRSW1KZkk0TWFXbEt3dEhoVkFUSFk0SVlBT0RtdnRIUnlKQmxYaWcxanhka2NSTXhB",
+    "Source": "More",
+    "Published": "12 minutes ago",
+    "Datetime": "2026-02-09T07:02:39",
+    "Category": "CSO Online",
+    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.csoonline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109323"
+  },
+  {
+    "Title": "WISeKey’s WISe.Art and GMA Once Again Revolutionize the Future of Art and Technology in an Extraordinary Event in Venice",
+    "Link": "https://news.google.com/read/CBMib0FVX3lxTE5jUVVtUE5MRF9JMWpOdjlqcHhZbnh3MFltbTBnXzFWUG1GcjltYjZzWGF0ai1IV3pldU1BQ2lXX21KVWljRk5HQTRnWm5fUElNeEpEbnhyUlZ1VGszeVdYZ0pfVHBtdE4wNkpwYU5aQQ",
+    "Source": "More",
+    "Published": "16 minutes ago",
+    "Datetime": "2026-02-09T07:00:29",
+    "Category": "Quantum Threats",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://cyberpress.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109330"
+  },
+  {
+    "Title": "Singapore telcos hit by cyberattack, no data leaked",
+    "Link": "https://news.google.com/read/CBMiggFBVV95cUxPZVBSRmVTeXJTWDZpQ3BkSEFCeUtvbWU3dnpDWjJNZG1PREFYZDhRV25qTmNsNXVkTGQtVUVUekFxVkZNZDhWdVY2NFBzWmpEZ0IyTE0zeTZZRlctZWlnZGluSkx6X1VWSzlMb3dSS01ab05MVkpVS21rTkhZblI0RTJR",
+    "Source": "More",
+    "Published": "16 minutes ago",
+    "Datetime": "2026-02-09T07:00:00",
+    "Category": "Zero Days",
+    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.techinasia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109334"
+  },
+  {
+    "Title": "Cache is king and DIMMS are bling as memory prices soar",
+    "Link": "https://news.google.com/read/CBMieEFVX3lxTE9BM0VDZi00UVRQZmdiZ3RIcjFHZWVOem14UXVRcEVhN3cybHlaa1dQT1dJU2N0d0Joc3FSeV84dC1uYVdOYVUzYk5YdnFSaTBxZWVlNk4tRUthNU0yN2p0Ti11SWxmMWx5ZkRhTkpTZk5pSExmbDBvbg",
+    "Source": "More",
+    "Published": "18 minutes ago",
+    "Datetime": "2026-02-09T06:58:00",
+    "Category": "Salt Typhoon",
+    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.theregister.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109336"
+  },
+  {
+    "Title": "UNC3886 Cyberattack in Singapore Triggers Largest Ever National Cybersecurity Response",
+    "Link": "https://news.google.com/read/CBMigAFBVV95cUxOVnc4QXlibTdjREU1aEhwR1FiMHNSRzRnU3V6ZmpScEduLVlEYzl2Tkh4eDNCV0pCdWxndkxYeEJxdGJzcTJnSnJrLTd5dm9nQ1dmSlVER1MzTnpWRU5vSHI4bXZNOXQ4eDlwcWZSaGl2dXE0ZTlHYnJHWGNXSEhXSA",
+    "Source": "More",
+    "Published": "20 minutes ago",
+    "Datetime": "2026-02-09T06:55:19",
+    "Category": "APT Groups",
+    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://fintechnews.sg&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109339"
+  },
+  {
+    "Title": "Hackers breach all four major Singapore telcos: Teo",
+    "Link": "https://news.google.com/read/CBMilgFBVV95cUxNZ0l4S1N1MjN3VGhYaEwyb1FMZWRjN0tUZEZQSnNYVlh1aW9KcjdEaEFfYjZ3LWkwNDZCOWUtaGcxVmctYm5uNGJVMktNc01LTjBqekVCS1BiZHBrenNqYThDelgtdElUVDlsdmdKRk00cVZtUnR0eVg4SEJtTHhUVWNnN2NJRDV5SkVNN0E1TWUwZWE3NVE",
+    "Source": "More",
+    "Published": "29 minutes ago",
+    "Datetime": "2026-02-09T06:46:43",
+    "Category": "APT Groups",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://sbr.com.sg&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109342"
+  },
+  {
+    "Title": "Lee Chan-jin puts consumer protection first, overhauls South Korea’s FSS inspections - CHOSUNBIZ",
+    "Link": "https://news.google.com/read/CBMijgFBVV95cUxPWENCTVFPSzRfV3ZLMFF5ME1XMmpCZTZlbUNXdkdxUjJ0Y0F5RW45Z19INkpvSDl2eW5KaHdJU1VnT0phaGlPTDAwc05aZlJrS1pUMVp5SmFBQzJWNjl3RXZVV093TnlQS3o0SGphOTlVc3g3U2FrTDJ6LVBqcW43VENCNkZqZVM1bmtmNXln",
+    "Source": "More",
+    "Published": "29 minutes ago",
+    "Datetime": "2026-02-09T06:45:00",
+    "Category": "Chosun Cyber",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.chosun.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109344"
+  },
+  {
+    "Title": "20s Man Transferred for Fraud, Extortion in Online Game Scam",
+    "Link": "https://news.google.com/read/CBMiiAFBVV95cUxPZFk4TkxrYzlXZjNtRkViakFFREl4TVE3dmg0Q2lDME9yMm1WX2NsaEgzVVNTaDRhbmNJeklRMjJZWXktWjdOMWl0ZTZ0MXN5X3BMRHRMa0pwNXpUdThTS093SjBEUVlRNzllVzFUcWZ6LTNFUThIc1RuenJRMVVQUTk5bmxiMjc5",
+    "Source": "More",
+    "Published": "37 minutes ago",
+    "Datetime": "2026-02-09T06:37:36",
+    "Category": "Chosun Cyber",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.chosun.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109349"
+  },
+  {
+    "Title": "Notepad++ targeted by Chinese-linked hackers",
+    "Link": "https://news.google.com/read/CBMimgFBVV95cUxOTjFSY2pUWDFlR2dQUUtNMmtrWGlPakpoNUt1US1KeU5TVE9tS2NlS0dtTGs5RFNIbGFVZHNKR242aGlWS0dPdmNhZW9zTnByZHhDRzVCcDIyLThHZFZtcmRfYmNycFVYWjBiZVh6NUxWb1hMZ25KQngybTB1ZnJTNTVxVUR3aXhNazZVVllQeWh1b0haYUVOZDV3",
+    "Source": "More",
+    "Published": "42 minutes ago",
+    "Datetime": "2026-02-09T06:33:38",
+    "Category": "Supply Chain",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.thedailystar.net&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109352"
+  },
+  {
+    "Title": "Singapore's cyber-security operation against UNC3886",
+    "Link": "https://news.google.com/read/CBMixwFBVV95cUxNX0N5RzQ1VzR0UU9td2duanpEQUpMLTNhREJvQmJoVGZLSFZWZWU4bHNZVEV0Q2xFckpFT1BGOFVfdEltZlJ4RG5qQ09ibUpxYmZpNFF4QlBPM3g4RS1lb2hZWkNIWTFLeW0xaEtQeUloMG5lSTlFakJhTzdhMmlNYmlxQ1ZEZ0ZjQ2JieThqWThqQmJ6ZWFuMDJSbVp0MlMxa3hpakJORi1XTWRFZWhEZmJuQi1DRHh2U3B1dlF2WFFlZFJmM0VB",
+    "Source": "More",
+    "Published": "45 minutes ago",
+    "Datetime": "2026-02-09T06:31:09",
+    "Category": "Telecom Security",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.straitstimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109354"
+  },
+  {
+    "Title": "Russia’s hackers have the UK in their sights as the Kremlin steps up cyber war, experts tell LBC",
+    "Link": "https://news.google.com/read/CBMijAFBVV95cUxPbFdjR0pHRUhwQW5oaUtPa0RuWXcwUWpHZXhsTFVOb1BYenVCWXcxRDJaOFRZTmJLbVRQRUJuR0J0b0NpVUxXQ1pwTEVYWUt4b083SnV2Z2s3UlAzbEhXamxwWEUxQXNITWM2WkdsSU5BVXlOblI0WjduMzBJOTNxajdDak5ta3dhZVRrdQ",
+    "Source": "More",
+    "Published": "45 minutes ago",
+    "Datetime": "2026-02-09T06:31:00",
+    "Category": "Ukraine Conflict",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.lbc.co.uk&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109357"
+  },
+  {
+    "Title": "Hospitals, banks, authorities: Federal Office registers hundreds of attacks on critical infrastructure | blue News",
+    "Link": "https://news.google.com/read/CBMiqgFBVV95cUxPNVAxcDk4TnRabVlaODBqcFVlVWYtcHRXVzlOTE9PU05tcmU0WEN0OS1nT21VeHdrYUZjTkhtb3NKY01jajJJblZaV2tHOXFLNGYyd0ZOTUdHZEp1OF92ZnlaZ3ZKcFVGOGx0b1FYQlNqcE13V2hhcGZ4djVJWHZ5R3hhdmdaVi1PSkVpOExTV2FucUh2WmlHWTJpWjU3VzlmYTVHUmdNSmRLQQ",
+    "Source": "More",
+    "Published": "45 minutes ago",
+    "Datetime": "2026-02-09T06:30:29",
+    "Category": "Critical Infrastructure",
+    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.helpnetsecurity.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109359"
+  },
+  {
+    "Title": "Ukrainian Intelligence Hackers Breach Crimean Servers: Uncovered War Crimes Evidence and Russian Military Lists",
+    "Link": "https://news.google.com/read/CBMif0FVX3lxTFBEOVdsQXYzdmNsMG50QllKazJtQnZtSjJhMXJvaVFJZUJUc1p1NGk5Rk5WRXNfbnF4MU1aUnpCczFZTWRiSTJScVhVQ3h2UzV4TkV6MDYzdTRrVDdNcklJWmVQVkhhSWVlVllWY2NwaUNyMTJxd3JSV0l0ZmJDN2s",
+    "Source": "More",
+    "Published": "46 minutes ago",
+    "Datetime": "2026-02-09T06:30:00",
+    "Category": "Russia Cyber",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.lbc.co.uk&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109361"
+  },
+  {
+    "Title": "Who stays connected when the first systems fail? - opinion",
+    "Link": "https://news.google.com/read/CBMiY0FVX3lxTFBlZ0NlYUZOODd2M2JnX05NRDNvWUoxSkpxNFRJSzBqWXF5anlia2FORXdrZGpOOGhzWXBVb0NTQVpGbnlQdWVBMlJERHRoZkVUWGdDVmU5Y1lKalJEQ1l6MzUyNA",
+    "Source": "More",
+    "Published": "48 minutes ago",
+    "Datetime": "2026-02-09T06:28:11",
+    "Category": "Iran Cyber",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.jpost.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109364"
+  },
+  {
+    "Title": "Alice Releases Caterpillar, Open-Source Security Tool for AI Agent Ecosystems",
+    "Link": "https://news.google.com/read/CBMiWEFVX3lxTFAxWXI3Ny1UZWRTa1NqVGJTblpnVnNPb01qVG9wSEJjcjg1MFBZUmtrLVl1TS1aeng1eURxbUNOU3M1cHpocmRFTzB0aERRNGdCQjB4Yjlsa1E",
+    "Source": "More",
+    "Published": "53 minutes ago",
+    "Datetime": "2026-02-09T06:23:28",
+    "Category": "AI Security",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.israeldefense.co.il&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109366"
+  },
+  {
+    "Title": "Albanian PM pledges support for Israel",
+    "Link": "https://news.google.com/read/CBMia0FVX3lxTE5UVzc1UnZlMGJtSVducHBZWXR5Q2djWkk1ajhwcXh6bFU2UjUxTG1OTTdfNUlmVEZ1RDAyMThydm81Um94alpjX2VtUGZrRVdNYTVZVDRBc19RdWNCZFZNSGdCRWlOQjFxMVBZ",
+    "Source": "More",
+    "Published": "56 minutes ago",
+    "Datetime": "2026-02-09T06:19:44",
+    "Category": "Iran Cyber",
+    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.jns.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109368"
+  },
+  {
+    "Title": "Singapore mounts largest cybersecurity op against UNC3886, more than 100 cyberdefenders activated",
+    "Link": "https://news.google.com/read/CBMi8AFBVV95cUxPbWtPbGZXU3JFVlE1SDZfUVhLLWlhdEU4WTBxcHF4NndvYmxDcHozbnBnX3dUeTZibVNWM2g4a2pZTXRSeXROMnlYM2gxOGhuZTZhMWtNcjFTdkpubnlYdlBwMmJ6WGJKVVBQT0o5QjQ1a014NHhCY2JRRDNXdldlNk5CSHhaVzFZMVRpb0NIN0JBT2hjUEk3OWdLYWV0RThYVTUxRUthUkZqbnZ1Mm11RFdQRDRxbmRkT3d2QzdXaUUtaE5ILTJVajRkbVZhdDlSckdrQm51VUVXdXpObnJCM0FodTFfZGRKaGxiYXJyNWc",
+    "Source": "More",
+    "Published": "57 minutes ago",
+    "Datetime": "2026-02-09T06:19:00",
+    "Category": "APT Groups",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.thestar.com.my&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109371"
+  },
+  {
+    "Title": "Snapchat Hacking Investigation Exposes Large-Scale Abuse",
+    "Link": "https://news.google.com/read/CBMia0FVX3lxTE1BbEJHS2JrOUlOaUtNWjViZnl5NHl2ZkFYLVFDM3c5ZGxtLUhwdlZuQmM2VzNFSnczYnkwU3NmQm54SmlleDBPUGV0dVlIeTRBbUFteV9XY1NSZHdLX1JyQS12M0ZORzI5dGxv",
+    "Source": "More",
+    "Published": "1 hour ago",
+    "Datetime": "2026-02-09T06:10:59",
+    "Category": "Zero Days",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://thecyberexpress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109373"
+  },
+  {
+    "Title": "Xiaomi earbud flaws expose data and trigger DoS; Korea issues user guidance - CHOSUNBIZ",
+    "Link": "https://news.google.com/read/CBMiekFVX3lxTE1HblVxektkSmJJV2U2ckpvYmdhMEhadzNhaEZ0SXRZM2dja3RGZzY2V1J5cXF3OEdtWlJBYU5ORjdiNWNHc1VSTWhaZGN0ZE1nTVljOHc3cEE1d29Eb2RNMmJDZGk5bDV3MlBpY2JOZG11NmMyTVBRNXpn0gGOAUFVX3lxTFBfYS1pczFrUjhueGhlQTAxM2o2Z0h0X1NCMzMzaDlWM283SUQ3V0hlRThoSHNFOFJxd21oTmNiZm9qc0lfeXkwMWZZUGJ0aFdnaW1pTmpjbEx4bTl2VkNkbWNHek1DdWhCbFp1QlNGRjhjMWVVc0JWcjd3Y1Bld3R6YThEa0R4TjhIZG53M0E",
+    "Source": "More",
+    "Published": "1 hour ago",
+    "Datetime": "2026-02-09T06:10:00",
+    "Category": "Vulnerabilities",
+    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://biz.chosun.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109375"
+  },
+  {
+    "Title": "What is a vector database?",
+    "Link": "https://news.google.com/read/CBMidkFVX3lxTFA0M3hfbG5RcUo2cGxrR2ZTUUdHRFFGRDJQUTFrdXRjQ1ZZZFJQemoxby05Zlh6QWE4N2dEejJEX3pHTEVkTHcxUkxYTGQzakN2dU51aTRMNy00UFJEaEdvamozQTVlV3hyT1hwVTNPRHVFd1Q4bWc",
+    "Source": "More",
+    "Published": "1 hour ago",
+    "Datetime": "2026-02-09T06:00:00",
+    "Category": "ITPro",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.itpro.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109378"
+  },
+  {
+    "Title": "Ukraine has just humiliated Putin. He has a plan for revenge",
+    "Link": "https://news.google.com/read/CBMiiwFBVV95cUxNODFtM3RyZkxpdk1qNGNZdEZmaHhfRTRkTGFTSGEzZ29HaGE2VlZYYlhOS0tfYTZ1VnN4QXl6YjAxZ2hZVzZSd1FEb2ZoMU1zU0NKeFRJNkVyMWR5UG9JcGt0MUVjNGg3SlZpaHF3WUJuekMwc0hVeFJoU01WblNBd1owc2wwcG5fLTFZ",
+    "Source": "More",
+    "Published": "1 hour ago",
+    "Datetime": "2026-02-09T06:00:00",
+    "Category": "Russia Cyber",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://inews.co.uk&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109380"
+  },
+  {
+    "Title": "The Erosion of the Multilateral Security Architecture in Central and Eastern Europe Amid Systematic Kinetic-Cyber Hybrid Aggression by the Russian Federation",
+    "Link": "https://news.google.com/read/CBMirAFBVV95cUxPOGVGRDBGck1nMXduUjQwRzlCaWhPczNLZUMtczBjdFJqdWFyZ0U0dkZSNExZdWVtenU2NkJ3R1AtSy1YckFNVkRMLXVmM0JpN1NDQjV5TWtMUC1jTzlaZ3VFMTVzZW42RDVuaEtrajkzN0c3Rk9uNVdMVC1sRXpLcHRnbVBMS3M1czV0NFlGQXpOcE40ZWdFX0xRNU1oU0JIYjdjN0tGUUwxQW82",
+    "Source": "More",
+    "Published": "1 hour ago",
+    "Datetime": "2026-02-09T06:00:00",
+    "Category": "Energy Security",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.telegraph.co.uk&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109383"
+  },
+  {
+    "Title": "Flickr says it may have suffered a third-party data breach",
+    "Link": "https://news.google.com/read/CBMioAFBVV95cUxNTjJaTHZGb0E1MGRYTjdmNDJhWWY4TURwa0FxVm5uSnAzVU1HOS14S1drODYtRXZEcTM5V19TWTR3SElVQW54OHpjRlpsTHpubjl2N3gzVlV0MEd4S2NITlYxVE1rVHhnbjJmeU9RUGZIb1BESXFyYTloVlRWOW5rTFFmajdIX25ONWpBcDR2SFdhTFFiOFBWLXNqRHZ4U0Rk",
+    "Source": "More",
+    "Published": "1 hour ago",
+    "Datetime": "2026-02-09T05:55:38",
+    "Category": "Data Breach",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.cyberdaily.au&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109385"
+  },
+  {
+    "Title": "Over one billion Android Smartphones at Risk without Google Mobile Security update",
+    "Link": "https://news.google.com/read/CBMivwFBVV95cUxPTzEwRWc5YUk2RVlTTkF3OUlCaU02LVZseGJ4WmRtWHJVYmlKT2Q2c0JEWGlDczRSS3FNMExqUzlSX2M3dC1nWkYzcVA4Ym1SR01Sd1JodE9hbklULWZfaElPZ0d2Q0xXc3ZjUmJRM1VGSE5jVGlmSVdWTl84bWZDcU54RVltWElnSmZreGlESUU4LWlpWGltcnl1TDJ0Umt6Mk1oWUR5UWVoQkJrRVZYZHNyTUhHYkJQbUxkMk5GVQ",
+    "Source": "More",
+    "Published": "1 hour ago",
+    "Datetime": "2026-02-09T05:54:19",
+    "Category": "Data Breach",
+    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.cybersecurity-insiders.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109388"
+  },
+  {
+    "Title": "Singapore says cyber espionage group targeted telco infrastructure",
+    "Link": "https://news.google.com/read/CBMi2gFBVV95cUxOR1ZpcV9HRkxuVVlpT0R1akdDNnU4LTl3bXZFbkhrUHJqTHpDODRiM0k0NTd2d2hfbm1ZckJYMFNRZDhIUGMtX1JvX1o4LUJKWUtHRnA2M1BDY0JBaEN0dGZmSUZRbGE0WGRtNkdKUUVHYTAtOWNucUh4anNTd0pEQkd6dmZFTFFjVXVJUVNjSnNBUV9CZENkeEQ0dEZnSWRpZzg1UlNOSG1FbzUzRmdFZ2dnSkROZmhhVVdiM3hPNkhlZGlQVGRTU3B3VFpEWDl2eENEdXhNMWxvZw",
+    "Source": "More",
+    "Published": "1 hour ago",
+    "Datetime": "2026-02-09T05:54:00",
+    "Category": "Reuters Cyber",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109390"
+  },
+  {
+    "Title": "What is UNC3886, the group that attacked Singapore’s telco infrastructure?",
+    "Link": "https://news.google.com/read/CBMiqAFBVV95cUxQWC11cXQ1YjZCVk11anlpLU5HaGVucURiWkV4bUw3UFVNVllxYU9nY09DOEVvUXlJdk40SV9PX1UxLWU3ZUlVQnRpS1FtT19TcTZveWVTc0h4YmtaQkNmVHc2MF9nXy1scTBRSDY5UGo0c2VSaWQ3YTllN2N4MXE4d2hObV9sRzBRZkFPWHNPaWoxSkdPOWExY0lRWkt5eDBvRU1VR0dOQnY",
+    "Source": "More",
+    "Published": "1 hour ago",
+    "Datetime": "2026-02-09T05:38:59",
+    "Category": "APT Groups",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.straitstimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109393"
+  },
+  {
+    "Title": "How S’pore’s fight against UNC3886 unfolded",
+    "Link": "https://news.google.com/read/CBMigAFBVV95cUxQV0gwRDQzVTQ2WmZ2WjNDV2puc3Yxa1V1czdQWWpBZUJpSmxzR2J5RVJCaGhBM3NUak9VbzN0ZlBDLVdzZURmeXVmdi1PM0hyVDRldjdWYzBhbFZyZnVuZndkSnNKSDl6VDZXb1pSaTI4ZDhSOU9GSTd2Tkt6aVlsNg",
+    "Source": "More",
+    "Published": "1 hour ago",
+    "Datetime": "2026-02-09T05:38:00",
+    "Category": "Zero Days",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.straitstimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109395"
+  },
+  {
+    "Title": "Check Point cautions African banks as cyberattacks rise by 115%",
+    "Link": "https://news.google.com/read/CBMikgFBVV95cUxPN2tMbHhJMlo5cnExSjZNYTlyRVYzdlZURHV1M0VRRDRBamQtTHk3OER6dFpyd2ZxNDRZR3dpd1dkQm1FeDBqSE1TNGdzLUswR2dicjdjM2o5ZS13dHFRUEQ1d2x0c3Nhb1owYzhSV01yMUN1V1dfemNZQV9Kald4cjB0azZJbXo0d2p2NEZkNmYxdw",
+    "Source": "More",
+    "Published": "1 hour ago",
+    "Datetime": "2026-02-09T05:20:00",
+    "Category": "Middle East Cyber",
+    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://guardian.ng&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109397"
+  },
+  {
+    "Title": "Ambiguities cloud Australia-Indonesia security treaty",
+    "Link": "https://news.google.com/read/CBMinAFBVV95cUxQdEhQNk50ejBMQU9DcFhGVUdOTm5veU1HYUxtWEg3enJ3c3QzSGpKTVJodW9rUGluT2VTOWlSSFJ5ajVzZjJaSnppTVFXX1ctVTczT2VyeGRuNnJCUlphTXJhQmlSU2xwNmZMcFVkMFFORERGdEIxZUpFS2UtMlJMTzFnS1B6Rlg0d1B4X0xFRjFsWDZPV3VFeFNvU0U",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T05:13:41",
+    "Category": "North Korea Cyber",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://asialink.unimelb.edu.au&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109400"
+  },
+  {
+    "Title": "Did NetScout’s (NTCT) Cybersecurity‑Led Beat and Raised Guidance Just Shift Its Investment Narrative?",
+    "Link": "https://news.google.com/read/CBMiywFBVV95cUxOa2ZZUXNZOFhEOWtIaG1IdS1VY0d6Nzk1cXgxWWoyX2FpVDNaUjk4eklaNzJOUk13eGdRN3lISjZUekRfcDFacS1BOXd0ZW11WmlYaEdPeG0tOGxzRG5peG5QTkd1X3Y1azYxcHNrYnJsdTNIWHQ2Y2FGX3U2bHRnZm1yNmNTNGVNeGtqZGROV0NwNmtzdnpvUW5Zd0hyU0o1dGl5SXU1V1FnY05JVFNseFkwNGJ0NUpYZ3RDU05xTFJKR2wwd0toREc0NA",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T05:13:30",
+    "Category": "Cybersecurity",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://simplywall.st&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109402"
+  },
+  {
+    "Title": "Singapore says UNC3886 cyberattack hit four major telcos in 2025 but no customer data stolen",
+    "Link": "https://news.google.com/read/CBMizgFBVV95cUxQSjJySWJHNE15b3REVW5LWFVaQUpMZTlTRUdfVjlQdnh1dF9sT0d1SW8tbUlNcDdqbWlSTWNaUHRqSEVaMHU1TURPU2pzdVJ5VWp4RmgyVUtITjRWdE95WGtGQzZ0NktsY2s4RU1ubE9lR3poN3RORDJBRjFRM09HVTBoaU9td1dTQ0thM2l3UGF1YjRXUzBFLW1BWk1heFFSTXZHZ2lITlpyWERsTnpSOVd2MW5iWDB5b2lUcEdXZ3lLSjVoYWtfaWt3Qno4dw",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T05:07:08",
+    "Category": "APT Groups",
+    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://theonlinecitizen.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109404"
+  },
+  {
+    "Title": "Munson, Hagerty The Latest Traverse City Organizations Hit By Major Data Breaches",
+    "Link": "https://news.google.com/read/CBMiwAFBVV95cUxPd3Uxd1RyYXRTZmpsY3hicTVuRE9lNk5mcGhFMndWUk1ZMVlkeHpmeEhEaXZRbzRHME4tejhtOTMybmg2RVIzdWpJSVhkTnl6SDEzeV9TbHhLU1dUb21kSEFnV29MOFhONXFHczMwaWdMYVVOYlJxZ2JQbi1FLUFvejdlQlhWTHZLbld6UGJxUDZ3X213Y3RSU2VDM254VTZTMm1JOF9pZ1hPclg0dUZJOWltRDZnWDNDUVBITVJVTkw",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T05:04:03",
+    "Category": "Data Breach",
+    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.traverseticker.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109407"
+  },
+  {
+    "Title": "Voice: The Biggest Security Gap You’re Ignoring",
+    "Link": "https://news.google.com/read/CBMimAFBVV95cUxOUDdLN1l0X1B3SlBfN0l2bV9VaFE4ODFaanZidEZrQ3R6S3Y2VTRFUGEteldIenBuY2ZDZGNBbWdPZ1hHVEF2NkNBVTBTdzdiTjJSMjN4dGotSXIza2k3QW1UZ0FVTnZNZ0dRNlhzOTVjekh0Z3o3Sm0xRnI2X3ZhTEY4bnVLQ21kb3NjdFBxZXJXUlI2QlJYdA",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T05:02:15",
+    "Category": "Dark Reading",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.darkreading.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109410"
+  },
+  {
+    "Title": "Exposure Management Is at a Breaking Point That’s Forcing a Reset",
+    "Link": "https://news.google.com/read/CBMiuAFBVV95cUxNbVNqRlQ4QW5YTnN6UzZkdGtlaWczUEtuS3k2R2pEci1tSFlqaXJnTWoyZEo3N1QxdmNpcHZzOGU3b3F6ZlhDSUl4bEZOVGdGNk94Rl9hSjVtVk1XODNQVzNGcmFBSnV4dTFtcHU2M0dIdzhncm1RU2FjMXc1a0owaktRdmQtRGR6cDRRSTduWkthRjhOM3c1SFQ1NzRjUG5lRTFpQlVDRHZFRE5wQXlNWkpYRjh3blIy",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T05:01:16",
+    "Category": "Dark Reading",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.darkreading.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109412"
+  },
+  {
+    "Title": "Cloud Complexity Is the New Security Vulnerability",
+    "Link": "https://news.google.com/read/CBMimAFBVV95cUxQMVlCS2J0SWhkVHp0TnNvZ1RnNkx0SkYyWHlDSXpPU25wRGJqcjkwQ1N6cnhRaUlVekV0RkJHQk1LRGR2Vm01V19NMXdYdXJWbnpHeTFWUjhsekVIQ0pxMXp0Y09STzR6Zmd5ZnhZdU84SFBDZkplYkxVT1hDb2lVeWh4d1BFLVAyZU5YY2ZpbXItSDNmcnlmTQ",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T05:01:14",
+    "Category": "Dark Reading",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.darkreading.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109415"
+  },
+  {
+    "Title": "Spotlight France, United States Trump return tests DGSE-CIA relations",
+    "Link": "https://news.google.com/read/CBMisAFBVV95cUxNQWlDelFWbFdleVRTNVF3dmZET1RRUXJieUZLMDRVS1RIRHRfMDFVZndDbG5ZaDV4a1hNeUtNZE50YWVEWTNFdXQ1Y2hQSTMzLVdjVnJlRXpJSlJxdkpDZ2hFSkM2bl95SkJhZndPU3R2RTFsLUZpenJQTjdEYl8xNkhITEZaMWcyRExOSGgySmNGYUdTYlNHVjB2aDktUng1anFSaDM3MWQ3bk51OHF2Qw",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T05:00:33",
+    "Category": "Intelligence Online",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.intelligenceonline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109417"
+  },
+  {
+    "Title": "United States • Former Republican candidate takes charge of economic security at ODNI",
+    "Link": "https://news.google.com/read/CBMi1AFBVV95cUxQTHZuZnBiNy02Q1d3cTlidTJxWHhjWlVLTFBudTR2NlgwcHNxQldJdmhfOEwyZ0puQ0tWVVJsLXM5MkhKc2haWk1ZRWpBeGtYQVV5VDZJV0xJYW1tNS1xdWUtLXlRd21YWFRkVHZWTTZDUjJHdFViR1JrWHVPaUc1RndkUXhmbkVaM3hfd1pHX0RsT0RZU0lMVGZpengxb21EMUV4dmR3V2xEUEJJSnFYYVZwOGNmcUpucEZKbkFJUkxYVjVkRjE2ZHJFRUtkRWR3dExlaQ",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T05:00:21",
+    "Category": "Intelligence Online",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.intelligenceonline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109419"
+  },
+  {
+    "Title": "The Agencies' Gazette CIA departures, Kyiv recruits volunteers, Saudi military office in Paris, Kyrgyz services",
+    "Link": "https://news.google.com/read/CBMi6gFBVV95cUxQMUcwZGJ2WXQ3LXRGVVh1VnZrTmJHY0dYcjhmb04zeDRFYlhOLVpPNjV2M2xWOWctZFRoWjFJT0doU1dSdW9YUkVpVUJKVFdhYXpfaWJoZzk1WTE4M0dyZ1pEWUhFUFZKMDE0aU9xamRHSW5pWGkxdkpiMXJVeTJMcE0xYXFBb3V5NlM5aUxvN3ZBRm92OG5MNUs5TzJzajFBM09zUV9tSEhDUzU0TTFlX19nSTAtOUVncVc3MU80TDVudXQ4YjlIRWFpZi1oRTFxb3o0OHMtRGdMS1BfWTBKMGFZT1VGTlV5cnc",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T05:00:21",
+    "Category": "Intelligence Online",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.intelligenceonline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109422"
+  },
+  {
+    "Title": "France Asman Technology finalises MALE drone prototype in market littered with unfinished projects",
+    "Link": "https://news.google.com/read/CBMi-AFBVV95cUxPWHFTUlpoUTFFNGpWaXFtd09TUHQxaVhPN0RJYkd4ZWtveUIzQWtSaUdBaWp5TWxqc0ZaRE5xSlFWUjhBbGd4UlhaNWFvS09haS1NZjQyNk5TbF9sTmlndk03R0ZQT3dWRkhUZmVLd255QlVnNU4yVHZnQUw2aGJBOFZqUmpZMC1Bbm9HeXAzREdfUDZ2ZnBwQWRlMGlqTWdZUGZhWG1SUnBQb0VwODBiV2JBcXVlMFNjRm95S09qSHA3LU9nSm9HZTBMbzd4SU5WUHNWb08zWEs2NWxidEdsVzQ3M0NMYlBRWTlwdTFPRUZNNnZRZ3p2OA",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T05:00:21",
+    "Category": "Intelligence Online",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.intelligenceonline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109425"
+  },
+  {
+    "Title": "Pakistan • Epstein's surprising ties to Pakistani cyber intelligence",
+    "Link": "https://news.google.com/read/CBMi1wFBVV95cUxPckRaODhGeU9aSWliYWU3REV0VFRJSE0tdnBaMTdMZkZSbk9EUC1WX2xEdkdvLWVQZFppMERBVUxfd1E4OGQ5c2c2SHZXeW0zQjdaeTFUZFhsdzZLYjBUb0JYMGpEc05FZ29rY016RFo5MG9FTDU3cG5xREpObFF3elVGOXJULXlRRmRLeUotQ1NnSjVFUWlDZklrb3lSQllkQWhUWG5CR0c1UFZJQkxWTmNKT2JqS2JSR2pXSVc3UWt5T3g5eW1aQVp3ekVFY2VjcUZkcnB3NA",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T05:00:21",
+    "Category": "Intelligence Online",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.intelligenceonline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109427"
+  },
+  {
+    "Title": "China/France • Macron entrusts former PM Raffarin with new China mission",
+    "Link": "https://news.google.com/read/CBMiygFBVV95cUxQaXN1MzRDOVpWQ1hwVHRaS2wtdDdXYWhvRzZNM3JvVHJjNFZpQkFmT1RQWVN4ZC15c2ZMdElVelJQTzZfNTRyZkF0QmhzM3dWbVpkTm5JTV84eS1Leks5RHBTakk3UWJjcEtKREV1SEpTOW1nOVdzZmRlalhtYm5laGgydHV0VlZZUXdHQ0xHaGwwYVJwZzNOVXZfbEJEdWxaalVCRGlHeWdNRmc0dHdKQzUwdE1iX05JTy1OMnY0VXRTMWhwcjI2a0NR",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T05:00:21",
+    "Category": "Intelligence Online",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.intelligenceonline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109429"
+  },
+  {
+    "Title": "TeamViewer closes critical access vulnerability without confirmation prompt",
+    "Link": "https://news.google.com/read/CBMimAFBVV95cUxQM0lmMkpORWpOeXNhaDdpNjNmcVpwNzdDYjZOUlJKQ0trRVBDUU1zVXVtaV9HMS1RZERNQjh5cjdxcnFQOS05alVIeVlzVHJtcUFJU29KUm9FTmw0ZEJiNzlDZ3phVGsxeUNUOF9PcHpPcUhwXzJoV0ZBU2tFYnNfRG1SdVg4SWZSUEVyaEwtbkg2aHNBaGFHcw",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T05:00:00",
+    "Category": "Vulnerabilities",
+    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.igorslab.de&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109432"
+  },
+  {
+    "Title": "S’pore’s four major telcos came under attack by cyber espionage group UNC3886 in 2025",
+    "Link": "https://news.google.com/read/CBMirgFBVV95cUxNY2N4LXJmb3hJUThmSjRQTWd1bEo2ZUNOOWtJa2pRTUZlcVFUTzV6ZEdpZ1VfZFM4RXYtZVZZbDBXZHd1MWgtdkJjVzdqUFhMc1p4QUdJdXFfeXZqN1VrRkcxN3JUSUNfV3FzeTBtV3NEdFU0NFp6MUZoWFY4N1p3Q3RRUE1jMF9SRmZmTVhCSndxVm9BVWdCR3ZqVi13QWlTd1YycGtaSkJsSlNLOFE",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T04:30:00",
+    "Category": "China Cyber",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.straitstimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109434"
+  },
+  {
+    "Title": "Singapore telcos targets of UNC3886 cyberattack; no customer data stolen and attack contained",
+    "Link": "https://news.google.com/read/CBMisAFBVV95cUxQa284QVRrTkR3T3AwM0M4WVgwcUpXZ0RGTE9vM2FkYkN3bC14OHdSUHBaU2VaanhoOXRzM0w0WWx6Q2o3NzhlQXlnS0ZmNnFhYkZQcjFVNVBYbDJsMVdOR3hhdUM3VnoyODNRYWZTNXk0Mm8tN2JRYmxSY3BOeVpsN0V3cmZIQ0kzcm5GR0ZvaHgyTUQ0XzQ0bndudEVuRDVQaGVOYXVUd0Q1VU52dzFaWQ",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T04:30:00",
+    "Category": "China Cyber",
+    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.channelnewsasia.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109436"
+  },
+  {
+    "Title": "4 telcos targeted in cyber attack by threat group, no sensitive data leaked, Singapore News",
+    "Link": "https://news.google.com/read/CBMingFBVV95cUxOWW40X3dmSGhOM21mTmNJS1JrdlcySEctTUdDN1RHUExrQkVUdUxza2hEOUMzcDY0TGE4V3pqWmkxWGNGU21LN01Wc1hVbzNLQXRQM3FHcXlrcTd1WkJ5bW91YkdadDJKNHhQcVVNaFpNLThkaWtaTVhDNUUyQnFhcDZxS2E4dkQ4Vi12QUNraXB4RDI1YUZjcjcwLXlPdw",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T04:30:00",
+    "Category": "APT Groups",
+    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.asiaone.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109439"
+  },
+  {
+    "Title": "Global Electricity Demand to Surge Over 3.5% Annually Through 2030, Says IEA Report",
+    "Link": "https://news.google.com/read/CBMiugFBVV95cUxPUnJZSDhXcU42X0VqZVJxZklSUHhJWXJZWW1vZ0l4cEloX3dEN3JHUnIwaXd2UUJJdHdqTUFrSlZYZncwWEhPX1ViNXpfcDRMMHFud1BFMGoyaHRVcU1ZcjhrR2o5R1F3RVJoUGJicEQ5bnpETkNEbDVjV0RXam8wUE0zNGkxaUYzS3h2WEJ1WGxsdzZsNkh3LVg5Vzd2c0lRc1B4VHVsdDI5N1g3NzhteHhJTzM5RXo4Zmc",
+    "Source": "More",
+    "Published": "2 hours ago",
+    "Datetime": "2026-02-09T04:19:46",
+    "Category": "Energy Security",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://solarquarter.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109441"
+  },
+  {
+    "Title": "Manager - Business Development Representative (BDR/SDR) APJ",
+    "Link": "https://news.google.com/read/CBMidEFVX3lxTE4tb09PUlhWM2l1TFJHYjRYelB2aHp0akJMTzk5YTZsb2xoUTdTOC00NGg2UTBtZEtpeWFwSnZRUzdGT2lrZEQzNHN5Si15VEVCSU1KSmlBS3hubzlCUXpzSnAza0NqWnRVYUx1eEYxdW1TVkVn",
+    "Source": "More",
+    "Published": "3 hours ago",
+    "Datetime": "2026-02-09T04:00:03",
+    "Category": "Wiz",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.wiz.io&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109443"
+  },
+  {
+    "Title": "ACOM (M) obtains international security certification",
+    "Link": "https://news.google.com/read/CBMipAFBVV95cUxOUGNfSnEzVEY0ZHhqZi1KQ3o3U1htbGI2dVZsSnBiTDNVVkZIWkU4VzhSREhiMHU1MjEtWFJLMWV1TlVaODdob3hzYVlaOXZuNW1yeVVMMTd2VEdDU214MThzWkhkdUZfYUJUWTZDYnVKanYzSFJqUmRMU3h1Y0tiVF9vS0dEVGFMNVJDZThBdWpMQkFicjVTTEgzelJmeVRQS0hGbdIBqgFBVV95cUxOMEZnNXpuWVdMcmhRVGVCRW54QkF1NTZCa0hfMTZjUDJBV2FpVzZVOTB5TjM4ZkxSRXJWaU5MUmJOSTBmYUUtUVNTdS0wM2N0Y2M0TGFlTllWaU1XWjlFSnQxTVFhbm9NdVA5dVc0X001RmFySGJodXp3cUg2emJVcnZIVFRpSlBpdE9EeEpsRVVjUTFDbkExRVZQREI1emFsR19wVjRDQzVnZw",
+    "Source": "More",
+    "Published": "4 hours ago",
+    "Datetime": "2026-02-09T03:11:35",
+    "Category": "New Straits Times",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nst.com.my&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109446"
+  },
+  {
+    "Title": "Taiwan says 40% shift of chip capacity to US is ‘impossible’",
+    "Link": "https://news.google.com/read/CBMiuAFBVV95cUxOWlRXUUVuNkhqdlI2eGtjaFNqazVkVjlfMzFleVc4R3l5RlMxdEN0dDFTdUdtVlRJWFhtZXR3aGpfTlNzejRKRkJta00xenVGdFl5YXE2ck13QXE1MklqTG5HZWdqenRwWm5PcTdDdDZMUG9WY20zd2l4NTJzSmVrWWkzM3JiNWhIU2d4cncyLVpQWl9QcUc0YWg2VzNEUFdDTU1jOGVEWWJkZHFqNkxXTmdZSENRRUox",
+    "Source": "More",
+    "Published": "4 hours ago",
+    "Datetime": "2026-02-09T03:10:00",
+    "Category": "Taiwan Security",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.businesstimes.com.sg&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109448"
+  },
+  {
+    "Title": "Small States, big stakes: why cyber diplomacy shall be a core National Security capability",
+    "Link": "https://news.google.com/read/CBMixgFBVV95cUxQMjRqU0M3cTM5eUNqcDRnWWt0UWNYRDlrQmIxXy1DakhKcFZKVm1iQVkyQ2MtNEJ4c05US2J5Z0lwMVJSVVhhSkVNeFJhdkxycVhOWEd2Mm41SnJZZFdNVnJMLXB4RXlhWXJDUzU4eHNQd1pycm90d0NOQ2ZDX3VlNDQwajBnckM4WWdiM1VBMmhkenhWVnl0UWVRNlZobmppdWRhNTZ5SHRoYWZSUW1rMnRBbVIwN3ktWlEwMGJwV2NWR0h4dVE",
+    "Source": "More",
+    "Published": "4 hours ago",
+    "Datetime": "2026-02-09T03:00:10",
+    "Category": "Critical Infrastructure",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://moderndiplomacy.eu&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109450"
+  },
+  {
+    "Title": "Police mount all-out safety plan as 260,000 expected for BTS concert in Seoul - CHOSUNBIZ",
+    "Link": "https://news.google.com/read/CBMigAFBVV95cUxOTHctencxMVhRcEJBUTQxWTktSHJGRk9xRTJsVUVzcnBPMGo0VDFTXzRiU2tvVVpOZVlDc3hDazRQem5tZmhKdEVkanhZQnZGcmM3XzQ2Yll4d2RwOGhtLUNNbTJKYlZjM1V3WHExRlJxbnl5UXdreHA2OWhOYWhQadIBlAFBVV95cUxPMkVYd2RLaTE1MEFfbnlCM2hNTmtKcHJxN1hVa0labTRCNHh0VjgxY3VwSnZ1UTFfcFhVS2lnRjU5aXRRMW1UdWx3aTZrOWdJMDBMbHhsZFluWE5Ba05uQmp2SGV3WGxmT1FsU05sNlN3VUZpcXZxLURYdTl2bDdQNHd6SU1IZTFLdXZPQ25ETnBJOHZq",
+    "Source": "More",
+    "Published": "4 hours ago",
+    "Datetime": "2026-02-09T03:00:00",
+    "Category": "Chosun Cyber",
+    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://biz.chosun.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109453"
+  },
+  {
     "Title": "SmarterTools hacked via its own product",
     "Link": "https://news.google.com/read/CBMihAFBVV95cUxPT3dzRkdhcjRxUFFvTTdrUERaTHpvdDc5U05lLVdQM0IwOGV4YXAweG92dHBIWkhLYktrMnl3blJjc2lxSzRDeHByRW1JQl9OS1FJUUEyQkhLYWFIb3BQM2t0b3VMU3VmOFA3VG51LVFwczdHWm1wWlVYSEFXZDBoSW10VVg",
     "Source": "More",
-    "Published": "0 minutes ago",
+    "Published": "4 hours ago",
     "Datetime": "2026-02-09T02:50:49",
-    "Category": "VPN Security",
+    "Category": "Risky Business",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://news.risky.biz&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151297"
+    "Scraped_At": "2026-02-09T07:16:49.109455"
   },
   {
-    "Title": "Iran Jails Nobel Peace Prize Laureate Narges Mohammadi for Six Years, Imposes Travel Ban",
-    "Link": "https://news.google.com/read/CBMiiwFBVV95cUxNMkRLMEJxM3gtZTRsTW00YUZjUG9lOENUX3BJODREejlPaWt5eGlESEtUNncwR1VoVjNaYm51UjVsT1hVdE5faVo4aHNiR2lXY3NXUnVvbGx4SnRwdmllQ3RQV1Jrakp2WUx5UkFvWWlhTk5nRkw3WjdxcXU2Uk9ncTh4SWRXblpBLTNR",
+    "Title": "Bad Bunny turns Super Bowl halftime into Puerto Rican love letter with Lady Gaga surprise",
+    "Link": "https://news.google.com/read/CBMi1gFBVV95cUxNYjZ0cWw4Z09tZXRQOEF3c3paYmZCaHRxZmtuN0Z4bVlCRGJGdnk3SUF6YWtzb3ZGQmRYMFNGakVsdGxaR05NbnlOQ2hQUXNvVndBeEpIdnN2MzNid1pkdkFfMVg0cnpvRjJYeTFydTJ0WjZPSHphcTNfNVNwRFd1ZkpYNUkteWVHSGk3RHBXM0FmZ3BCazc1SlJRZUpjSm1xYlNBeWdBSURLUEtGMTJaRnZMcDlWQnRxVEFwQnhvMWtJeE16alU5c1VZbm13UWFpdElfUGtB",
     "Source": "More",
-    "Published": "17 minutes ago",
-    "Datetime": "2026-02-09T02:33:33",
-    "Category": "Iran Cyber",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://the420.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151304"
+    "Published": "4 hours ago",
+    "Datetime": "2026-02-09T02:40:00",
+    "Category": "Reuters Cyber",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109457"
   },
   {
     "Title": "Vulnerabilities have been found in some Bluetooth earphone products sold by Xiaomi that can even ste..",
     "Link": "https://news.google.com/read/CBMiS0FVX3lxTE9oeU11eDZrV0QzX3RJcWhCTzhXV25fUTVKN3ZMNnRMX0oxTjZnOXN0T3RiYjE0LTljS3FQV1dzSW10MGp5dW8xaFhaMA",
     "Source": "More",
-    "Published": "26 minutes ago",
+    "Published": "4 hours ago",
     "Datetime": "2026-02-09T02:24:30",
     "Category": "Vulnerabilities",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.mk.co.kr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151307"
+    "Scraped_At": "2026-02-09T07:16:49.109460"
   },
   {
-    "Title": "Israeli president says ‘we shall overcome this evil’ at Bondi Beach",
-    "Link": "https://news.google.com/read/CBMirwFBVV95cUxNTHdTUWlEMzc3S3RCVHFkN29uS0NpTE5wV0FfdlNtSXBMeUFNZVRqeXptWUtoOWFVNEFfYy13SVgxSVlUMFp1aHVXTTdRWVEtVTE5NC15QkhZaTF1LTl5SklJZE5zeFZNZVZQTkc2NWFGWEpmaXdERWstTnEzU3hJcEZXeVRlUU1IenFVS3l3bUloUmdYUy1ObXkwbkE4aWZqd0V5YkxzLXVuSGlJN0dj",
+    "Title": "George Mason University Korea partners with local defense organizations",
+    "Link": "https://news.google.com/read/CBMivAFBVV95cUxOWFlLbGViSWZVZ3BWR0M5SFNfbkZfWUVseEJSMl9MTWRzRjBTYWd5SzM4bVFLaTlhZEt5YlloSnBLMmduNnZyWjZrcWFFMk1lYVdxQzM2RGY1cnZua3dBUmpEcGd1c3JybWUtS1ZHT3dZaDBrTVVrY3AxSUdjRWRmd0hYd0FDNjZPVm0yMk1YX2N1OXFTdks2T0o4TVM0Tk5UMFI3M0dCb0dRdDVMZnQ1S19iaWNnbmc2X19pWdIBwgFBVV95cUxPWGlXMzNmY0tWSUY4V2NPZGQ1SDJyZzdFSU9ZV0dfOVZpV3VqcFp4VlpRcDBPWGxkQ2FGZnJkemVuM0I1NTA4ZlNQV2xWQ1d5NEk1a21LOUFVcWRFMlVEOE94aHY4VDJtMnd5V25SN3QtenRGVnl4RGZ6Qm4xZTRxbmxrUTJLSXQ0RWpQVWNHSklpeGtORU9td0RWNGlFSTN3eGlzSkhYaHF3eHcxVElYOG96OGNpM0M1WjhxaVUwNUtVZw",
     "Source": "More",
-    "Published": "42 minutes ago",
-    "Datetime": "2026-02-09T02:09:12",
-    "Category": "Middle East Cyber",
-    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.digitaljournal.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151310"
+    "Published": "4 hours ago",
+    "Datetime": "2026-02-09T02:22:03",
+    "Category": "Korea Times",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.koreatimes.co.kr&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109462"
   },
   {
     "Title": "What ASEAN Governments Can Learn from the Russian State-Backed Attacks on Amazon Web Services",
     "Link": "https://news.google.com/read/CBMiswFBVV95cUxQMTQtd0tUYjVNeFNRaC02d1J4Qld5c3FsLTlCeGNKRGhkRmhEQS00QVRmaHByYUZFbVZHTHlnUjNQZ2p6VkktMkYxaXZtTEN3czJNcmNiaVBVRTM3SmtYTGRNQlUyWG1wVjdDdkRrVC1NdUVnV1FPZEZMbklwSTgzTmg3THphVlFlaHVUUkEzOVpxeEZUWFNiOWRlMEhaTGhvbERiSC1qQVVFSDRhaVJOQjRvVQ",
     "Source": "More",
-    "Published": "43 minutes ago",
+    "Published": "5 hours ago",
     "Datetime": "2026-02-09T02:07:43",
     "Category": "Critical Infrastructure",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://fulcrum.sg&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151312"
+    "Scraped_At": "2026-02-09T07:16:49.109465"
   },
   {
     "Title": "Coinone marks 12 years, drives Korea crypto from ETH trading to protection - CHOSUNBIZ",
     "Link": "https://news.google.com/read/CBMigAFBVV95cUxQT3hDMGxmVHo3eGVSdTY0RlZpMklDeUxBLVV5a1pkM1ROVUpKRzd1UENUSllqUE1wbEZHblQwVmxBdFdsSFpacHprb3d3LXBxTE1MQVg3TmlObHNlQUlDLXFfbmU3d1F2T2hxNFVGM1VXTkxjU0laMi1BRkEtQTFSatIBlAFBVV95cUxNX3EzdFdBdm5PeENnSUZ5djFYdnJpdU1TbnNuWUVEZ1Zla0hGR1Y4TFNGQmZSbkd5enJYY2lnZ1VHd1BqbUtqNkEtbDVuWGlxSkdtTG52LWk5NG56REZLUzdMUHdNS05kbzY4dDViM0xRZGtyc0JGWmJ0Q3BVNEtCSDBEbVZsN05FS1BtdTZUeGdleXJ2",
     "Source": "More",
-    "Published": "1 hour ago",
+    "Published": "5 hours ago",
     "Datetime": "2026-02-09T01:48:00",
     "Category": "Chosun Cyber",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://biz.chosun.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151315"
+    "Scraped_At": "2026-02-09T07:16:49.109467"
   },
   {
-    "Title": "Fragrance cos attract funds; fintechs up marketing game",
-    "Link": "https://news.google.com/read/CBMi2gFBVV95cUxQdFlFamhZb213ejB2b054XzBtOEpiaGxIcnJhM29oQVNiYzRvQlBIMG9Dbk1WUURzT3dfT3hMYklRc0s3VjhaN3FJYk44UnVjR3pwcEpSaFhUQXhGRGJGcmpSVzNyUjJjWVlNWHlRbVBKeVZ5c1RtZzN6VkFMdFNIeTUzSVhHSEtvbFhtYmVYSGNwSHFSMzZieVg3MU1NVHg0YkNydkNxbmdaOXFyUW1TemdWMWNXZFdLZmQ0ZjJkVW5kTzBCQzN5OUhhTWFpYkpVN3RnMVA5NjNMZ9IB3wFBVV95cUxQVmM4bFZSX3pCZVp1MEY3RGdjZjNSSXNtYzlhZEdmb1ltbDVnTG9ROFZUcEdzNDlqRV9Yd3JER1VfR1VYcHR2Nk1KallRYUJZVlR1dmlnMld1VzVsMU13VTZPMFRHaVplS1ZfV2J5NU9WMzJRMVFzZ2JrblMzVHoyeXZtZ09weWFCbGhSa24tTjdjNnc4bzFmeHFZVTF1NndLTUNnWG1MUG83Nzg0MTM5VU9TMWNLNnVqQnZMLUtfZ2dYaTdMSThDdVlvRTM4aEVic1pTRUpFX3pENWlmMF8w",
+    "Title": "Live Nation executives in talks with DOJ to avert trial, Semafor reports",
+    "Link": "https://news.google.com/read/CBMi2AFBVV95cUxOdFAtUU9xaGJTZjNpQzBocGwxcWJQWklFb3RsVHZ2SC1fMEJ2VUxDVWtHOTBEZWFFWHFWTnhrQnpiTi1TbzRJOEhmN09iNlhtVy1FbTVIeEZYckUtS1Z5NXpnS1M1QnV2UlhuZE4tZTNpSWFqeWFtUkdQZldsb0NRUXFWbzBtanRmazA4eDdxc3NzM0dxQTlzWG5mc095Ri1YQjBDYUlWQjVFZm03Y00yZkdKVGpYaG5UYmdzSnZkMVI0YVpvOWZKRTF2R2w5Nm5lckM2WTdyVTY",
     "Source": "More",
-    "Published": "1 hour ago",
-    "Datetime": "2026-02-09T01:35:00",
-    "Category": "Hackers",
-    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151317"
+    "Published": "5 hours ago",
+    "Datetime": "2026-02-09T01:39:00",
+    "Category": "Reuters Cyber",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109469"
   },
   {
-    "Title": "Historic Win Pits Takaichi’s Vision of Japan Against Bond Market",
+    "Title": "Historic Win Pits Takaichi’s Vision of Japan Against the Markets",
     "Link": "https://news.google.com/read/CBMitgFBVV95cUxNMHpuYW55eUE1c3pXd05zUGdyamwwU1VVMVNOblVVSmU1OUZNZkxXRzhYNVVpT1BLVkl2YjJKLUNTVmI5ZmFrRGFObUlTWW14WWFVVG93LUoxUFhQLUxvQUpoQUxONHBLcXEzMVd0Qjl2aElydjZoM28xbjVpV04tU0hLd0lyc2c0NnpzOUlGcC1TZVd5SGVBNC1Ic3hGNkV3R0xkd25FSWdBdzVrOFNyeWhXaThBQQ",
     "Source": "More",
-    "Published": "1 hour ago",
+    "Published": "6 hours ago",
     "Datetime": "2026-02-09T01:07:00",
     "Category": "Bloomberg Cyber",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.bloomberg.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151322"
-  },
-  {
-    "Title": "Fortinet fostering cyber security workers for tomorrow",
-    "Link": "https://news.google.com/read/CBMiowFBVV95cUxNelplSU13Sm9oODF6TVl0VEFydVZzNkFJZUZLRXcwZk0wTWlSNk0xVHBvd0RNQXNXdUhDeHIzU1cwaFh4TWUtbzUwR2kxRXFMLTFJOGl3UEtDZGdKM0NZOWhhTnp0VXBkRUtmU2ZCOHFnbHdwVlE1R253cXpTT2lHQkY2RWk0MmxCWGlHdmU0SzVncWY3cVJ2OXpUQTZMcjdTOW4w",
-    "Source": "More",
-    "Published": "1 hour ago",
-    "Datetime": "2026-02-09T01:00:46",
-    "Category": "AI Security",
-    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.arnnet.com.au&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151325"
+    "Scraped_At": "2026-02-09T07:16:49.109472"
   },
   {
     "Title": "Genians expands bug bounty across all products to boost security in Korea - CHOSUNBIZ",
     "Link": "https://news.google.com/read/CBMiekFVX3lxTE1oN2JSRWlQMUtzOW9sUXdibXNkdlpXcmJlbXBxOXdFcUExYUNIbE8xM3hDVU1FQU91Q2dBRk1TaDRNVGsxaDUxQ3hKRkNPd3J5eTR3bmhYMkV0Q2xKXzRTQ0FqMXpNdXViVmxqX0ptbnloc3dFWVBpTjFn0gGOAUFVX3lxTE15QmlxMkpndWZwM0ktSjVHaE53bUhoQlBTazdRc3h1VlA5dXMzRWdQdEdGY2FESmN3SW1Sa29hWUFHREN3cTg1YW12empmdmtUNVNIbHROWUtmV2JLVmNlU3kxYWhNN05qdDFPeVh3aG5NcE5TUTZob1VjYmRsNWcyajJKVUVDVFdvUU9OZUE",
     "Source": "More",
-    "Published": "1 hour ago",
+    "Published": "6 hours ago",
     "Datetime": "2026-02-09T01:00:00",
     "Category": "Chosun Cyber",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://biz.chosun.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151328"
+    "Scraped_At": "2026-02-09T07:16:49.109474"
   },
   {
     "Title": "Japanese stocks soar to record after Sanae Takaichi’s landslide election win",
     "Link": "https://news.google.com/read/CBMicEFVX3lxTE5JdVJFSTJWYTRvVDdJM0NPRWpzSDZKZkYxcEM2MnNnNzRzX0t2MFNWR2hWMHFBSkZpZk5WSVc1ckdidTVtaW9rcXB2Mi0wUXpUNW1XU3I5TEhTR2c0cUgtZnhJWURxcG1BclpCU042WEM",
     "Source": "More",
-    "Published": "1 hour ago",
+    "Published": "6 hours ago",
     "Datetime": "2026-02-09T00:59:01",
     "Category": "FT Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ft.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151330"
-  },
-  {
-    "Title": "Linus Torvalds confirms next Linux will be version 7.0",
-    "Link": "https://news.google.com/read/CBMiakFVX3lxTE5BZEJDR3I1bExYUmRMTDhFeERNZm5xcE9iNldqVWkwOEJoUGZ6WldYdzlKQjM1WnBVaDhiN3dIMHFRQml0NFRtVWdGVnlfeUpYUXlOc2JiNlJhb0VTOXRqc0IzemUweDJVc1E",
-    "Source": "More",
-    "Published": "2 hours ago",
-    "Datetime": "2026-02-09T00:44:00",
-    "Category": "Salt Typhoon",
-    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.theregister.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151333"
+    "Scraped_At": "2026-02-09T07:16:49.109476"
   },
   {
     "Title": "Flickr moves to contain data exposure, warns users of phishing",
     "Link": "https://news.google.com/read/CBMiswFBVV95cUxQN1laX3drN2t3d1FGdFo4YmRoX1l5RE05VWs1U1YzZGdqVVNhM1hYdFV2WDRhNC14VVN2VWJHeFQ3Ykd1bnVPUXR4MlFFUk9faFN0MFVYUUJNZzdEZ3RSYXBadjZPYzRXN0VtdWZ5Q25GVFFLZHBieTBKdFRWTTEzZ2c4bURlRHBwWUZBaV9JSTFTQnQyU21SQ3pTVTdLUDdsSVJHNW1yU2JoZjZQUmV2YTBRc9IBuAFBVV95cUxOb2gyWXdMc2FfREJaSWhqQ05yTTBZTDVKdXA0SlBiRDNQZXUyYkdnMzR6M3pDdGFHbEl1YlRSNnhLN09EaVRGWU96Q2Q2TGtFQjhESHVqR3VKNHR5UU9JTlpndmVnT1RmMDNqcFVwUDFybUk3VU5jUWlzRDlFVzIybG5hYmtuVTNlS3hQa1YyTWx4X1ZVSk9fZm5FM0FidmxRbV9XbjJGS0FteVNtVEV0VVk0ZjdBalU2",
     "Source": "More",
-    "Published": "2 hours ago",
+    "Published": "6 hours ago",
     "Datetime": "2026-02-09T00:34:53",
     "Category": "Data Breach",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://securityaffairs.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151335"
+    "Scraped_At": "2026-02-09T07:16:49.109479"
   },
   {
-    "Title": "Apple releases urgent iOS update to fix security flaws actively exploited by hackers",
-    "Link": "https://news.google.com/read/CBMixAFBVV95cUxPSF96ZTNHaFlSbW9xaFNWbzNBZWYwemxnSDNDMzk1ak9Bbmw4Si1NNDFJT1d4cnNRZFpjRmxLSWJDY29PM3FCa0JNTzY3MnZvVnhnbEt3bXE5SnBYRkxxSHFtd0FZSHdpVVJiM0NLN3ZVdUw0WWJCeXhSajNONWEwYnBmdWtmWlBicTdxV3g5QXNkRDBaRmdXWGJzbVRTQlprZHlBQlVxSjhfaVRNUjd2NXRmbFVldVhjRGl2bDMtOHhEdFBx0gHEAUFVX3lxTE9IX3plM0doWVJtb3FoU1ZvM0FlZjB6bGdIM0MzOTVqT0FubDhKLU00MUlPV3hyc1FkWmNGbEtJYkNjb08zcUJrQk1PNjcydm9WeGdsS3dtcTlKcFhGTHFIcW13QVlId2lVUmIzQ0s3dlV1TDRZYkJ5eFJqM041YTBicGZ1a2ZaUGJxN3FXeDlBc2REMFpGZ1dYYnNtVFNCWmtkeUFCVXFKOF9pVE1SN3Y1dGZsVWV1WGNEaXZsMy04eER0UHE",
+    "Title": "How Hackers Use Deception to Breach Your Security Cybercriminals often use these three psychological triggers to gain access to your sensitive data: - Urgency & Fear: \"Your account will be locked!\" This panic-inducing tactic forces a quick, unthinking click. - I",
+    "Link": "https://news.google.com/read/CBMizgFBVV95cUxQTFpWUUFmSXpudG5CRDZ4bmRuYzNjbGh6U3AwZ0Y4UDRlQnRRVkJIemZKZVJGQTU2Y1lqUkZFLTBuRUxmYlI5YVpaS3VYM3A1dFp5N05kSmpEaExkRnV5SDR5ZHlxeXQ5cGFkbks5c3dMTVV4YUZYRzdlZE1EcHRDYWJNU2Y2cWNsZ19YRkVOOHU3WGFTUGJpNXB1dU1RTzVEc2ZLcGJRYnVmWWtjemRjWEd4ZGdsMjRvNDFpejlGdzB4ZkI2UnhHbFF6ZXYxZ9IB0wFBVV95cUxOTlF3WkpNWHVrT3dYeEdnVnNmUXFnRnhydEt6RHo0YzhkN2FEOFREZ2g5dXV1OUtMSGNVMG1sdnI2Wno1UnNmQ3UxQTE3cmswLWxQYTdNdlg5U0g2SGZXbmxsRGdHaFZEaDA5WmN0ajdBN1dFcVJOT3p6a0IzTlN4NU4xMHpwQ25ldC1YeHBoQnFqX0JqX1hrc2p1OTVLM0psY29uY25Wb29SUkJfTm4tUnFCSmJFQTVMclczNnV6djVNUnE2bnBOMGNxQ1ZIeURDZUVZ",
     "Source": "More",
-    "Published": "2 hours ago",
-    "Datetime": "2026-02-09T00:29:48",
-    "Category": "Zero Days",
-    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.mixvale.com.br&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151338"
+    "Published": "6 hours ago",
+    "Datetime": "2026-02-09T00:30:00",
+    "Category": "Hackers",
+    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109481"
+  },
+  {
+    "Title": "UK jobs downturn abates slightly, starting pay stronger, REC/KPMG say",
+    "Link": "https://news.google.com/read/CBMi4AFBVV95cUxOZVFnVDFTMWpQc191cU5UWHd1RnFVWkNTMmh3elEwQW9GUWxxZ0tqV1QyN0wycTJyQ2NNRlNGbmxHeGtiaFcxX1E1WW43WXZqUkN2Z0tkLUpmci1URE9wbGhKdWNWSnIzWjM3bDZQTTJzSjFvd1VQMWMyUkhuY2sydlpmTXBoU3BOakxrRUNwbGk4VEpfTm5rWnh6ZW5SYmYxcWM0RE5GN3pEWmNxSktLbmloWGExSjVaM2NPWl8xdVVrbjU3RmZpT2NEUmMzMXZ5YnVCY2xBdzMxX3YwQ1VyQQ",
+    "Source": "More",
+    "Published": "7 hours ago",
+    "Datetime": "2026-02-09T00:07:00",
+    "Category": "Reuters Cyber",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109494"
   },
   {
     "Title": "Khamenei's digital plan out? US exploits loopholes in S-300 & Bavar-373, radars Iran's last hope? | Hindustan Times",
     "Link": "https://news.google.com/read/CBMioAFBVV95cUxNTVF2MVdBSHZJRTJtc2tFS2todEZaT3BPYzFtOU9EQk1ab0NIVFE3VHJjUmVjNEM4YVJ0aHJXZ0JxSFBfd1NMcDRsNlJ5bWFiVllQbTJ5cUQ4REpFa09Uek9EblQ2OVdEVTc1R1ozY1VNSUc3bnJpYVBxY2JyZ25mMDJJTm5NNG4wYy1YdmlzOFFwNDl4OUdvQlUtcWNGZGcw",
     "Source": "More",
-    "Published": "2 hours ago",
+    "Published": "7 hours ago",
     "Datetime": "2026-02-09T00:04:34",
     "Category": "Iran Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.article19.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151340"
+    "Scraped_At": "2026-02-09T07:16:49.109497"
   },
   {
     "Title": "UK universities told to step up defences against intimidation by China",
     "Link": "https://news.google.com/read/CBMicEFVX3lxTE41VExRRjNWd3Fub3JfSjNIZWx2MGVIOWJyTFQ0SVloVUhwd1BEUWxKaEczRXVUakVZWnlLVVNsN3IxdXZuM010TzJDVlYyMVZfZzlKTHlTcTc5TUZmN3A1a1dYWHNrVWp1cmJOWjRFYzE",
     "Source": "More",
-    "Published": "2 hours ago",
+    "Published": "7 hours ago",
     "Datetime": "2026-02-09T00:01:04",
     "Category": "FT Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ft.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151342"
+    "Scraped_At": "2026-02-09T07:16:49.109499"
   },
   {
     "Title": "UK Spy Chiefs Warn Political Parties on Foreign Interference",
-    "Link": "https://news.google.com/read/CBMizAFBVV95cUxPVTB4bmU2R2J2dG1KbHdWaW4tS0NlZm5Rdm9jbkJJaktxTUhvSVhEUVNEamk3bGJNSFJPT3Ryc2pBdjJwa0pnZDlJczJoSUlPdXBwN3I4VUVFVUFIX2NDbGJuNFlqbXJsQ3pld19EUnF6X2F5elJmamxJOEJNLTU5RHZaX0xJS041aWFRZ2dfcnVzWFJrYW5yV3VnVnE3N0dPWFVTOEE0UHJrRlAtRVdqNVBHVWFRRE5UeTEwbHRsUVJQbzVEU2pqNVgxdVU",
+    "Link": "https://news.google.com/read/CBMisAFBVV95cUxOVmR0RElfV1lqVlJTenlMU1RxNFNOYUFLaFZ3UHhjdTJqSUdIYVplRUJDUDc1VWNZLXFWQjVJZWNuckpTS2I1eTRCaTlQMmlZMUV5Zjh0Sm5HMkFTY1VWbm1BTkJCQnY0X25QVVprdkgzVEhfc1hacUQ0SkJ6cHMxVktqQ2ZudGN0ajVWb0xmSlBNMnRLQW8xZlplaFFRSWk0Z1VFejA5QmZyNl9uRWhPag",
     "Source": "More",
-    "Published": "2 hours ago",
+    "Published": "7 hours ago",
     "Datetime": "2026-02-09T00:01:00",
     "Category": "Bloomberg Cyber",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.bloomberg.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151345"
+    "Scraped_At": "2026-02-09T07:16:49.109502"
   },
   {
     "Title": "Genetec report finds healthcare ramping up hybrid-cloud and AI security",
     "Link": "https://news.google.com/read/CBMiqgFBVV95cUxNMWVrZ1RVT3VwXzZEOGZxbEc3QWFSX3RVaWhJOXBmUUNwRHdha3c4TEJ4T093andTRkhfQ0RHSGJPNDlodEdIa3pzRVUyQ2dFcUVWNVdzV2ZrWGVBVmpnZXVSc3hQQU9PWXNNM0Y1eHp3ZDZlLWV6VUk0LXBXQ1dDYWR4N1huRzhZeGZjaHdVazNNUU85Q0FZTGcyWWFXRVRLLURYLUFRak9Ldw",
     "Source": "More",
-    "Published": "3 hours ago",
+    "Published": "7 hours ago",
     "Datetime": "2026-02-08T23:45:00",
     "Category": "AI Security",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://securitybrief.com.au&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151347"
+    "Scraped_At": "2026-02-09T07:16:49.109504"
   },
   {
-    "Title": "The Situation: “It Used To Be a Beautiful Building”",
+    "Title": "How Israel’s War in Gaza (Partially) Rehabilitated Counterinsurgency Theory",
     "Link": "https://news.google.com/read/CBMikAFBVV95cUxPVmJBenRDRlhWclQ5NDMzbHFZXzFpbUxNVzE0UThSaVFYM1ctbVNRTnU0aGRwdE4xeU5ZTWZqRE1jQUtRbG5rN1pwbUotbFd6c3RaMWhFcFJHWjNnQXJLWnpHSVRpOGVLOHJTZEtoaXdqS3hsdGsyc0lQZFhJcUsybEFUcW95bWJLVEJLa0VNdzI",
     "Source": "More",
-    "Published": "3 hours ago",
+    "Published": "7 hours ago",
     "Datetime": "2026-02-08T23:33:58",
     "Category": "Lawfare",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.lawfaremedia.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151350"
+    "Scraped_At": "2026-02-09T07:16:49.109507"
+  },
+  {
+    "Title": "Tradecraft Tuesday | Hiding in Plain Sight - AppDomainManager Injection",
+    "Link": "https://news.google.com/read/CBMikwFBVV95cUxQWmg0U2lxcExMNzh1MVpBM0Z5TVlnTXBjRHg1X1dXc0sxdlNTMWM5ZUFrQk9aZDhaSVlmOExWUW9PZjJneUJTNlJtSEJROVR6eDNqOFdJOHRZcmZ5b0c1d1o2RXBZN2hqWVVpektPOHk4eXIyWkgxaDlwTjJ6T3ZiN0VuV1c0NDVJMTdmLVJFdVJfVTA",
+    "Source": "More",
+    "Published": "7 hours ago",
+    "Datetime": "2026-02-08T23:28:02",
+    "Category": "Huntress",
+    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.huntress.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109509"
   },
   {
     "Title": "Editorial: 620,000 Won Mistake: 61 Trillion Won Deposit, Shoddy Virtual Asset Exchange",
     "Link": "https://news.google.com/read/CBMihwFBVV95cUxQYkZCS3NZd2ZRUDQ4eG4wS1d4VloxVzRrR24xMlB5ZS01SXdDelc4SUJvR1dFOE9fSjlCZzg1X0dCaVJtZHI3d25zT3hiNkYwQ0JtU0dZbnRDS1J5Y0lNdnQzSDVFTkVLRXBlci1KMmo0elVFWkNId05oOW5Hdm1EU2I3ZWFxMms",
     "Source": "More",
-    "Published": "3 hours ago",
+    "Published": "7 hours ago",
     "Datetime": "2026-02-08T23:17:41",
     "Category": "North Korea Cyber",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.chosun.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151352"
+    "Scraped_At": "2026-02-09T07:16:49.109511"
   },
   {
     "Title": "Amazon’s ‘Melania’ documentary stumbles in second weekend",
     "Link": "https://news.google.com/read/CBMikwFBVV95cUxNbFYzanp3Yk51ZExYeGgwWnFlc0VQMDRrTjc4X3M0RzVGTGlLSDFlZ1hHTUlJd3FwSE1lazlTSXhmRXE3RU0xNGozSHE0MTEzY2hMMWxRd19Gc1FRaWJ1eGx5aHVDcFhic0hOQ21kMzhaeVFDLVRJRVVON3dNdHluSXpIekJGbVZpNzhkUlVtV2FPUG8",
     "Source": "More",
-    "Published": "4 hours ago",
+    "Published": "8 hours ago",
     "Datetime": "2026-02-08T22:41:31",
     "Category": "TechCrunch Security",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://techcrunch.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151354"
+    "Scraped_At": "2026-02-09T07:16:49.109514"
   },
   {
     "Title": "Verizon breaks silence on massive outage. Here's what they said.",
     "Link": "https://news.google.com/read/CBMidEFVX3lxTE1HclZQTVZlN1pLejlQOXlVX0pvd1lmSnZqWGwxZExySXBlbjAyNWdlMy10bmREOUU2dll6czhtTHZ4MWIwdEhTejA0Z054U2tVcWg1RUR5YWpITF9tME03QktYNXRweWMxaTVTWXVzRHZrUFpE",
     "Source": "More",
-    "Published": "4 hours ago",
+    "Published": "8 hours ago",
     "Datetime": "2026-02-08T22:25:57",
     "Category": "Cyber Attacks",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://mashable.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151357"
+    "Scraped_At": "2026-02-09T07:16:49.109516"
   },
   {
-    "Title": "Senator doesn't trust telcos on Salt Typhoon mitigations",
+    "Title": "Linus Torvalds keeps his ‘fingers and toes’ rule by decreeing next Linux will be version 7.0",
     "Link": "https://news.google.com/read/CBMibkFVX3lxTE1JNUFfVERILXpxdDdmajd1WnJKNUxSQ0k3alZEd1dHQkEtaUt0UVJJR3NtU3NvbGotcDRDNXFieGsybDVYYnNxM1pTNWpTV3EzLVd1T1FvdnpNb1JWeFhVTDB0a2cySUtCTlVxYm13",
     "Source": "More",
-    "Published": "4 hours ago",
+    "Published": "8 hours ago",
     "Datetime": "2026-02-08T22:25:00",
     "Category": "The Register",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.theregister.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151359"
+    "Scraped_At": "2026-02-09T07:16:49.109518"
   },
   {
     "Title": "Address poisoning attack persist as Ethereum sets new daily transaction record",
     "Link": "https://news.google.com/read/CBMifkFVX3lxTFA0cnpGVENDWW1oN19DeFFZVFM4WUhXY25CM1kycjF2MVQ2aWNESGpha1BGejd6bXU4WkVHcnVKVUdhTGIyZjNndklpQjJ5eUJFRmNJWHBaTFRMcE9wMmpHSmJiQ1A5WGtnQVJNM0pKY2ZHRjhJQnJwYmxGRVdNUQ",
     "Source": "More",
-    "Published": "4 hours ago",
+    "Published": "9 hours ago",
     "Datetime": "2026-02-08T22:12:00",
     "Category": "Phishing",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cryptopolitan.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151362"
+    "Scraped_At": "2026-02-09T07:16:49.109521"
   },
   {
     "Title": "‘Melania’ Grosses Another $2.37 Million At Domestic Box Office—67% Decline From First Weekend",
     "Link": "https://news.google.com/read/CBMizwFBVV95cUxQVWRGWEJteTdrX1k4SHdLS193bEttVFhVSzhBME1YbjV3dlMxUy1tbFo3OE1URlowaTI4SmZGUXktM3ZzMFl6bExaSkR4a3N5aHNVcGhRQlZZYmZYcU95ZE1MNThGbzd1N3M2WGhlSjUyekF6ajA1S1oycUhIUFdQdHBnbUI5UGsxZkVOeTVhTjVUOGtod3h0SENQTklCYXVHMlR1Ny1wS3VQS1hLb1RqUDY3SVZlMWM0MXBkLUFGS3BVWnZadll4Mi1JemF4RDQ",
     "Source": "More",
-    "Published": "4 hours ago",
+    "Published": "9 hours ago",
     "Datetime": "2026-02-08T22:10:56",
     "Category": "Forbes Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.forbes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151364"
+    "Scraped_At": "2026-02-09T07:16:49.109523"
   },
   {
-    "Title": "connections - The New York Times",
-    "Link": "https://news.google.com/read/CBMidkFVX3lxTE1sSGM2SUE2d0ZBRU5LR3pLWk80ZFJLOHVmaFFLLXZnVm9KLXFHSzZaa2Fkb3Q4R2tKZjhqdVNqOGRvQmRMbFhZVzhfRVFldkMtVmlKd3E2VWdwWmFSRmk3SnZmaEx3ZkJYZ2hxMm50Z0lfWldDd1E",
+    "Title": "Leading China critic Jimmy Lai sentenced to 20 years in jail after Hong Kong security trial",
+    "Link": "https://news.google.com/read/CBMizgFBVV95cUxPUmlURnhJT21pSlRzY1NwTEoyQVlxVE5ybGUyXzVfOWxyclpsWjZoYUtwd3g1WWlzdVJudTFpNUxSZnBZa01NTGxNMnh6ZjBDN3owUmlOSk1BVFpyVUxOUmhiNlFfSTdzd0pTc2FHbTRPcFgwWFBjUWhZeXZxeW9hVzBraXZpWkMzQmJjWVpYbEItbkVvMzROME9jTldSN0JQbXpQRXFvU2lOcl8xemdjUkJOSmNTTURNOUNfVjlwLUZQOENOLXJFSW4xSl85UQ",
     "Source": "More",
-    "Published": "5 hours ago",
-    "Datetime": "2026-02-08T21:48:02",
-    "Category": "NYT Cyber",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151367"
+    "Published": "9 hours ago",
+    "Datetime": "2026-02-08T22:02:02",
+    "Category": "Reuters Cyber",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109525"
   },
   {
     "Title": "Shadow Campaigns: Asia-Linked Espionage Group Breaches Government and Critical Infrastructure Networks Worldwide",
     "Link": "https://news.google.com/read/CBMihgJBVV95cUxNWXNlajEwMEd1Qnc4d0VFdzFLSmJuN1hpbWVwci00cUluRFJTUWQ5US1uQ3NIZzA0Q1BLZG02UXBLZ2NGMEhBRWZIaV9STm5xNnRsTmVPTW1BdkVqeE5mQ19ia3RsMG1jME14RFhMOVJPX2JVYTdhVnAwZHN5V1lTUDZZWWVFcTR5VDhwbFFlVGE4b2dVakcxeG1XdFhVajIwZjZXTjRVd1UwTC1MNEFqMmdZQkg0OGZaUmhRellIV3EzZVQyNk1UNzhFWlNXWk81TVU5MkZSZXZaU2R4R1Z6RVJiYkZfaHBVSC13QWVvQzNoYktWcFhzWXZNQkg3ZjhMWEs2cTRB",
     "Source": "More",
-    "Published": "5 hours ago",
+    "Published": "9 hours ago",
     "Datetime": "2026-02-08T21:30:00",
     "Category": "Volt Typhoon",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.guampdn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151369"
+    "Scraped_At": "2026-02-09T07:16:49.109528"
+  },
+  {
+    "Title": "New Epstein Files Reveal More Powerful Connections: Musk And Zuckerberg Seen In Dinner Photo",
+    "Link": "https://news.google.com/read/CBMi3gFBVV95cUxNYjgyMFBfcFRRajlSYU5qM3RXU2NVUGpvUVN2YzZ6V1hZbGRvYkdSY0J6YUxvUWRQdU5nRzk2cHNPMGVpOVF3YUxmSjV5YWdTUWI0ZXNoMzdHLXo3V3Y3bU50aDhVRU9ob1JFTGlRMjhnYUx0WVp5d05ZSmdJUXlhRVVSUTd6cm0zOHRRcXVOQU1uQXNmR3FEcjhFeC1BVWZLWlJNSmw0NkgtdlJfZE1rSjg2TE5JODRab255MGpoNk9HMmFmWDIyRGI2Tk1tczBlVXdPZlhpUGpVa0xqNUE",
+    "Source": "More",
+    "Published": "9 hours ago",
+    "Datetime": "2026-02-08T21:19:00",
+    "Category": "Forbes Cyber",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.forbes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109530"
   },
   {
     "Title": "Rising AI demands could make PCs obsolete",
     "Link": "https://news.google.com/read/CBMinAFBVV95cUxNclE2V0VTN3lpLWc4TXdiaWJTNmFGY2lpWUFWeDkzR3NXdFhOeG15SktfZ2dBbEVBdDZCNzdINlFqRGN0Uk85YmVka1Z0OHRkM2xNYWs1RXd3cnhZaENCVVU2NWk1YWRBdWxZUzB3c3FfQTJpcmctdmFFS0Yzb3BwMVdCUnFBenBCenJvcEVwellFNEtkc1djZENzSFM",
     "Source": "More",
-    "Published": "5 hours ago",
+    "Published": "9 hours ago",
     "Datetime": "2026-02-08T21:15:34",
     "Category": "CyberNews",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://cybernews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151371"
+    "Scraped_At": "2026-02-09T07:16:49.109532"
   },
   {
-    "Title": "How Hackers Use Deception to Breach Your Security Cybercriminals often use these three psychological triggers to gain access to your sensitive data: - Urgency & Fear: \"Your account will be locked!\" This panic-inducing tactic forces a quick, unthinking click. - I",
-    "Link": "https://news.google.com/read/CBMiiwFBVV95cUxNUDlUTUE5bm1nWFRHRElCRlJ0ZVRYelMwOW9SdDdxXzVnN3ExT3hweEZId3U3aDlmajd5YjZBNm1SLVB3V1U5d0dveVVkYjFUbnFHaS1vQnc5elgxX2N1MzFVd2dfT1Rmc3E3YzdnXzQ0VlpJMFJhQWZPLUVRdkhtR3g3aXc4TVY3OW84",
+    "Title": "Forum: Clear cybersecurity baseline needed in healthcare sector",
+    "Link": "https://news.google.com/read/CBMiqAFBVV95cUxPcTZUTTlUWGl4WGcwYjZWVUlabU5JYXJpZmZ6dUJTVVpnWHpoVWdoU1cyTTNrRmdZSEl2cVZweUE0eTc1eWtETWNTRU9TOWdFMDZuRkR0TFI2S0EzUFU3YXFScmNjWHF0T29zaEJwdjlJeUNBelFuTExiWU1YMW5SNmdNTHNSc2VVaUgwUlBaQ0hnaXMwNDNmYXZVbEZZZTMxdkNPcF95MU0",
     "Source": "More",
-    "Published": "6 hours ago",
-    "Datetime": "2026-02-08T20:39:19",
-    "Category": "Hackers",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.aol.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151373"
+    "Published": "10 hours ago",
+    "Datetime": "2026-02-08T21:00:00",
+    "Category": "Healthcare Security",
+    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.straitstimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109535"
   },
   {
     "Title": "Crypto.com places $70M bet on AI.com domain ahead of Super Bowl",
     "Link": "https://news.google.com/read/CBMingFBVV95cUxNTjkydlZhM28xZUdnOFY5WG5sRFFnTDEtMzhFZFdfNm56NTFVOG11cERXUExIM2VJVXNiNTZHZERQZmhEc0kyVmdaUGJncF9aM2VwVlhEZUxUbjVGM3hZR2t3RlFfbmpWOFhEbS1NSDV3all1eGlmY0dScW4tUjUwMEZJTnhSem82NHU2a3lfSkFmbjdzd0JUS3h2OGYwdw",
     "Source": "More",
-    "Published": "6 hours ago",
+    "Published": "10 hours ago",
     "Datetime": "2026-02-08T20:19:47",
     "Category": "TechCrunch Security",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://techcrunch.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151376"
-  },
-  {
-    "Title": "Quantum Computing Stocks To Add to Your Watchlist - February 8th",
-    "Link": "https://news.google.com/read/CBMitwFBVV95cUxPOHg1d3o2Wk1HdjE1QzB3bW1BYzE2b1p1RGRqQkZ4UjBwSTFWZU13a1cwMDl4WldESWdTWkhXYVVvUS1jTVp5NVhkUUdBTjVqYjR6Ql9yY2pxeE5WMEU0UWZRaDRiaTkteC1xYVBGeGRMRUJZU1pta0VSVjJGSzlNcFhGR0hHMEJrNEJQNUIxYzRFM2Q4WWZOLXJhTjFWTC02N0c2NThqakYyLWtXTDlkdlZPMEk2RFU",
-    "Source": "More",
-    "Published": "6 hours ago",
-    "Datetime": "2026-02-08T20:15:41",
-    "Category": "Quantum Threats",
-    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.marketbeat.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151378"
+    "Scraped_At": "2026-02-09T07:16:49.109537"
   },
   {
     "Title": "Substack data breach exposed users’ emails and phone numbers",
     "Link": "https://news.google.com/read/CBMiwwJBVV95cUxQVTFDR3cwbEM5YzFJeXhWVlJyelpRd0lKaDlCVUl0MnotZVo5dEVaVE1WNWdWZHgxOFowWUE3MVYwQmNDTnJhSm91UDJXR3N4dzVOdEtnVzNWVGkyRXVNWjJfeThUWHpVT0dGbllxUWg0V2lLOGRVRFY1amo5dlpuQUpGZDlWYVE3UW9KNkU3YUhlbno0Nkp6Qkhhc01Qb3ZZUjV5cVNlV1k2ZW5oNTJ4WWFLZkJuXy1KbE56cVFRTzNCdndtRXpUZDZoTEdkbTZBc2tudXJtd1VhZjZ3VmIxNjhaNkpsOEI2QWZ2R2RzTkpJZmE0SHVZWHh3VmZQeDQxTHAtaGVOdGl3UlozRVczQXplZ1hFaS0wd0ZSd3JOZ2V3OFZxWTkzbHJ2b3preVZ3MDBrMkVEdVBHRnBQdTk4UjMzUQ",
     "Source": "More",
-    "Published": "6 hours ago",
+    "Published": "11 hours ago",
     "Datetime": "2026-02-08T20:00:30",
     "Category": "Data Breach",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=http://www.msn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151380"
+    "Scraped_At": "2026-02-09T07:16:49.109539"
   },
   {
     "Title": "February 08: Conduent Data Breach Balloons; SEC, Liability Risks Mount",
     "Link": "https://news.google.com/read/CBMinAFBVV95cUxQaWRPbkxxVl9LbW8tSDZPaFVJWFNFZm1PdmpQTEY3Qk8yejFjZXNqejhaeXRnVm1DSFBKelNtRTFqX3pueWdMN1hKVVVkc25NRXNMZkZfYnd4QUF5RjFTQTdNUnlDMzZ3UGxib01SdDA2TUQzRjlHSm96M2hnYWZMeXBNVnhsalBaOThBNG9qNlJEV0V5QkFzdWZkRUw",
     "Source": "More",
-    "Published": "6 hours ago",
+    "Published": "11 hours ago",
     "Datetime": "2026-02-08T19:56:29",
     "Category": "Data Breach",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://meyka.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151382"
+    "Scraped_At": "2026-02-09T07:16:49.109542"
   },
   {
-    "Title": "Why Email Security Matters In today’s landscape, cybersecurity is everyone’s responsibility. Protecting your digital identity starts with basic infosec habits. By implementing MFA and practicing phishing awareness, you significantly reduce your risk of a data bre",
+    "Title": "WVU Cyber-Resilience Resource Center finds niche in AI world",
     "Link": "https://news.google.com/read/CBMinAFBVV95cUxOM2pUSS1yTjY1ZFg5MUppOVhxTG1iMVczT2dEMlhlSkl3cVI5YzF0NlB3TzNfakNBSjVvYU9nMEo3d0trdmd2OUxrOXJfQ0pYcl9CaWhBdzJXWXlyVXRyekxjMTlnSFJZVWtUTWxVOTBBZVVsbFk4UXRyU1h6UDVjdmNidm9pQmptWF9OX2p1UnRPUzVuX2ltYVFNVWs",
     "Source": "More",
-    "Published": "7 hours ago",
+    "Published": "11 hours ago",
     "Datetime": "2026-02-08T19:26:35",
     "Category": "Cyber Attacks",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://wvmetronews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151385"
-  },
-  {
-    "Title": "Mark Zuckerberg And Elon Musk Seen At Dinner In Epstein Files Photo",
-    "Link": "https://news.google.com/read/CBMivAFBVV95cUxPUHhGVUVDc1VDbVhwRjFCdnV5MVNrVGRrVDJzWU95VG11Q3NGYUpFQjg3UlROYjVqamgyQk9QOHIyc0lsSHRTZ1BObGxuZGxnM0o1QUlUWnRvZUtKbGgyM3FjdkZUY29qZGwxQll6WFJ4Y1Z5MGRCVHQ5ck5CMDVZM3doR0NKM3JKNzR2T3ptNEQ5NENBQjdqR2hiNm0tUTFmTmc4UUtnZG9FbGJSNVZoN0JaTm9CVkV4Yy1JbQ",
-    "Source": "More",
-    "Published": "7 hours ago",
-    "Datetime": "2026-02-08T19:25:59",
-    "Category": "Forbes Cyber",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.forbes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151387"
+    "Scraped_At": "2026-02-09T07:16:49.109544"
   },
   {
     "Title": "Cyber threats, geopolitical shocks, climate change top risks for Indian businesses, finds industry survey",
     "Link": "https://news.google.com/read/CBMi7gFBVV95cUxNSTI0ZFBaNm5pbWstZ1RxeWVHdmFSZEJMcHpZSjZYN18tZ0VnYS13b3gtSkZsYll0ZDhZc0ZZdENfem5uT012YjZhd0VWanVqSkkzdjJpNFFYRnZyODloakhfcmRwWjNvSWxpTDgxUVFnNFVsNl9iUnVIbjIteDFOSl9CWlFsT00wc28yREIzdENlUDFQQ0pBRnE2d3FDVlJIYWhLam9MM1hjQ3NYY3B3N1IyOENwVG15eXJWdkx1OWh0dzIyX2lWMDdBZ2M0ZVF3UlVwSGN0RWhQb3ZnN3l1UGhYVXFnaHNXemtaZDV3",
     "Source": "More",
-    "Published": "7 hours ago",
+    "Published": "11 hours ago",
     "Datetime": "2026-02-08T19:20:18",
     "Category": "MSN Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.msn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151390"
+    "Scraped_At": "2026-02-09T07:16:49.109546"
   },
   {
     "Title": "Under malware threat, runaway AI agent project OpenClaw turns to Google's VirusTotal",
     "Link": "https://news.google.com/read/CBMivAFBVV95cUxNUnJRdGdNUnY1QmgzUlI0dXI5SUh4UUxwTVJaelVzeVJzZGx5eEVjUFd2bUFfa3RxM2I3Snh5clZjWVhsMmF4b1JSYjBOdVNiUUpvamVwRzlyWjMySFBiVmFfUUw5WXlkcEVRMkRvTHhqUGJjOUhmVGJQWHEwUEJhNk11YV92T1g3VnVGOFpNbmkxZFJ1NXV4ODgwVnVDSGRXVnBTZEh6VnVWWnFFUnRJRXcyaG5Fb3lyT1I3Nw",
     "Source": "More",
-    "Published": "7 hours ago",
+    "Published": "11 hours ago",
     "Datetime": "2026-02-08T19:17:00",
-    "Category": "Supply Chain",
+    "Category": "AI Security",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.itnews.com.au&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151392"
-  },
-  {
-    "Title": "Notepad++ updates compromised for months, potentially spying for China",
-    "Link": "https://news.google.com/read/CBMitwFBVV95cUxOX1diUzVuTjZybEZObDZ5Nk1VZTYxSHhZLU13Vnk1WmVwc3kwQUE3LW1Pa1JJNGh2cVBpOXpjWVZnOUMzel9VUm1BWDlGYVNxOHhiUXlUVjg1Y3NkakZFVGVTazk3c21MNmtxN0N0Y1ZIUmpubmw2WXkwbzl5SzNQQlEyUTVfYlpzVmNtZ21kTlZFMGJaRUU2TTVQVnQ2WEN4Z0ZiQUp5emt2d1poUnM1RmMwVXE3VTg",
-    "Source": "More",
-    "Published": "7 hours ago",
-    "Datetime": "2026-02-08T19:07:07",
-    "Category": "China Cyber",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.msn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151395"
+    "Scraped_At": "2026-02-09T07:16:49.109549"
   },
   {
     "Title": "NSA Ajit Doval Holds High-Level Talks In Canada, Agrees On Cybersecurity Cooperation",
     "Link": "https://news.google.com/read/CBMiwgFBVV95cUxObHFpZncyTHdqZm5vMXljd0N4eFhfSWhxY2FDbzZwZG9tV2xFMzJZT3VXYnlQOTBfNVdtTjkza1hmczZzdFV2aHpBUE5NVk15b3ZqRTNFSmUzSzF2U0FPM2tuWU9EZmlSU01FOXdrcVdjQTJMRUhEb1BpMzBQbGdMblJIR2JuNlBxSUQ1NkNzRGhXUzJ2SHQ3cmR1Z3hZa1pDVTk5amZZWDUtSUpFd2l5VUxjbEdwdmxILUhMd29JRW1vUdIBygFBVV95cUxPcy12RkVBODVQczFfREZiRTZiWWFINzlVNk53VnVYWGdiOHl4SHM1RDBHNTdiemZMRkVydFVHVzhTdWM4M2x1aDBES015UEZuZWhpbVFsTGp4SEJ1b1VQc2dONkladkNkTUpCbG5Mb0x5VFhPRDIyRkVXVXF4M3NJdXZjUVNUUmUxRHBQaGdOR1JwSlV4azBOQ3RGWEZick9LMVlTSkVKRk5tRS1jYlpkUFZmUGxUQTJSRFR1UDZqVldSOFMzWHRZWHV3",
     "Source": "More",
-    "Published": "7 hours ago",
+    "Published": "12 hours ago",
     "Datetime": "2026-02-08T19:03:13",
     "Category": "Cybersecurity",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ndtv.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151397"
-  },
-  {
-    "Title": "Suspect in shooting of Russian general extradited to Moscow",
-    "Link": "https://news.google.com/read/CBMitAFBVV95cUxQblFxVTY1LXNZR3B6aGVGNXYxZnNERFBfWnlVZEVpdVhyalpPTDNZM3FuTlJ1UTZtbEZoMVhsNVJtVHhDVVNmWk5KclhVQlhxckpXSUVZZFNIMnZkUnk5R1JuOUJ3bFBZSjh0X2hOTGZyWTd5R3FYV1FhRkVTRVJ5WktxQVVwVDQyYU9hcXZCSFp4UlBnbVJRYnF5X3BQRmlwRjhOYVB5eDdMMFdNWFh0bW80alLSAbQBQVVfeXFMUG5RcVU2NS1zWUdwemhlRjV2MWZzRERQX1p5VWRFaXVYcmpaT0wzWTNxbk5SdVE2bWxGaDFYbDVSbVR4Q1VTZlpOSnJYVUJYcXJKV0lFWWRTSDJ2ZFJ5OUdSbjlCd2xQWUo4dF9oTkxmclk3eUdxWFdRYUZFU0VSeVpLcUFVcFQ0MmFPYXF2QkhaeFJQZ21SUWJxeV9wUEZpcEY4TmFQeXg3TDBXTVhYdG1vNGpS",
-    "Source": "More",
-    "Published": "8 hours ago",
-    "Datetime": "2026-02-08T18:39:00",
-    "Category": "Ukraine Conflict",
-    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://kuwaittimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151399"
-  },
-  {
-    "Title": "La Sapienza University’s Digital Systems Remain Shut After Cyber Intrusion Disrupts Services",
-    "Link": "https://news.google.com/read/CBMiwgFBVV95cUxQZXpRSm80TXlPeUFDVGtKWHkzdUhzYXRLZlc5NHBwTkk1T1BCYnNWZjhwZ2IyaFRHU1RYTnlaV1JFNmhfMFF0X083clVDUzR0VFhfbjU2SlNlMmk5R2ZqVFJrNjhZTXVXaEkydkNyNzhSZktZVkpuQnYtbUZyRm02Y2xjMm54ZEc4bzJ3ZWV0dWYtSXA5c0kwMk1vZkdSNWd2NmlTU1JudFVOMnFoeVNmRFN1aGNiRDhmVjRpcXRvekFDdw",
-    "Source": "More",
-    "Published": "8 hours ago",
-    "Datetime": "2026-02-08T18:33:16",
-    "Category": "Salt Typhoon",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.itsecuritynews.info&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151402"
-  },
-  {
-    "Title": "Massie Calls For Lutnick to Resign After New Epstein Ties Revealed",
-    "Link": "https://news.google.com/read/CBMisAFBVV95cUxNa3dIS1YzLXBsU0RBQ0tselRLUUh2UVJyN29pYTM5bkhuMUJhNnQxdW91bEMzcWFCUlk1MG9weFR0S29TRUdJVWF6dTJNaEVBV2VUOEw2VHVvM2k3MGJxVU8tQkJhVHRqa2lVTmlyX0IwZklfcFNVQ3JnNGZiSFhzVE44R0R3VFlDbURrc3NBOUhmZk5GbDF1eENhRWRTdFhjUUlSeVkyMDlUSTcxUDhaXw",
-    "Source": "More",
-    "Published": "8 hours ago",
-    "Datetime": "2026-02-08T17:53:10",
-    "Category": "Forbes Cyber",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.forbes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151404"
+    "Scraped_At": "2026-02-09T07:16:49.109551"
   },
   {
     "Title": "8 Top MDR Providers for Mid-Market Companies",
     "Link": "https://news.google.com/read/CBMidEFVX3lxTE9RX3pVSmh0TklxU1dsZGloLW1GNWFBSDhlQkQ2WGRPVDZsMzFNRi1Rbk5CLTF1M19qcklqSk1NMV9Xa1o4LVZFRE9JRjZ0OG1sUXU4eHROQk5nNjJObVBhRkF5TFVNNFkyZ0paT0pwRHBENE5T",
     "Source": "More",
-    "Published": "9 hours ago",
+    "Published": "13 hours ago",
     "Datetime": "2026-02-08T17:33:42",
     "Category": "Cyber Attacks",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://hackread.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151406"
+    "Scraped_At": "2026-02-09T07:16:49.109554"
   },
   {
     "Title": "3, including two bank staff, arrested in fake USDT trading scam in Gurgaon",
     "Link": "https://news.google.com/read/CBMi4AFBVV95cUxNLWpWVGNaN0hDM2pYQ0pHYmNsRUhPUDBScS1ZR1Fza2FmRkxlVjBJUkF2aXlLYjc3XzdsY21ncndEV3Q1TmpKdEZHTm9mUHRUMzZ3bkw3ZDFsWkhrQkVrS3ZUWkQzTDZPMWZqUmQxRS0tVkh5MDE0MS14ZUZWS0ZGMm14Y1JCNzFHOGxoRktuQmRNNXJLYnc2d1F5SjVLMWgxRHYzbzZXYWFib054Qm9ad3Y1MnBvaDU5SHA5YUgyQmhiWmFHTGRmYnJNU2dOd3E3V0VNYU4xSFQ3RlBZcjlqNNIB5gFBVV95cUxNWDJjUEJ3TDlfR2FWVndIQmk4NzlZMFNoMF9GV0p5T29PQ1BEMUc0TXcxMGdTS1JDSmdQOFQ3SzFYYnZDbm5QSk1vSU16cVkyWm9uMzBFdWFxelBwM3Y3WkpMTi00b2Ewd0pHVzhid1BVV1RoaF9GdnVjcmo3WnUzZG43RXRvUGsycXVVS19qRHJ2LVZMMHVrM2JkSkZORXE1SWJOMGFvdksyWDk1VlVCdGJia3VhZ0N2Z0U0Q3JXTm5xZkYzc1Izdlg2UUhNcmdiT1FQRjNvUjcyaU96aGVPRXo4V1MyZw",
     "Source": "More",
-    "Published": "9 hours ago",
+    "Published": "13 hours ago",
     "Datetime": "2026-02-08T17:30:00",
     "Category": "Financial Security",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://timesofindia.indiatimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151408"
+    "Scraped_At": "2026-02-09T07:16:49.109556"
   },
   {
-    "Title": "The NextGen Information Environment | NATO",
+    "Title": "Accelerating Decision-Making: Integrating Artificial Intelligence into the Modern Wargame",
     "Link": "https://news.google.com/read/CBMiiAFBVV95cUxQc3lqMkNqVTVnbEhPSjRQWFQ4a0NpbC1oT2pDZi0wV09ySEtVeTNwR0ZmNTNNME1RRWpjeHJ3cWNERmhnN0ZoQkszS0xNdmlMdTRlNE5namo0TS04eTl6OEJvWVNlaTMtNncxbFVLaGdlMVVSLU9DVU9Lc2Vjb1dEM0VheVZEZGEw",
     "Source": "More",
-    "Published": "9 hours ago",
+    "Published": "14 hours ago",
     "Datetime": "2026-02-08T16:57:56",
     "Category": "Small Wars Journal",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://smallwarsjournal.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151411"
+    "Scraped_At": "2026-02-09T07:16:49.109559"
   },
   {
     "Title": "San Francisco’s pro-billionaire march draws dozens",
     "Link": "https://news.google.com/read/CBMijAFBVV95cUxOVzdkSTNBOHpTYTlZYkYwck5NQ1k5TXltOUZham0zS2Z5eHdYekplNHJxNlJBS055QnNTcFNRbU9DVE96TThmZVJzMmZZWHMtNVZKUVhLN1FUZnNOTkJQX245enAtVXJTV2NFRjd5M1J2N2dPcVl0NDRCZU4yeHAxQzJvNmdGS0o0bFFxOA",
     "Source": "More",
-    "Published": "9 hours ago",
+    "Published": "14 hours ago",
     "Datetime": "2026-02-08T16:49:48",
     "Category": "TechCrunch Security",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://techcrunch.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151413"
+    "Scraped_At": "2026-02-09T07:16:49.109561"
   },
   {
     "Title": "CISA Confirms Active Exploitation of Four Critical Enterprise Software Flaws",
     "Link": "https://news.google.com/read/CBMirgFBVV95cUxOTEgwOHBhX0xJVVpLbmstSFhOdGFWWEU0cmdmZmVXbGV0YWhCNHg2dThTMGI3VWVqV1h4Vy1yX20tXzFoVnpHZUxMblhaejFQWnlQbWhRMWVUaGMyZWxGZ1k4V0lyQnVsOENxRVF3YzNQRGpTYThHdXcyVVBTdmZGd1NfeVlSV0s2Zm5ZTTZONnNJbUdsOU9uOWFraTFkSXlaWUFKWVdJcno3bUk3SUE",
     "Source": "More",
-    "Published": "10 hours ago",
+    "Published": "14 hours ago",
     "Datetime": "2026-02-08T16:38:07",
     "Category": "Vulnerabilities",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.itsecuritynews.info&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151415"
+    "Scraped_At": "2026-02-09T07:16:49.109564"
   },
   {
     "Title": "Cybersecurity Weekly Newsletter - Notepad++ hack, Office 0-Day, ESXi 0-day Ransomware Attacks and More",
     "Link": "https://news.google.com/read/CBMie0FVX3lxTE8zN2phQ3BnQV8zdDNMczVVVGZPU3pRUDFpWGxpRDBrZWpQX0tMdGRZZHEzeThNbVRFQUo2Uk9SQjRKSnhxYkRnb3hFd1d5OG96WlY0UTdXZ2ZpTTllLXRUa0V0Rnk4YmpEcnhMaVozR0tvZmdVc01rTjlmRdIBgAFBVV95cUxNVkdBMmlnV2tWLWJDV25KN1BmR3I0WmVuRkZ4cGdTaFZzQnk4MTNvZURmOERWSkJHTVVqMUU3ak1GUldyY0VzUlppYzlKazNLQzlqb0RZbWc0eDNwbTREMUliNTlZMTdHQTdmeVg1WXE2SzJqbEFBY19QR3VQZ1Q0bQ",
     "Source": "More",
-    "Published": "10 hours ago",
+    "Published": "14 hours ago",
     "Datetime": "2026-02-08T16:26:34",
     "Category": "Ransomware",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://cybersecuritynews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151418"
+    "Scraped_At": "2026-02-09T07:16:49.109567"
+  },
+  {
+    "Title": "The Unsexy Habit That Turned A College Dropout Into A $300 Million Founder",
+    "Link": "https://news.google.com/read/CBMixgFBVV95cUxNLTBZbzQ2amFUbG1NUWVVZnpMaUFabjdIUndSVWRmUWpIcExqZ2NiWE9NZzNSNlZUS1FfRkg0YU1fbi0xZG44djVaTzR4R3dDc3Flbl9Bd0pVWl9JS1B4SkpNUTh5RWt6cnFXVVluMXF5Y0x2WkYzSHdvVlpnSjF2SVBScnplVm1mMW4tREhOOFJsTEhVaExuNWI5N2FLdm1SZXJPazJwYXJCYmZrdXY2eUowWXdPVE4yRmkzQm01SmhkS3hlYnc",
+    "Source": "More",
+    "Published": "14 hours ago",
+    "Datetime": "2026-02-08T16:22:50",
+    "Category": "Forbes Cyber",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.forbes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109569"
   },
   {
     "Title": "From Svedka to Anthropic, brands make bold plays with AI in Super Bowl ads",
     "Link": "https://news.google.com/read/CBMilgFBVV95cUxQV1BxcDlURVlxS3ZTNW54dFM0RDNoNDY1ckJLbjR5WTc3RklYYVBRQ1lTY1hpX3hRZ1p1aUExblFwa2dtN3lPODl3Rk1jdnQwdy1YNDhneV83RjVnRGVmX29mbFdPQ2ZhTlB6RC0zaWlUYWk4M3ktakJvTnpXY081R3F2NmN3MmlCUnlNcXlXZW9zbVJjSVE",
     "Source": "More",
-    "Published": "10 hours ago",
+    "Published": "14 hours ago",
     "Datetime": "2026-02-08T16:18:16",
     "Category": "TechCrunch Security",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://techcrunch.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151420"
+    "Scraped_At": "2026-02-09T07:16:49.109571"
   },
   {
     "Title": "National leaders, cybersecurity experts convene in govt cyber resilience summit for strong digital defense",
     "Link": "https://news.google.com/read/CBMi-AFBVV95cUxQNE04cnFUemNWU0JFcTNEdWZsQ053NjRkU1J4MlNDU2d4dTE5ZUVTWlowb1lXTVFSUjNiSW01NnZkVmlGS096TFBxZ2JkanR3WlY5Uy1nX2QxVDJFbEwwcDFRMG1aZ0c3MTFoY0ZXdWRrOEt3NkZmNGhCMWxRQ2phWkt6eWE0aTJ0ZWdIMkZqT0h0eXo4cExLRUp6eTdyVkJCMkwwczFVVDkteHhtRWhIbUJKNkxydTdUU1pSTGpnY3l3TnRIaFo5alBLVzFCR3VqUVkxckxHU3BQQkhFZ2lBU1ZHYVNaMjQ1Q2JKS2l2THRobjB2UEZOV9IB_gFBVV95cUxONnAtNktHakFKWXdkdFYwVmdNeFNGQnc0VVJFLW5FLUlidVZBZE5Hb0xweXU0M2UxLVFCQjU1Y3Byenk4MUdpLWxiSV9HWEg4SUktMTlBbGs3ZlMtaXpQT0lIdG16c1N4OV9pSGlMa2xpdWhtZDJuUWpQVGR3aGJJanpfaFJ0eVdhY2ttRW9pMmRVUWk2RlQ5YWN2dmJuZXN4RWhtNHRuSFB0aUZQTHEzUXBwM0xMOFVMVWNSTUNmdWwycnRGVUxsdnRpZGN4THMxRWRpUkl0X3pwZjFJbUUyNF8tTlM4ckVkU3U0NmNvTUlJSmRMTUF2aEpFbllTUQ",
     "Source": "More",
-    "Published": "10 hours ago",
+    "Published": "15 hours ago",
     "Datetime": "2026-02-08T16:08:00",
     "Category": "Critical Infrastructure",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.manilatimes.net&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151422"
-  },
-  {
-    "Title": "Keir Starmer’s Chief of Staff Resigns, Takes Responsibility for Promoting Epstein-Connected Peter Mandelson",
-    "Link": "https://news.google.com/read/CBMi7gFBVV95cUxQZmc0aWw2OUNrOHFacHZ0cVZ3ZkhqM3FyVU01TXVlU1V4Nnd0VHdna1ZJODkzU2lfb05XdDdPZUNFNF9IV21qQnRncThZSHl0LTNEVnVCOGZnRWpDSjJRS212di00cW1ZS0ZxQ0J1bE5YWXd1dEtRelZpbGhFYXhrbE8yYTZzMG1OODJxM0ozYVRjVGowQVZZYVJVN2RLLUo4aTh1MlU5TU9CTEFQVDJNa195ZWxGRUluT3l3WGRHWWJ2OUlRSWFBX1lzNDFmWHAwZFRXbF9wb3VQRXhlQmxRZ2RZUzRuSmpES3c2bXNn",
-    "Source": "More",
-    "Published": "10 hours ago",
-    "Datetime": "2026-02-08T15:51:22",
-    "Category": "Forbes Cyber",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.forbes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151424"
+    "Scraped_At": "2026-02-09T07:16:49.109574"
   },
   {
     "Title": "When Your AI Hobby Becomes a Supermeme",
-    "Link": "https://news.google.com/read/CBMihgNBVV95cUxQZ2lyYVY1dmJEbnoxcUhIalNiQ04zRVNvdjY4ME9VUGFBLVZZb0ppcUdUNmIwZTZvcVp3RnBsV1JyM3RPdWZYSmhwMno1b1VIejhNUVR3UE9PZUxTVmxOT0k5RmsxNGtBWnNVNDBncEdOTThRYXhha09wS28tQnY2OVRwejd4OGpZS2x0c1Z6cEZ1TGJlMVVMUzlLSWdMaWViSEVZelJnTjdkQ3lHOWhjanExWEQxWVZ4OVpSUTJrdzVhLU5RRWFpblVBQm9LaXRiNkYtb05UUUhZM2Q3TnBlN1ZEY1RET25xYzV6dXJhTkpBYlJZcHF4ZTNQVktFZXJvRGM1Z08zZW5TR21OY3FaZk83Wm5hNzBrWG9aX1hvWVRYeTRBRkw2NG5NTS1zTGg4aFcyX2l5V0pjbFBsQU9hZ2NESFVMMHFZSzF3cGM5bGF6d2h2VUxSbDBRcENDbnZpV1RGQWlSTklQMGEwU0k0TXZsQUU5NFpaRmw2YU5jZ0Z0U1RxUVE",
+    "Link": "https://news.google.com/read/CBMihgNBVV95cUxPSnBkXzE0TW5fSmtzUEJSNEJfN2psWEFlel9LaFN5OUNWTzR5WjgzN1FwRjN1ZWJSNV9iek1YVVBBRWgzYWhWeUZpOVY1U3VueVV6M0lKaGUxYnREQk9YNm1uZkYzVGg4VGt6VkoyR29oN0g5MVRoREZXUHBxbWFxdjl4dTlaU0pSUWxCUkxLSVNqSXJEZU5kdi1lZFpmZy03TU93eFVtNnpyMXdvcy1sT25hMGxjS09uSEZ0RVFwN0NFVUxfZ1FBa1FiNXBOZ1dYUUI3NFB4Z3dYS2hDRzgyeEQ2SXBTcXpQQW41b0trX1k5Q3FZWTRmRnBIS09kYUt0NWxneDg3VEROTlFSVEI4MFFBblNHblZ1NnhCb3k2ZmdYSnhkVUNwaDg3YWNudGlRLVdiT2RrUEVoUVVRTHFOQ2p5ZDcybjRLN0F6b1J1Rk5BYnNTTWZrcFF6cFVVeUJEazFuN09Xd3NWdVBxRFJBV3psY0U4MUN1WVdWOENZV3VoWFdDNmc",
     "Source": "More",
-    "Published": "11 hours ago",
+    "Published": "15 hours ago",
     "Datetime": "2026-02-08T15:46:00",
     "Category": "WSJ Cyber",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.wsj.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151426"
-  },
-  {
-    "Title": "Cybersecurity Laws Tighten As Asia And World Respond",
-    "Link": "https://news.google.com/read/CBMijwFBVV95cUxQeDBpeTBnWmpvVV9tQzJxWlFTT0t3TXNLaTQwXzUtaW15cHFnSXR6b1E3bGt4OVFlMEFId3p0Z05SNGFkYWZ2Y2kwS0FDX2dGYmZfcEp0dUtiR2R0VGJKNEZJaTBzUVZ6NDBQZUtrbjJFb3VsSmM2UE14R3FOeHpxN2FPVEpjeERET2oxdVZPbw",
-    "Source": "More",
-    "Published": "11 hours ago",
-    "Datetime": "2026-02-08T15:41:06",
-    "Category": "Data Breach",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://evrimagaci.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151429"
+    "Scraped_At": "2026-02-09T07:16:49.109576"
   },
   {
     "Title": "Inside Cybersecurity’s AI Arms Race",
     "Link": "https://news.google.com/read/CBMiakFVX3lxTE1xcnVGbXJNd2Y2MjNVeUg4dW5URFpsb2pUWExiRW9heXY0TDRkcEYtdzdXbUEwMGJLY3VLbklTSnZscFRBTGhTODhjcDhCM21ocE5abjBtX1VLejlBdmpiNEtSbFhLR0ppQ3c",
     "Source": "More",
-    "Published": "11 hours ago",
+    "Published": "15 hours ago",
     "Datetime": "2026-02-08T15:32:35",
     "Category": "Middle East Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://forbes.co.il&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151431"
+    "Scraped_At": "2026-02-09T07:16:49.109579"
   },
   {
     "Title": "New tool blocks imposter attacks disguised as safe commands",
     "Link": "https://news.google.com/read/CBMiqwFBVV95cUxPaHliWW0yLVZXdThsUzNMUkJ3WEtFME9tcFl6Tmd6YTlzLTVJeXBPOWJialV2bnVkdk1kWW9BcVdmdUx4bEpXM3BvSEg2LUlNX013bkczSWYzYnZwd3BVcVRZemNOcEpiaDNJdGtNY0FfdDRNcmVDVWE4emJraVRvS0ZLQUdLMDh4dFRLVUhmd29pb2tBNHIzQ3VURmRpZm13NDhjRE5mZHBLWUHSAbABQVVfeXFMTTNaRkNJaW5mSXRNNm8wd0s2Ml9wTVBJcVlWdk5IZ21zbzhmVUJrNlpsRjlmTG5XdGo5aWRxalFkLWxlMXhDYXREeTIzRUI4dDVTMHAxTzdMTmtGeUxCS0dBRTU4MUVyTlhSUWNFMVp4MDhVbXF4OThsajVPWUJLMlF0RDNKVkZVZlEyWEZhTzN4V2hrVW9HVExxZmVnSTNWdjJTUUlQS1ZNZWpmM3MyRHA",
     "Source": "More",
-    "Published": "11 hours ago",
+    "Published": "15 hours ago",
     "Datetime": "2026-02-08T15:26:48",
     "Category": "Bleeping Computer",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.bleepingcomputer.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151433"
-  },
-  {
-    "Title": "How Israel’s War in Gaza (Partially) Rehabilitated Counterinsurgency Theory",
-    "Link": "https://news.google.com/read/CBMisgFBVV95cUxNbEhHb1UyY2Y4MTlZU1llbFNkeEFNMTRFd1E3V2ZLN1lYbkREQVdOaUFqVnJiN1lralcyX3NrRlBkTEwzby1sc3R3T3ctcUhkRUtIM0ZLcUZQN1JJTFhGbXdKalNCYnBRdS1tMTIzU2x6RmxTQVlJSmhtTFFWZGVzenloQ2NRRHJBckdVVjVyMkJoWHBUX09za1RQWm5rUVM5MHBfLXpnSXVhLTlYbVZLcy1R",
-    "Source": "More",
-    "Published": "11 hours ago",
-    "Datetime": "2026-02-08T15:22:30",
-    "Category": "Lawfare",
-    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.lawfaremedia.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151436"
+    "Scraped_At": "2026-02-09T07:16:49.109581"
   },
   {
     "Title": "Ukraine denies involvement in attempted assassination of Russian general Alekseev",
     "Link": "https://news.google.com/read/CBMirwFBVV95cUxPSHNCb2lFYjVlSUlCejd5U3I0d2djZnA2WFpDZ2U2cTdsZTFBbkVBRTdQVS1kTmV1dkh2bkoxc2hLbFBHQjNUTzBRX1B1QnpKUXFXZVI5dG1Mb1RLZlVlOF9xamFNUzdqRWN2U0puUDBiRVhENlQ5MFlta2tGWS1mMEZMM3pFcDBwTV91VG1ub21LQmdPdjZRU1BOR1BHOThQNXhSa0dqLVhnNDNzdFJN",
     "Source": "More",
-    "Published": "11 hours ago",
+    "Published": "16 hours ago",
     "Datetime": "2026-02-08T15:09:01",
     "Category": "Kyiv Independent",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://kyivindependent.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151438"
+    "Scraped_At": "2026-02-09T07:16:49.109583"
   },
   {
     "Title": "Thailand elections: Anutin’s party poised for dominant win amid border tensions",
     "Link": "https://news.google.com/read/CBMivwFBVV95cUxQb0hKV09JbWlpeWUxNUN6d3BEN1dwbXBJdjNOalE4RnJTWXk2STBiYWVFM3ZuT1gydENDTnlzY3JkdzFPS2h2S2RIMGVFUUdmZC1CaG5ZN2p0TUpFY0xGRE5JLTRzN1kzWDhGUVptOHRNcUxwS0NxTVJKRW15TzZtSnpyU01sNzRSRlh4Qk9aaVVIbFpFa0xSZGc2TXE1dXBMNExzWDh0T0kyU0FzM1l5ekVhS016ci1oNE5sTzZZSdIBxAFBVV95cUxPUXJ0X0pWSVlaWHBiS2dDX2ZIVUVnWkJ1aU9KandOclR2MEx1bmxJNkcwTkVVS3RtemxrWllDUUk1THU1RlpVcHJ3cWdtZEdDeFlfV0xqcW9YdV95U18ySkJmeU9wQ2txQklYR0JoRm1aTkxTMUw4SnN5UzRGUllVZFpzUlphdlpxNnA1RkxlcU9felVYTGVPeUFsaUVqbXRqUDVjMGtkVFJ1THMwSExURmRnVk9Pc1R4dUM3TTRTRlptRGRI",
     "Source": "More",
-    "Published": "11 hours ago",
+    "Published": "16 hours ago",
     "Datetime": "2026-02-08T15:08:00",
     "Category": "WION News",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.wionews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151441"
+    "Scraped_At": "2026-02-09T07:16:49.109586"
   },
   {
     "Title": "This dev made a Llama with three inference engines",
     "Link": "https://news.google.com/read/CBMikAFBVV95cUxNOENnUDg0TFBEcEJDSVlpalVrNlQybWU4Nnhta0VzY2t3RTJvSmE5OEtsNWxXX2M3dlBRUEhSdmdfT0RfYnBJdzI5d0JUZDVaY0hXM2lrZ0JLQTV4cEJ1QjFwOWxoejhqcFpNLXBpRWo5VWdqd3lleGJpU2doRi1hZDVabnlVX3pYRllmbjIteE8",
     "Source": "More",
-    "Published": "11 hours ago",
+    "Published": "16 hours ago",
     "Datetime": "2026-02-08T15:00:00",
     "Category": "The Register",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.theregister.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151443"
+    "Scraped_At": "2026-02-09T07:16:49.109588"
   },
   {
     "Title": "SoundCloud data breach exposes 29.8 million user accounts",
     "Link": "https://news.google.com/read/CBMilAFBVV95cUxQOWtYYmhqT0daUWRjOHlySlpvNGYzY3U0c3ZNT0phZ1hUY2NmRWNvVVNTaTBVcEhkTUtwdDZQVlJESTVKLWE0RklsODdzRnhMUHZQNFBmVUdnNGpwQXUyaDctWDN6NjVFNUVMYUxFbklvV1NMTG1WTmRRWkJsLUVSX3hSWUVVWFlUOUxmSmhaZ3FsSnNz0gGUAUFVX3lxTFA5a1hiaGpPR1pRZGM4eXJKWm80ZjNjdTRzdk1PSmFnWFRjY2ZFY29VU1NpMFVwSGRNS3B0NlBWUkRJNUotYTRGSWw4N3NGeExQdlA0UGZVR2c0anBBdTJoNy1YM3o2NUU1RUxhTEVuSW9XU0xMbVZOZFFaQmwtRVJfeFJZRVVYWVQ5TGZKaFpncWxKc3M",
     "Source": "More",
-    "Published": "12 hours ago",
+    "Published": "17 hours ago",
     "Datetime": "2026-02-08T14:01:15",
     "Category": "Phishing",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.foxnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151446"
+    "Scraped_At": "2026-02-09T07:16:49.109590"
   },
   {
     "Title": "I just got an alert from Capital One that my Social Security number is posted on the dark web — should I be worried? Yes, and here’s what to do",
     "Link": "https://news.google.com/read/CBMijwFBVV95cUxORkdoZDZZWHQwNWp1N3hucWxJS2JoZ2MyLUN2cVdVQjJSZWNrTFB2M3Vmc2VPUkFmY3daTmxXTUdZQXBVQ29lTTB5d0NoNGF3VGNCSndqRGlzWFAxNkZHczVDUEpUSlJRSkFmbjVOVkVKOFd4LUd2LUFqT0dTWTJ3WndpXzVNMFRLMm9lT1A4d9IBlAFBVV95cUxQOWtYYmhqT0daUWRjOHlySlpvNGYzY3U0c3ZNT0phZ1hUY2NmRWNvVVNTaTBVcEhkTUtwdDZQVlJESTVKLWE0RklsODdzRnhMUHZQNFBmVUdnNGpwQXUyaDctWDN6NjVFNUVMYUxFbklvV1NMTG1WTmRRWkJsLUVSX3hSWUVVWFlUOUxmSmhaZ3FsSnNz",
     "Source": "More",
-    "Published": "12 hours ago",
+    "Published": "17 hours ago",
     "Datetime": "2026-02-08T14:01:15",
     "Category": "Data Breach",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.foxnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151448"
-  },
-  {
-    "Title": "Tehran to Jakarta, water shortage is killing cities | Hindustan Times",
-    "Link": "https://news.google.com/read/CBMitAFBVV95cUxPUlQ5bWotQ2ktUmNlSnl6WVJqVEVidDdqM3JDbnk2RDBDYjNRSGY3ejJUQ2FMdlJyRDNkMjQtMTR5OURoSjlHam9xOVJTeWFOb2dwSC05SUw3UmVabUtlR1JrVHhwVnkwb2VkWjdmZ1FvTktYRmlQV3lNOWN5aXZUZG9NRkhpR3lGaWU2NDFicU5LVjJmMU1wckRWUUI4X3pBR1JNNkUxWllyMDdzblZ6bm5uajfSAbQBQVVfeXFMT1JUOW1qLUNpLVJjZUp5ellSalRFYnQ3ajNyQ255NkQwQ2IzUUhmN3oyVENhTHZSckQzZDI0LTE0eTlEaEo5R2pvcTlSU3lhTm9ncEgtOUlMN1JlWm1LZUdSa1R4cFZ5MG9lZFo3ZmdRb05LWEZpUFd5TTljeWl2VGRvTUZIaUd5RmllNjQxYnFOS1YyZjFNcHJEVlFCOF96QUdSTTZFMVpZcjA3c25Wem5ubmo3",
-    "Source": "More",
-    "Published": "12 hours ago",
-    "Datetime": "2026-02-08T13:59:17",
-    "Category": "Zero Days",
-    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.hindustantimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151450"
+    "Scraped_At": "2026-02-09T07:16:49.109593"
   },
   {
     "Title": "Ukraine has created a reserve of mobile energy equipment for communities: who received the first deliveries",
     "Link": "https://news.google.com/read/CBMiyAFBVV95cUxPbDRYZFhGVkM4ZktwNHNORG0yWW9oVWJlRUwyR3hScTUyeUlVZEMtcHNSR19WNjlHTFZqR2QwXzFKMG4wdFRWOVJadW5xYjJxRmk0am8xNjlxOFVLYlVJaTA4dTlxbzBsaWk2VnVZMmRtTHJZYTBUdHF3eWRhb0VBNFUyQ1JzRkltdGVMUkF3a1V6cnpSdVpqaFhkZ3JDVlhxUVJ4YVhXNVhOVmt5T3RVdC0zekF3bk5SWkpQUDlzLVJwNGgteXZOUNIBxwFBVV95cUxQbjNCWDBhejNfWTBETmF5cWVIeC1heThzR2p3WkRseW9GMG1ORm1VWFpVMG1YSll4ZHVhcjFVMmFPM3RJUnB0MmhSeWMzQW5jVTNYcWVBN0lEdVVWMmNQWG9LRGthMWo5ZUotNkV4V2FscDMwX0l3WHhNNGZycjB3WmltV0hQZ3RDSlJSU1BXMnUySTZWSVlsNk9wR21OQWVuLWJzLTNZeFYxU1pSMWdSM0R1SGJ1dmZwd1hZVkw2WWVUWWQ1ZUhF",
     "Source": "More",
-    "Published": "13 hours ago",
+    "Published": "17 hours ago",
     "Datetime": "2026-02-08T13:37:58",
     "Category": "UNN",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://unn.ua&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151452"
+    "Scraped_At": "2026-02-09T07:16:49.109595"
   },
   {
     "Title": "Security Affairs newsletter Round 562 by Pierluigi Paganini – INTERNATIONAL EDITION",
     "Link": "https://news.google.com/read/CBMiygFBVV95cUxNZjRvaU9xbjJjVF9LQTVlWWZwY01QOVAxVkNvRmJDV1NnVFdWNzhPVlg2T0t5RTB0MG95bklqbTZkSjNfNmtyWUxkWjRUc3dTdXBkS0c5Unk5Nm5HTkZWOEhDUC1Td2lTVlMyXy1tRGJEUHUtNkpBdXhsYXJic1Izb1dzeFVOS1hkSkZnY0s5Q2lDWC1XY3ZWcU5QLU84dllkbFlYd0xvWjI3Umd6eEN6LXhwREhjckwwQVpKVGVYNnA2Q1Z0bFgza3d30gHPAUFVX3lxTFBodjZTdzBGdmw2aG5wX19kbUdwVzVIQTdaVEJHeFk1b29ENW53RmlRZmdGR2o5NWIzeVM4cldZVDJ0TmdSbDhXQVJuRVY5bTNWVklMS2RldU9kdmpjT3QyS3VCYkNCNldTc0R1ZUtucl9HT0dra0RtMmFtYTVvdkc2dnI3b0tlVFRFX3BoelBtd2hQNmdhWENjbnJzc2VSN1lIUjdLUjFpTnNHSEpLY1paNVdiOHZwaEV5dDh1RzR1eWdHYnk2MmpOcUI0NGh0UQ",
     "Source": "More",
-    "Published": "13 hours ago",
+    "Published": "17 hours ago",
     "Datetime": "2026-02-08T13:30:23",
     "Category": "China Cyber",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://securityaffairs.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151454"
-  },
-  {
-    "Title": "The Erosion of the Multilateral Security Architecture in Central and Eastern Europe Amid Systematic Kinetic-Cyber Hybrid Aggression by the Russian Federation",
-    "Link": "https://news.google.com/read/CBMimwJBVV95cUxQYWV2SlJfNV9Ba2JsTlFodEtYaVFxajdaaVBRNy1JZnhlZ0duOGI1NTB2YmhYYjZkZTM3NXRjdDJjUVd0c2ktN3g4YjVRNHNYaVVPQVFRM3d2ZTRFQllNZm5SOHZrSVE0TVRpM3I5UWtNRTJBX1FJc0JLTXBFZjFZQ21Fb3I5VUtSdEpZbEhCRjRqQzFUUW5iczBGdG9XbGZTQkhpclQ2aWpfdHJEQmNPWDhZMDE2dVVnZ2kwcVZKSUxsUFNEdDh1S01RV240N2FhcFczNGR3cmFLbkpGcWhtdm0tOGozQ1hqSWNKYVNJMEM3eUVITVg2WGdONHhDSl9Nc1Q4S2prSEg1U0tjNFRFWmdST0ItYUEzUFVR",
-    "Source": "More",
-    "Published": "13 hours ago",
-    "Datetime": "2026-02-08T13:22:08",
-    "Category": "Energy Security",
-    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://debuglies.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151457"
+    "Scraped_At": "2026-02-09T07:16:49.109597"
   },
   {
     "Title": "Israel’s World-Leading Cybersecurity Sector is Scaling at an Unprecedented Pace",
     "Link": "https://news.google.com/read/CBMisAFBVV95cUxOaUhLdC1lTlpMaFFsYnhlUnFEQUJ6UW44SEFuY3gtUXNHb1U5ZGg1LXRFeFJ4SlphWlZPdUxLR2Q0Q2NwWDJfUjBrdVFLbjdUUEU3STdvNWs1Nlh6NE9kR2FqSW51ek5qN1BLTzVEbEtxR2w5bGdrcmdLNTYxTjY3TkE4YTRueXQ1VnBEdmJxcExicFdIOVRHOEh6WWFEMEh2OUplMGh4UmFSM01RWHotWQ",
     "Source": "More",
-    "Published": "13 hours ago",
+    "Published": "17 hours ago",
     "Datetime": "2026-02-08T13:22:00",
     "Category": "Cyber Attacks",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://blogs.timesofisrael.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151460"
+    "Scraped_At": "2026-02-09T07:16:49.109600"
   },
   {
     "Title": "Students will no longer be able to bring this device to SATs",
     "Link": "https://news.google.com/read/CBMicEFVX3lxTE4wd18zN1kxYTZ1NXVkX2lPNUQzWUotV2RWNkY0T29jUlNqQVdrbVVITVhxQUkyVS02WmRxZ3JMbWFmbHBhaDVUb2lyZjAwY01EN3VqN1c2eVNUVjBja1UxU0VpY2pVaDIxTWVTdEdieGM",
     "Source": "More",
-    "Published": "13 hours ago",
+    "Published": "17 hours ago",
     "Datetime": "2026-02-08T13:15:35",
     "Category": "CyberNews",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://cybernews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151462"
-  },
-  {
-    "Title": "Marks and Spencer say cyber attack will reduce operating profits by £300million",
-    "Link": "https://news.google.com/read/CBMi3AJBVV95cUxQQ19MeXBqWGx2Y2YxdHBBOFA5eko5dWlOeUh5c1N3V1hzZVRIdmRfQlN0YmpaQXd5eC1wTExILWk0bm43MWlxTnc0dVdiajhSVkJwMkI5aDUtQ1pEbmtDYWoyX1l2b1FuTDh0d1ZPSDRUVzFEQXh6NEpwN2w5YURzLVR2eWFMVTBFV1hiam9QcVItaUNKZkczY0VTR09mX0ZGbXRrNUV6YUVjUS1DVTliOHhLVFBrMS0wUEdicmZGWkpvbExUQW5KT1J0YlliTmN1M2tkR2JQdnpRaG1PZ0lnY0dTRldzaGVZUlEzRWkxQ2ozWmhoYm56U2c1WlZGTUUxX1VTVF9xbUJOd0V1UVpqLXZEZ2dHeDVqWHJpWXJNMGd5ZEtWdkFTanRGMGpzM3ZvUnVYZFdXRjd3RGx0a2lHekV1WkJUUlVfaTJjYm5qbXVnMXppTmJLdFlhOXM",
-    "Source": "More",
-    "Published": "13 hours ago",
-    "Datetime": "2026-02-08T12:57:41",
-    "Category": "Cyber Attacks",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.msn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151464"
+    "Scraped_At": "2026-02-09T07:16:49.109602"
   },
   {
     "Title": "48,000 fake bank accounts used for over Rs 100 crore transactions; 14 arrested",
     "Link": "https://news.google.com/read/CBMilwFBVV95cUxQYTNiME9aUXJULTZVOWZpaGc2WWtxZ0VjYXZCejVaQUtNZUhRVU9ydnN3Tkh2VHhRZTJkVU5lNHpGMFV3bWtvWDI5b2FNeVFTQUxTM0YzSW1ZaGFDdDlOenA4NmxndmJaU0ZvVU9VeWVnZHBTZWdGQkxwSjgyYXhMY2JFWDJMX3cyQTljdjY5STgyb2tDTUt3",
     "Source": "More",
-    "Published": "13 hours ago",
+    "Published": "18 hours ago",
     "Datetime": "2026-02-08T12:52:05",
     "Category": "Financial Security",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://udayavani.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151466"
+    "Scraped_At": "2026-02-09T07:16:49.109605"
   },
   {
     "Title": "Hackers Leak Over Two Million Records After Harvard, UPenn Refuse Ransom",
     "Link": "https://news.google.com/read/CBMihgFBVV95cUxOMDZBbi1uRUw0YmNEZFM1WER3eGpQUUF6RXBVVnBtbFRkWnZiSkdRQW5id1A5TVdBbk5fVkZwWXlET3h0QVVaeW1wN0VleUpGX2NyNldzX291cEIzalk5eTR1cmpCbDBMNElvR0xZWFI5N0RkVEtUZmdfVDVSUFpfaGJrMEE2UQ",
     "Source": "More",
-    "Published": "14 hours ago",
+    "Published": "18 hours ago",
     "Datetime": "2026-02-08T12:50:56",
     "Category": "Hackers",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://the420.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151469"
+    "Scraped_At": "2026-02-09T07:16:49.109607"
   },
   {
-    "Title": "Last chance for Americans to get up to $2,500 check from $500k data breach suit",
-    "Link": "https://news.google.com/read/CBMilgFBVV95cUxPY2xhX2xBNkhEazBiNVA4bjY5LU5peFJkR0dwXzVDcWdyaW1veUR5NWdwNmxMX1pScDd0SGVxdk1aRS00QXl1MmFVc1k1NjdIYlNkQzIzdFFNUmpkQUg0ekU4azF4R2w1TlE4ZXBMOXFrUTVvSGFfX2dsN3F5cTdManA1aEtha21OcjlCTHVNbWVSODhjc0E",
-    "Source": "More",
-    "Published": "14 hours ago",
-    "Datetime": "2026-02-08T12:47:49",
-    "Category": "Data Breach",
-    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.the-sun.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151471"
-  },
-  {
-    "Title": "Roche’s fenebrutinib is the first investigational medicine in over a decade that reduces disability progression in primary progressive multiple sclerosis (PPMS)",
+    "Title": "Wisely Ai Sets a New Impact Benchmark Protecting 100 Mn Indosat Users from 2 Bn+ Scam and Spam Communications in Indonesia – Company Announcement - FT.com",
     "Link": "https://news.google.com/read/CBMicEFVX3lxTFA0dTZCc3psUDhPeG8wOWFaRk0tT3VnNkZobW5XMkg5b0xKZmV4REZCUTNIY2pCTmNPTDhDU1o4NlBaWGNHMEpXbWl3QWFLRXoxMUp0dXlYQnZTWXJIbllmVFFEVFFST1VLVHBTLXB6RDg",
     "Source": "More",
-    "Published": "14 hours ago",
+    "Published": "18 hours ago",
     "Datetime": "2026-02-08T12:44:56",
     "Category": "FT Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ft.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151474"
+    "Scraped_At": "2026-02-09T07:16:49.109610"
   },
   {
     "Title": "Counting the waves of tech industry BS from blockchain to AI",
     "Link": "https://news.google.com/read/CBMiZ0FVX3lxTE0xeWpFMVJDWVFFaFYzQ0lFOTltVXpDc1FNX3JYM1E2ZXpMZi1BSkI5cXBJNnFTNlJobzloMGZiTGM1OTBGY3JYZXR2VjhXb0xYbUNSbDBQVHVZSHlfeTY4Wm0xYWhKVk0",
     "Source": "More",
-    "Published": "14 hours ago",
+    "Published": "18 hours ago",
     "Datetime": "2026-02-08T12:30:00",
     "Category": "The Register",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.theregister.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151476"
+    "Scraped_At": "2026-02-09T07:16:49.109612"
   },
   {
     "Title": "AI Security Exposure Detector Earns a 13 Proof of Usefulness Score Building an AI-Powered Data Leak Identification Tool",
     "Link": "https://news.google.com/read/CBMi2gFBVV95cUxPVjVuRmJqamRtY1ZIb0dVdVhUVUlVRzh1TDUtYjMySFphUzlybUJUWTJtTWhjbUZjSHZKZEtDQklRTVJJWmNxWElPcFRpUVFqV2hKOEUyaUp6VTBvZWpqWFBNdURNdWhWeUdxaFM3anBwZ0xkLU9MZnVkTnM4dmI3dUIyT0doTlUxVTBwVWR6N3loXzk2bUc2dG42Ykx0YUF3R2dxTTdLNElyQXo0TURVcmo4SkUyb3dvM3lEdm1DSkhwVDVWaGlRYlBySExvelVwOFItOTluTUVkQQ",
     "Source": "More",
-    "Published": "14 hours ago",
+    "Published": "18 hours ago",
     "Datetime": "2026-02-08T12:17:23",
     "Category": "AI Security",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://hackernoon.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151478"
-  },
-  {
-    "Title": "Social engineering breach exposes 1.4 million Betterment customer records",
-    "Link": "https://news.google.com/read/CBMie0FVX3lxTE0wX3FIQjYxazBYRkZJWW10UjFoMUFzNlhJeTZxbzhtbnJCT2l0Uk1pdWM5VTNUMXdtVjRsN21oNjFCSmZCckMzY3VqTXhia0F0cGIzc00xWmpPQmdicG5EMjVDWDU2OVhYVnlWcmRoSk43OWowbExvNjJRUQ",
-    "Source": "More",
-    "Published": "14 hours ago",
-    "Datetime": "2026-02-08T12:06:38",
-    "Category": "Data Breach",
-    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://dig.watch&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151480"
-  },
-  {
-    "Title": "PHL urged to fortify cybersecurity via legislation",
-    "Link": "https://news.google.com/read/CBMiqgFBVV95cUxNTTVGMWRkRHNTWURxX096S2pHNGpxaFdCLVNYMG9MMzhURERwQ0pGOURXYmJreXJiTDZ3WVJ0RnVQQ2hNX0xOUTdhQ3ZkVG5UYTlSTDJfNVhtTVRULUlRY0tkTVd4MFVFTFp6emY3Smt0NjlsNEF5cURlcXhIenc0S2xmZXpuNnI0NlB4aHkwcGVXZ25xMVBHWFFOTXlaLTdkVHJzX2djOGpNUdIBrwFBVV95cUxQdEVnQ1ZScVc2U25YOVJ6Q0J5dWttcFZ4QUl6SE1EQ19Nc1BXWHJuUGdaT2JaZ196UUZiNWZlVFlQYWNpaUFBdl95dlpidDRvc0tLMllZay1OeVhQQ0F4ZlZyRjI2VEVHS0F1blQ1YzE3SWRZNGV5cUhZQmdWTkRrSUZHSHZNUFBZNDRRNlNWbEFNZFJuaG5OZXNzaWY4OF84eEY1VFJmbWNBcGJLRVp3",
-    "Source": "More",
-    "Published": "14 hours ago",
-    "Datetime": "2026-02-08T12:04:13",
-    "Category": "Critical Infrastructure",
-    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.bworldonline.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151482"
+    "Scraped_At": "2026-02-09T07:16:49.109614"
   },
   {
     "Title": "Russian Su-57E Appears in Algeria, Marking Moscow’s First Stealth Fighter Export",
     "Link": "https://news.google.com/read/CBMivwFBVV95cUxOSE05akhId0s4LUZvNjdPRFIybGpWU2tJSnJHSmhVb3E3T0d1SkFTVDZqVWlleTlPSVhVaVg3d2RtSW1keXFIbFlpVWxpTlFBTS1FczVPcWZlSWN4Y2J5cXJYOXNrYTdLMVNFSTB2bDdsa2hRUHotcldwNkd3T0JKSE9KMjVSb3BiU3F6ZUdfdzFmTzNuUC1RaHprbzhHMDE3Q2EybDBSSHctSUtKUW44UmhMLXlMNEQ2bW5BeElCNA",
     "Source": "More",
-    "Published": "14 hours ago",
+    "Published": "19 hours ago",
     "Datetime": "2026-02-08T12:02:58",
     "Category": "United 24",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://united24media.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151485"
+    "Scraped_At": "2026-02-09T07:16:49.109617"
+  },
+  {
+    "Title": "The World’s Best Single Malt Scotch—According To The 2026 World Whiskies Awards",
+    "Link": "https://news.google.com/read/CBMiyAFBVV95cUxNYjg2UFJKaXdpcU1VRmhOWFh4Vjl6NDlGSFBfSEhoY29iVzcyM0tYb1Y5djFIQjNGNjdOdkEtS3N4MTdzVnRnNHBpQU9aRFlnSnY3aFd1R3JpeWFjY2VpWjNQNjNCUmN4ajJXSTRoQ1MyUm9xcGF2R05KeWxwU1FCWTIzMFRsT0RvNTlrVWpMckRFV1Nqc1JleGZ3aXowNTF1dHYwczk2blc4bFlkVmg4U1dNZFUtSXdqQ09yVnVYUTc5c2RjZWpfUg",
+    "Source": "More",
+    "Published": "19 hours ago",
+    "Datetime": "2026-02-08T12:02:53",
+    "Category": "Forbes Cyber",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.forbes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109619"
   },
   {
     "Title": "The Cosmic Report – weekly UAP and space news – farfetched folklore",
     "Link": "https://news.google.com/read/CBMifEFVX3lxTE9UNWlXU2pUdkdIT3AyZERjMTA1RVVLT2lUb3A5a1pzR1R6R28tS2todG5Lb29LUmYxOGdQVl9Ha3hOU2VUT1h0aEVqNklKUEZzN0pqaE0yWFA2LWxtNDNNeVlKcW93aGdwWjNNUFZKYlk1dzJ2Vm5sSmJ1T2g",
     "Source": "More",
-    "Published": "14 hours ago",
+    "Published": "19 hours ago",
     "Datetime": "2026-02-08T12:00:34",
     "Category": "CyberNews",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://cybernews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151487"
+    "Scraped_At": "2026-02-09T07:16:49.109622"
   },
   {
     "Title": "Sanae Takaichi’s LDP wins supermajority in Japan election",
     "Link": "https://news.google.com/read/CBMicEFVX3lxTE9MUkhvS0R4T1JYWDA3UEo0UVNKaU9YUUN5NFk0c2RLVkl1MVpibFpKRzJsTTJmNlk4NDdIcmRTUDhsN09wUHA4ZEw0WWhJbGJRYkJ3b2F1MjhxTEktekF3a3pMcmYtazBVYTYxVGpXbzA",
     "Source": "More",
-    "Published": "15 hours ago",
+    "Published": "19 hours ago",
     "Datetime": "2026-02-08T11:44:10",
     "Category": "FT Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ft.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151490"
+    "Scraped_At": "2026-02-09T07:16:49.109624"
   },
   {
     "Title": "AI security boom triples valuation of Israeli cyber startup to $9 billion within a year",
     "Link": "https://news.google.com/read/CBMi7AJBVV95cUxQODlDMEhabm82Z21QYlM1cUlDZkRtaUx5X2NNZktySGxBWnI3WXBmeWZqdXRfOERLbHV6MjBzV21LNzY1Rk4zMXI0RXRQQkItZzl3NkhGQmh2QXktbUUzRVF0eWp0cFBhd3U2Nl9uTmRYRnl2WDViYlF3NHkzazRiUHZwaTNqQnY1WmF0S0h0YmljN25Ba0VoaWRmVXdabXZPQVE3MnlyWmVKS2NtYXQyckJZSm1GbGtaOXY4UXlVODM5ZnVRTG05c1hlcUpIaTZUSXdmbGxqc0xxT1BrYjdWMWZPLTAzU0ZHN3hTb1BHNWxuQ2ZSc3d0TnUxc2o1YTdDbVRPdi1jYl9UZ1ZucHluRHFpV1MwaEEwejRxYmQ3MW54RUdUS283RlByclRDS0dETXd2aG5xUmpJNjJQYUE0MjcxdzdzUjdBeHpfMHU2THhoOXN4UGs2VV9IZE9UdmlQNkQ4THVwajJjdTBP",
     "Source": "More",
-    "Published": "15 hours ago",
+    "Published": "19 hours ago",
     "Datetime": "2026-02-08T11:44:08",
     "Category": "Middle East Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=http://www.msn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151492"
+    "Scraped_At": "2026-02-09T07:16:49.109626"
   },
   {
     "Title": "Popular open-source coding application targeted in Chinese-linked supply-chain attack",
     "Link": "https://news.google.com/read/CBMi6wFBVV95cUxNNnhPTUhlaU02Zng1cmtOeE02cjlWY2tPQXFjOFV2TVBtdFIyc2JPeHduWTBtYlo2OUUtRlJpQ0pXRGJfUWkzMFBMTEZJT25EN1lxSFBLbkJlNEZVbTRfcFFHOXlZN0RPU0hMdG1GdHJUVDNiYmprbGdqN1BqbXF3blFSdndRamZtLTFWUWRLNkRIaFBiZUJpUl9yVWFuTG5pMjA5UGZ5ZllrWEtMQ01zSjV5THA4TFdSY3RSSG9UTGJQUGUwbUhRNVpIOXNheTVzX3NtT2xOcFhhdWRqTmR2UHFwbmlxcEFpZ3Qw0gHwAUFVX3lxTE1xekE2bU4tUHQ5c01qXzhxQzhjcG9Ed25TNU5lYmRXOUlVbFpuUGFIT1c1OVdNbVZxbFpUUkJmOWxRVzg1ak8wYzQtbHhrX1FRN0M4dGpfS0JxeDF0blhoNm9pX2xFWkNPNHpKVG85LVFlci0zNXJpa3ZDQUFGWWVJSlNxOG16aU5CQWlEMjNLakxMek9uOC1wbzI5MjFkQVhMWldZemFSSFc5SXN2aU5XX2xRTDFfbGtsTVB1cm4xMHJGZHJTS1VQS1JKVkI5RmcwR1RDYnJZWmpxZzlibEl5aTAtVlhLVm1hUlEwWXNuUg",
     "Source": "More",
-    "Published": "15 hours ago",
+    "Published": "19 hours ago",
     "Datetime": "2026-02-08T11:44:00",
     "Category": "China Cyber",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151494"
+    "Scraped_At": "2026-02-09T07:16:49.109629"
   },
   {
     "Title": "Parents told to watch children's behaviour to prevent online abuse",
     "Link": "https://news.google.com/read/CBMirwFBVV95cUxOejVSNHVzaGhXbGNEVjFfaFhsc2pSVkprMU1DNTJ0MXFwd2RYRVhUeWtvdzZaMlpDMlhja0tyQ2VLMExBQkM3RUpkMmNBRnc3LVQySU5XQWFJX1RUS2FEcEtIRG9IaFAwOWpyaC11V0hicHg0b3F3SXhUSWlhLURYQjVDVXdxRzhNaF9rTXU2QTFmU0RFWnA0WjVwVDNIbmZvQ0Z0dWhfaWJ3aHh5REIw0gG0AUFVX3lxTE40RDYwa2RvWHpVNmRwVVhHUEJTYmp4dVk5MEQwLU1HelJiYmY1MGc0Qjl5ZXVXaTd1T3hHa0xVYVJRVm1FWkFIMG9VM2plTFJ0NVpOVGo4REF3aHAtY25XN3FjN3FyMkFHOTBjODgwU21fc2ttRC1vd0NERTI2VlNpU2lVYzkxMTA4RS0taGJZUVozUE5lYThJd0l5Vmp3SHFKV3A0djQ1bzlZRUgwbU5udkxwaA",
     "Source": "More",
-    "Published": "15 hours ago",
+    "Published": "20 hours ago",
     "Datetime": "2026-02-08T11:11:25",
     "Category": "New Straits Times",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nst.com.my&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151497"
-  },
-  {
-    "Title": "Trump addresses US military leaders for diplomatic efforts on Iran and Ukraine",
-    "Link": "https://news.google.com/read/CBMiugFBVV95cUxQaEdIaVBaam13bEY3a0NCTXdxcTduRWdqTEZ2WWJLMy1yUzRobU1VaHg4dVJHNVR6MGthcy1SOUNFVFNjZGlyUG5JWDRQdUlDS1pTOFJoRl83OHI4ZjE2M0VfbVBhalJYNGxKeUxQWnBibjFsaGxvdldkZXg5MDlmWnpMQVNwaWVsbnQ5MURCeEpucGRPWFZMZW90MVNJT3gyNVVUMTZ0ZjJkRjRVdHhsN1ZWTVFoNjhpU2fSAboBQVVfeXFMUGhHSGlQWmptd2xGN2tDQk13cXE3bkVnakxGdlliSzMtclM0aG1NVWh4OHVSRzVUejBrYXMtUjlDRVRTY2RpclBuSVg0UHVJQ0taUzhSaEZfNzhyOGYxNjNFX21QYWpSWDRsSnlMUFpwYm4xbGhsb3ZXZGV4OTA5Zlp6TEFTcGllbG50OTFEQnhKbnBkT1hWTGVvdDFTSU94MjVVVDE2dGYyZEY0VXR4bDdWVk1RaDY4aVNn",
-    "Source": "More",
-    "Published": "15 hours ago",
-    "Datetime": "2026-02-08T11:03:53",
-    "Category": "Iran Cyber",
-    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://telegrafi.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151499"
+    "Scraped_At": "2026-02-09T07:16:49.109631"
   },
   {
     "Title": "Chinese hackers backdoored Notepad++ for six months targeting specific users.",
     "Link": "https://news.google.com/read/CBMiqgFBVV95cUxQTTE4T1VqSWZiOW4zRTBMUjE5MjlTckFScUNBNnc5ZUpsX0l0SlQtd09sU0pPMmUtbUQtMEtRbVd4NGRMV0JTTlBxaU9WVDFBNXdsdXVCbVJ6UzgwXzhzX1R3RnA3LThfVENhbV9TcjVON3ZWSUhvbUZ3R1VRVEFMSUxPM1BQeGxsVGN2eDJqYlZsaW1MaTA5dTBPSEp1S19QZjUtS2oySVVzUQ",
     "Source": "More",
-    "Published": "16 hours ago",
+    "Published": "20 hours ago",
     "Datetime": "2026-02-08T10:42:28",
     "Category": "State-Sponsored Cyber",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.technobezz.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151501"
+    "Scraped_At": "2026-02-09T07:16:49.109634"
   },
   {
     "Title": "CISOs to pour 2026 budgets into AI as cybersecurity priorities shift",
     "Link": "https://news.google.com/read/CBMiZ0FVX3lxTE9sTnpETi1TWTFRWEpLMlE1ZFZ0eWlQQW05NFBTaWRnUUlzZVlXV3NfQ2pNOWZFY0ZKdHI1WmpYRU53cmNua1pPZW91elNXaG10eUZuTk1tZXVaS2pERWlhZ2NzeXdQdTg",
     "Source": "More",
-    "Published": "16 hours ago",
+    "Published": "20 hours ago",
     "Datetime": "2026-02-08T10:35:00",
     "Category": "Cybersecurity",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.calcalistech.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151504"
+    "Scraped_At": "2026-02-09T07:16:49.109636"
   },
   {
     "Title": "India aims 1,000 Qubits and 2,000-km Quantum Communication Network: Dr Jitendra Singh",
     "Link": "https://news.google.com/read/CBMiugFBVV95cUxOX2RWZDRFNkJGZ2xleFlHRGlyd2x3dGczWWdGdG5zcWRYRU1ESmc4T1JjdWdCQlFsTTJWNTAzaFBJWld3Y2NVU1dwUGF1LWpuZTlvMl9kZlpXZUZWVnRvT3p2VDZweXpPWEZWOWZaN2ltdnhpc21xXzRFZklpcVplcmdHN3otQ1EwWGMzaFdiVU1VMHlPNmtSWnV2alFINHhZTXhPTk95WXhaUnJYT3VmLXRWbGtYWVNfaUHSAboBQVVfeXFMTl9kVmQ0RTZCRmdsZXhZR0Rpcndsd3RnM1lnRnRuc3FkWEVNREpnOE9SY3VnQkJRbE0yVjUwM2hQSVpXd2NjVVNXcFBhdS1qbmU5bzJfZGZaV2VGVlZ0b096dlQ2cHl6T1hGVjlmWjdpbXZ4aXNtcV80RWZJaXFaZXJnRzd6LUNRMFhjM2hXYlVNVTB5TzZrUlp1dmpRSDR4WU14T05PeVl4WlJyWE91Zi10VmxrWFlTX2lB",
     "Source": "More",
-    "Published": "16 hours ago",
+    "Published": "20 hours ago",
     "Datetime": "2026-02-08T10:33:12",
     "Category": "Quantum Threats",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.ap7am.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151506"
+    "Scraped_At": "2026-02-09T07:16:49.109638"
   },
   {
     "Title": "How Israel uses cyber warfare to undermine Iran’s military power",
     "Link": "https://news.google.com/read/CBMijAFBVV95cUxQWWtVUVVMMDZ6ZXlzWHdsVEpYSEJzQV9EY1RrdDRTN2Q0dWlPMk4tU2tzWlhSRTFBdEpkYmF2RmdNMkloZ2dodGwwN21oaExmbVBUc0w0MzNZbUhFaUtmYjlZTmp4UUEwSU9NZG1IemE0VHlJbExTYXFya0ItczFnMkhnZFRVTE42QVRKZw",
     "Source": "More",
-    "Published": "16 hours ago",
+    "Published": "21 hours ago",
     "Datetime": "2026-02-08T10:15:26",
     "Category": "Iran Cyber",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.jns.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151509"
+    "Scraped_At": "2026-02-09T07:16:49.109641"
   },
   {
-    "Title": "Hospitals, banks, authorities: Federal Office registers hundreds of attacks on critical infrastructure | blue News",
+    "Title": "How Global Power Struggles Are Rewriting Cyber Defense",
     "Link": "https://news.google.com/read/CBMirwFBVV95cUxOeWJPSlJKN3VzZnlmSm5VNV9nQXJKX0RFaV95Qy1jbTJzOENQb0M0eGxGZGJfdV9YdnVkZGx4WlQ1MFJ1QzlmT3V5NVJvcnRQcXdPenBKNWZpbEI5d0xNUVVuUnRELURYdEotcllGZXlkWDlpelh3aWhPSzI1cEpCcFZrblJYaloxM3U3aXlpR0FOTjBBMjBURkVuSkhhRXNHUTkwa1EzOVkzdUtuZ2RF",
     "Source": "More",
-    "Published": "16 hours ago",
+    "Published": "21 hours ago",
     "Datetime": "2026-02-08T10:02:14",
     "Category": "Critical Infrastructure",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.govtech.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151511"
-  },
-  {
-    "Title": "Man Suspected of Shooting GRU General Arrested in Dubai, FSB Says",
-    "Link": "https://news.google.com/read/CBMiswFBVV95cUxObUJVTnhXcDg0dXEzOVdTR3RjTVI5Y2U1MS1sYnh2S211MFVlSmtWeEVmSHdpSTRjMlUwSTJqd0xSd3VSemlkbHBvYk1YVDZ5NXgxZjFYaHFWd3hsMGk5aklIMHdzX19TZVFhLUZSaUVlOW5HT0Ezd3dNZHlLUHBUUU5yaFlQREEyOV9RSWRLcVFJQVhpbU44cUd1aVp1cWJ4YWdVZV9NVmgzaGMyRkZZMzc1QQ",
-    "Source": "More",
-    "Published": "16 hours ago",
-    "Datetime": "2026-02-08T10:01:00",
-    "Category": "Russia Cyber",
-    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.themoscowtimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151513"
+    "Scraped_At": "2026-02-09T07:16:49.109643"
   },
   {
     "Title": "Starlink Blackouts Disrupt Russian Frontline Operations, Ukraine Says",
     "Link": "https://news.google.com/read/CBMisgFBVV95cUxNelVDYUZDbF9HSlFrUkd0RTd3dnNITmlybUdnWlZUaUdzelMzMml2eHhaanJCWUJNUnlCREk4VjZVMFlGSjdkYkxMRGgyRWxramNqRG1icTNoX2xVMzY5b2ZqTTROT080d21GMkc3SjhTY2hKNjNmQk1CWWI2ZGEzODVYRm96aWxUdFU0NVRtUnlHVjZScU1vaUt3VGUwWW1EalVqcWZ4MEFDdWpMMWJVZGdB",
     "Source": "More",
-    "Published": "16 hours ago",
+    "Published": "21 hours ago",
     "Datetime": "2026-02-08T10:00:47",
     "Category": "United 24",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://united24media.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151516"
+    "Scraped_At": "2026-02-09T07:16:49.109646"
   },
   {
     "Title": "Six in ten financial cyberattacks start with stolen login details",
     "Link": "https://news.google.com/read/CBMirgFBVV95cUxPZld0dDQ5REs5REdYeXE1LWR4clVNVmNob3Nqc215ZkJPTlZvVlZtOUhSTGx1Ti12Z0k4c09YVE5zRk1Ybjg3VDdCVlRkelFKdGlFNUxrR3pOX2hNRTc0NEpSYlAtZUNYSng2eVZjbjA3U0FzeTJXNTU0R1JVcFpfcGw3c19TaWN4U09jOXhUTzdTN1I2VS1qck1YbzJENHZ6ZTAtejRZYkQ0enJNNVHSAcABQVVfeXFMT1FFcTVjQy1HZHg0ZGt5a0c0LWVKN2FYQ25pdlU4eUtybkVJUDU1NmVudmEtWlBRbzl3SEx5S3dyRzJwSlFzZmRvREtFcU5ENWVBX0x6eUI4WXpGenlmWnFMSzZEcEppSXhlMEV0Mkw4Z2xoRGVkS3BZLTBGdzg1M0hWbGhYOHAyZndlVFlYYXhOZzFsU1kxLUozelMtNGNCeVJfWmhLaFZJdDRVZlFUcWFsME1BZTV4R05Vby12WjBD",
     "Source": "More",
-    "Published": "17 hours ago",
+    "Published": "21 hours ago",
     "Datetime": "2026-02-08T09:48:23",
     "Category": "Financial Security",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://gulfnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151518"
+    "Scraped_At": "2026-02-09T07:16:49.109648"
   },
   {
-    "Title": "Cybersecurity breaches emerge as top risk for India Inc: Report",
-    "Link": "https://news.google.com/read/CBMi3wFBVV95cUxOVFl6Q2t6SnZIbWoyZHRwUEhNRVBqaWFabC0zMTFBT2l5S0J4alBBQW80VUZ3X05nLUdicURlc2ZmZ2wwSmRhSllQY3JIaHd3bmZuRjYtWFBWckcxM3hsLWlQZVVibU1sYzBadGhXYnR0bWczVmtxQW00RHZyVjM1M0c4VGtXMzdCTHhMWDZQVEZkbE8tcmxteUdSMWt6T2x4TXEyZ0xQRURtQ2V1SDhGVU5La2ktNmc5emlBS2xrVkh4T2k5aFMxdmpZU2dxdzBNbktwUWpBX2RiNkItSXpv0gHkAUFVX3lxTE5tcmFVTHBYejVubWRYOEpIVnlvT3hWRWZzOWY5UVpIN0RCa3NLZmlGTGVtNWRocUExekhfejVadHo1aU1ydTNudGExWkcyRngzVW0xdDJBTGpCd1hTQVBrdm55R1kyRnNmaEJSbzZCNEJfSDNXQzhybTlkeS1Ja2FfX0Zma0FqcGM3cDFQVTVCXzd2VW4yQ2RnN201VXpEMkpIVXJvSlJhZ3RGeF9NYnZ1V1NuMWhCN19vR0dKalpfbzFWWTBkeXdubW9vbXlZV3RuSFJjSGY4LVprYnRHbXhGWmpqRQ",
+    "Title": "Machine learning could yield faster, cheaper lithium-ion battery development",
+    "Link": "https://news.google.com/read/CBMiggFBVV95cUxNZEhUVWVzMUliTXVSQXB0TnF2aE1fR1VQb2VfWFAzVk1adHdiVHV2a3lGNEgxVGtVSnJ3ZkxqVkhGWFZlT1luTUwwYmltUGFuUzV0c2EzR0Y4S1RMeFZRS294cUNrbWd4Q2tmZXNRSzl0N3BiTzdtMFRWa2dQcU10OVNR",
     "Source": "More",
-    "Published": "17 hours ago",
-    "Datetime": "2026-02-08T09:38:40",
-    "Category": "Cybersecurity",
-    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.economictimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151521"
+    "Published": "21 hours ago",
+    "Datetime": "2026-02-08T09:25:00",
+    "Category": "The Register",
+    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.theregister.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109651"
   },
   {
     "Title": "Suspect in attack on Russian intelligence officer Vladimir Alexeyev detained in Dubai",
     "Link": "https://news.google.com/read/CBMivwFBVV95cUxNRWVoYzdjN0hWMmNxc3JPSWFDSmVWRkpsOVpoRzRFQ3VxbVp5OGIyWXJRUTh2OUJZMF9Za0htLWVWeV9ycWRGWWExT1EteW9fbFhsRkR5cXdaRE1WLVJPVUpQR3B6aTZLTWJFenRGR2Fjb240S2I5LWVtZzlrWXFGMFZUQmM2a0dmbXQxS1Vhd24xQk5FOWx5VjhpQXRqZGNJZG5sdG5EVWNQSlAxUlNxdUR0YXhlTmpBX251ckRXNNIBxwFBVV95cUxPdjNuaHVsWWZ2dG1sOXVMckRXYlpvNHhGQzBMZ05sQUxhTW9XVzRqVUZpUnpzNHl3ZXNkU3plbTlxWTFEblhJX0NYRS05emtLZzhuYXREeHJYTnd4Q1FJRjZkbUxLR1dSRVJpUWNpTXVKZmh0Mjg0VXlEMm9lcHI3TGVaX0lQRy1kNnRPMUhqU0dWeW1PZ2taY0xicTlYOVpXbVpZZW9NaC1mZzdkU0otNjJxTDBOODdveDRuaDFBQ0hITGpIZDI4",
     "Source": "More",
-    "Published": "17 hours ago",
+    "Published": "21 hours ago",
     "Datetime": "2026-02-08T09:19:57",
     "Category": "Russia Cyber",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://tribune.com.pk&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151523"
+    "Scraped_At": "2026-02-09T07:16:49.109654"
   },
   {
     "Title": "Rethinking next-generation OT SOC as IT/OT convergence reshapes industrial cyber defense",
     "Link": "https://news.google.com/read/CBMiwwFBVV95cUxNTmR0MlZwRGk1S0syWHpLZkFNRHBXT3ZudnN4MHZlOGpQamkzMEdqc0tFenoxUDJSZFJIVVo1YkdPYjJTbUdkUmF2U3B3MlE1a082M2ZVd2txRE9iVkdmeUp4YjhiOFdLQUs5U0FtYnpXT1RNOXl6ckl2REpkc2I4Y3Q0UG4zLXBOcDU0YnVHbklPbzRJZnBnOUpIU2E3NTJCSW94ajE5OGg5YW8xbUg4UXhfUWZDUnc2UWhtd0M3R09PS28",
     "Source": "More",
-    "Published": "17 hours ago",
+    "Published": "22 hours ago",
     "Datetime": "2026-02-08T09:10:19",
     "Category": "Critical Infrastructure",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://industrialcyber.co&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151526"
+    "Scraped_At": "2026-02-09T07:16:49.109657"
   },
   {
     "Title": "Navigating the Tech Threat: Indian Companies Face Cybersecurity and AI Risks",
     "Link": "https://news.google.com/read/CBMi0AFBVV95cUxNMFpjUVFYekRGWnYzTHNVbEVUeDRpME1JZE9Ma09BV1cxcWVORU1tRlBpWVRyZzRtSjMzYUtqdWcyQVowLVA1MWx5cEV2dnI1M29pV2c1Vmt1Z0w2czJGLVdXMUU5U1ZQR05NWloxQkRjRFFqUlk0aUdGV0VKTHBHTEhUdWtqa2c5NnJJOG12U2hzV0EzTDVDN3dVRzRlaG9KT09sdjhIQVJ3Y0I4YzhxQlRySGVJYldJenlPZzRTdTlaY2d0cVQzYTdiaHlKakZT0gHQAUFVX3lxTE0wWmNRUVh6REZadjNMc1VsRVR4NGkwTUlkT0xrT0FXVzFxZU5FTW1GUGlZVHJnNG1KMzNhS2p1ZzJBWjAtUDUxbHlwRXZ2cjUzb2lXZzVWa3VnTDZzMkYtV1cxRTlTVlBHTk1aWjFCRGNEUWpSWTRpR0ZXRUpMcEdMSFR1a2prZzk2ckk4bXZTaHNXQTNMNUM3d1VHNGVob0pPT2x2OEhBUndjQjhjOHFCVHJIZUliV0l6eU9nNFN1OVpjZ3RxVDNhN2JoeUpqRlM",
     "Source": "More",
-    "Published": "17 hours ago",
+    "Published": "22 hours ago",
     "Datetime": "2026-02-08T09:05:10",
     "Category": "Quantum Threats",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.devdiscourse.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151528"
+    "Scraped_At": "2026-02-09T07:16:49.109659"
   },
   {
     "Title": "air defense system • Page 14 of 14",
     "Link": "https://news.google.com/read/CBMiakFVX3lxTFBMN1RhWlFNeF92ZFRTTWl2M1dEeWxuZTJrSXBMSUZfNTJhSzN2UnpJS1NYMGhIYldTcjR1akNQenV2djZjS1dFRHk2QlVNT3ZwYW9JSGRnNEJrSHFaeFpwaEMxTjZPM29jUHc",
     "Source": "More",
-    "Published": "17 hours ago",
+    "Published": "22 hours ago",
     "Datetime": "2026-02-08T09:02:30",
     "Category": "Defense Post",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://thedefensepost.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151530"
+    "Scraped_At": "2026-02-09T07:16:49.109661"
   },
   {
-    "Title": "Week in review: Notepad++ supply chain attack details and targets, Patch Tuesday forecast",
+    "Title": "Signal Under Siege: How Russian-Linked Hackers Are Exploiting the Encrypted Messenger's Trust to Infiltrate High-Value Targets",
     "Link": "https://news.google.com/read/CBMiyAFBVV95cUxPRm9QeHZPdjYyTm5FX0xxWk5TYWtBTzF3bWRtbDRoTWE5NFpocXhhZEUyVWlJWE0xdU05b0hJZFRfRnFnMmZObUprT25yTnlReGxfc2ViamwxT3VfMnNwWWFZR0VFOC1WOURLZXU3MmdxdWJoRUJCMmZXLWh2UHplZHR4eGlSNndSTU00NnJYbFVUb2JmaGdNaTlmZ0wwVHk3N19ZQVpIaVVQR2t3SmpDSVNWME9nSi1ZeVNWVy13TFcxQ1NNNXJrVA",
     "Source": "More",
-    "Published": "17 hours ago",
+    "Published": "22 hours ago",
     "Datetime": "2026-02-08T09:00:42",
     "Category": "State-Sponsored Cyber",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.helpnetsecurity.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151532"
+    "Scraped_At": "2026-02-09T07:16:49.109664"
   },
   {
     "Title": "Delhi Police dismantle international cyber fraud ring: Three arrested in Rs 42 lakh stock scam",
     "Link": "https://news.google.com/read/CBMitwFBVV95cUxPWXNIS1YxQVNLMmp2REJGcVB2TWM0dk1YUk9uTld0dGdpME4wMWdoMXV1V2t6UzVtNmZoOGp1bktqQmtYMDVmbDFoeVJ5dWZmWUFkRW5MWFotS0k0ZkJxNnM5Zm9mV1F1RTlNdkFxQldrbURuZ2pTRFI0X0pXWW1Fa2UteWQxQlgxNjVSRHdaV2ZUODNNMlI5aEE5QlVweE9XdEJ3RWEtNmg5Zk5VX3daWUQyU3E1U2vSAbcBQVVfeXFMT1lzSEtWMUFTSzJqdkRCRnFQdk1jNHZNWFJPbk5XdHRnaTBOMDFnaDF1dVdrelM1bTZmaDhqdW5LakJrWDA1ZmwxaHlSeXVmZllBZEVuTFhaLUtJNGZCcTZzOWZvZldRdUU5TXZBcUJXa21EbmdqU0RSNF9KV1ltRWtlLXlkMUJYMTY1UkR3WldmVDgzTTJSOWhBOUJVcHhPV3RCd0VhLTZoOWZOVV93WllEMlNxNVNr",
     "Source": "More",
-    "Published": "17 hours ago",
+    "Published": "22 hours ago",
     "Datetime": "2026-02-08T08:53:43",
     "Category": "Financial Security",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://english.mathrubhumi.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151535"
-  },
-  {
-    "Title": "Link11 Identifies Five Cybersecurity Trends Set to Shape European Defense Strategies in 2026",
-    "Link": "https://news.google.com/read/CBMizwFBVV95cUxOUnYzeExFX0REU0JBOW80b0RPdzdHNDZoZlVyNk1KSm1NVWREOUdZNllfU3BvT3h2Qk96b1hSc0RITjBwcURzZWxDcDd2NGRSM0Z3R2RDeGJUbUpCa1BIWGotRTI0YWlXMjdoMXR3RDE1QVJISTdOZWo3dkNLVWZiX1Fhd0JqeUYybEJoZmp4MUttclNHY2pmdHBRTzJyam1acVVla3g5dFlpSHZQSzl2dXlwVnlkZk1HRzBXWkQxczJWZUVYd3lSX3QzRFA3Yk0",
-    "Source": "More",
-    "Published": "18 hours ago",
-    "Datetime": "2026-02-08T08:42:57",
-    "Category": "Critical Infrastructure",
-    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.cybersecurity-insiders.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151537"
+    "Scraped_At": "2026-02-09T07:16:49.109666"
   },
   {
     "Title": "Is your Android phone safe? Over a billion devices exposed, Google warns",
     "Link": "https://news.google.com/read/CBMitAFBVV95cUxNWEhFdW9qNWx1NmYyUXFLQ2NfVkVZMjdSWmlQSktoNER3NWNITjM0cURXbEsxOW9CeTV3Rnlnc2JaemNGamZBNk5Hd044VjlkUVpVU241NzRNUHVGMnN6SG0wRFptdXpLUGkzNnVLeFo3ZGdzcEZfbnZrRkFHSENNdDQzbTdpX200VnJyZ3pXWXhXVWhWT2VFWmgtdVduTVc2dmJlcXFpZm5POFlkcnZGa0JZVzHSAcQBQVVfeXFMTWtzb3M5ZGdZdThmbUNseHZua0JXMDY0S094SkRQQUI1LUtNZWNZcENib201aXBtTS1ZRGhjRW9ZcjF4Z1FiZVotRlZlN3c5OFcwcFBhcXoxS05LSzZwNmtualZMVlR2QTJNYTBsTFFTY0N5eWtUdlM3TnloTXZ3LTZ4cm1XMG5iYnlQN1pDZWZXY1FtRG9SX3JLV0R3dVNnV3JTTlIyQm5SWV9ub24wcE1EY0tZYXQtUVZOOGtuMXowaFJMOQ",
     "Source": "More",
-    "Published": "18 hours ago",
+    "Published": "22 hours ago",
     "Datetime": "2026-02-08T08:31:24",
     "Category": "Zero Days",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://gulfnews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151540"
-  },
-  {
-    "Title": "Uttar Pradesh Takes the Lead in Battling Cybercrime with Swift Intervention",
-    "Link": "https://news.google.com/read/CBMizwFBVV95cUxOUUZvMFBoYnZyR0NmbkhkZEYxWWJ1VWVyTHVyVzdBYXQtWk5Xc0FLZ1AzRjhLMl8zUm1SdXc3ck0tOWtfM2FIMU9SQ1FnVDVRQVZmTEJXc1ZUdzhSNVNJcS1hRF85MERiWU14TV9aRmJ6eGdNb09BaXllaXNCMlNQWXRRa3BWY0ZPWFE3X2ozWTBlTVdvMHdjZEdtVXIxQk8yUEpiR3dLbFQwVFBBcVNXWkgzS3MwM1k0dDlpZGJVVmNWWE1lYkotWUdOd3Z5a2fSAc8BQVVfeXFMTlFGbzBQaGJ2ckdDZm5IZGRGMVlidVVlckx1clc3QWF0LVpOV3NBS2dQM0Y4SzJfM1JtUnV3N3JNLTlrXzNhSDFPUkNRZ1Q1UUFWZkxCV3NWVHc4UjVTSXEtYURfOTBEYllNeE1fWkZienhnTW9PQWl5ZWlzQjJTUFl0UWtwVmNGT1hRN19qM1kwZU1XbzB3Y2RHbVVyMUJPMlBKYkd3S2xUMFRQQXFTV1pIM0tzMDNZNHQ5aWRiVVZjVlhNZWJKLVlHTnd2eWtn",
-    "Source": "More",
-    "Published": "18 hours ago",
-    "Datetime": "2026-02-08T08:18:24",
-    "Category": "Quantum Threats",
-    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.devdiscourse.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151542"
+    "Scraped_At": "2026-02-09T07:16:49.109669"
   },
   {
     "Title": "Weekend Update #171: The Week Trump Helped Putin Commit Two War Crimes",
-    "Link": "https://news.google.com/read/CBMi1wFBVV95cUxQQVVCSS1CYmJQcFNOMVNUT1hTTE5SZzJiZ1Bubi1tYU4wcW5OeHJzcHBFOGdXUlVQb051aFlMbUZqblVSUDZaVHIwYkxNNlJEYTl3dkZHN1IwRkZwdnNtRmgtVWVDTzlPekNzc2NDMmhWakFYZVRyb2E5M0paU1NQMXg0RXFEcWhhdEhlYXdadXJGWmpHR01fQVRMeU5zYS1KLUtIMUtFem43QWFBY3JpbzdSWkE1Nng0Q1FsbkRQSFd2ZE1STHJ1TW5VUk9wTEcxNHRBdEQ0bw",
+    "Link": "https://news.google.com/read/CBMifEFVX3lxTFB5WGc1bS1kN0dNcklBU1JpTW1EVXdVMm1yUXVRTXJBbnRjZ1lYQk9xRlNfRkZNcUxGWXp4eDBmeWhnNkxDUVdrLTBvdXkxckJXTmcweWpGMW5pOC1yV095RUVzLTlXSjQxakVJZXpyUnJkeTVhWVNUMld1WVo",
     "Source": "More",
-    "Published": "18 hours ago",
+    "Published": "23 hours ago",
     "Datetime": "2026-02-08T07:56:20",
     "Category": "Phillips O'Brien",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://phillipspobrien.substack.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151544"
+    "Scraped_At": "2026-02-09T07:16:49.109671"
   },
   {
     "Title": "“Hype free, real growth is the most critical metric that will drive premium valuations in 2026”",
     "Link": "https://news.google.com/read/CBMiaEFVX3lxTE1GOGZUei14SlVDb09LanY2UnMzYzBNbEtORVk2N094M1FGNDB1ZDZyLThrSVY0eHlBVGJLaEkxTldQdm5kVTBYSVQzTm5QT1B3T3Y5eU5SYkdyT3l4bnMtelRBUFFNWnky",
     "Source": "More",
-    "Published": "19 hours ago",
+    "Published": "23 hours ago",
     "Datetime": "2026-02-08T07:48:00",
     "Category": "Middle East Cyber",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.calcalistech.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151546"
+    "Scraped_At": "2026-02-09T07:16:49.109673"
   },
   {
     "Title": "Matrixport Secures Financial Services License (FSL) in Bhutan, Expanding Its Regulated, Institution-Grade Digital Financial Services Footprint",
     "Link": "https://news.google.com/read/CBMisgFBVV95cUxQZ2t0OWJmdVdSZ0ZGNDFGaE5hWlJyZWlzQ0dlcUNSR095cWNILXZ4emZIYUh1bHlLcUlWbEJJampHb2NQdUp3VEhtMTB4T3VaUmt2SHh5RVMxemxkcC1STnVDakpXRm1ZYzNsWlQ1cWozM3NQT0l3NXBJUnFhSWIwZW5GaG8ySUhtZHVjczJIdjJHZWF4dUVwSFlhSkNMZk9NVXdsckEyTmRWaUNEY2RJNUpR",
     "Source": "More",
-    "Published": "19 hours ago",
-    "Datetime": "2026-02-08T07:45:54",
+    "Published": "23 hours ago",
+    "Datetime": "2026-02-08T07:45:00",
     "Category": "Reuters Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151549"
+    "Scraped_At": "2026-02-09T07:16:49.109675"
   },
   {
     "Title": "German Agencies Warn of Signal Phishing Targeting Politicians, Military, Journalists",
     "Link": "https://news.google.com/read/CBMihAFBVV95cUxPc1ZOdkhYSmI2b0hsbzdYSXhoYjJwMVVCRWg0dGpQSm1XdVFET3c5VTU4aXhkRy1tM3g0VkdTOGhUcVpqVlctQzRsMF80eUNBemhiMm1TRmhVVFNSQy0xNy1vS0I5N3pIRXJpb2VuNW1ic01lZXM4ajA0YTVLUXJSN09vSnA",
     "Source": "More",
-    "Published": "19 hours ago",
+    "Published": "23 hours ago",
     "Datetime": "2026-02-08T07:32:00",
     "Category": "The Hacker News",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://thehackernews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151551"
+    "Scraped_At": "2026-02-09T07:16:49.109678"
   },
   {
     "Title": "This ape went to a tea party and shocked scientists",
     "Link": "https://news.google.com/read/CBMigwFBVV95cUxQU0dCYlhraVY2VmNKVWRsMG5zV1ZaelBHRkJvVlYtald6V1NVNUd0R1o4enB4Mk95Tkk0STlsTmpYcl9yRWJubVd1VUFkcFlkaWxtMnJ1bUNUWnppUEJxaUsyT21ndHVGXzEwaWZkOGRNWnA5SHpMWHZlUU9CZDZoU2lITQ",
     "Source": "More",
-    "Published": "19 hours ago",
+    "Published": "23 hours ago",
     "Datetime": "2026-02-08T07:30:35",
     "Category": "CyberNews",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://cybernews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151553"
-  },
-  {
-    "Title": "Quorum Cyber 2026 Global Cyber Risk Outlook Finds Cybercrime Has Entered an Industrial Phase Driven by AI and Ransomware",
-    "Link": "https://news.google.com/read/CBMi8gFBVV95cUxPdFlWZlkzVF9RcDNGWTNZMURzMm5uRzN5Q1BRNWpSSjNuRm9LNEpORmlxaGNXWmwxSl92em9WTWNNSW8yNVRjOHplVkQyc0ZRRTRGWTZTWGYyVXRvVng1TnZ5MEozMmEyX1VWZlFTMW90ZGtMcVM2Y1hZTmphbFA4eWt3akI2ZE1OaE9wRkU5TnVFZ0dwU1pVOGJEQmJVWlZ1azlkRTJhRkFMeFkzb1BlVHhUUUhIRkdtRUlPM1pETFdzTXkxaEhXeXJfU0NmM2thQ01Kb1dnQ0cyN2R3QnlFYlFZR3JiaHdqWjVLcWFTam5Ldw",
-    "Source": "More",
-    "Published": "19 hours ago",
-    "Datetime": "2026-02-08T07:29:12",
-    "Category": "Ransomware",
-    "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.cybersecurity-insiders.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151556"
+    "Scraped_At": "2026-02-09T07:16:49.109680"
   },
   {
     "Title": "10 Days Until A Rare ‘Ring Of Fire’ Solar Eclipse — Not Where You Live",
     "Link": "https://news.google.com/read/CBMixgFBVV95cUxNeHR5SnR0a0YtRmxEWlRNM3Z5bHhvZmZKcmwtSGJ3OGFVeHNyU2FTYXZDNFNEc1N2czRRcVlocDdNZWpWREttcGd0VGJSNWY1UkRMeE1sU1dmSWVtWnJOX0h4SDB6QXBEOXA2aXpadlVVQVdwV3k0N01pNHIxLUdVd2Jfd0dCMnRNSFhUX1hjOU02RkNTRk1qQ2N0YWh5WWxBOXpwQ3AxeU5id0NJVDN2UWVzZkhzQXFhZldPS3l2c1BwdG1uWnc",
     "Source": "More",
-    "Published": "19 hours ago",
+    "Published": "23 hours ago",
     "Datetime": "2026-02-08T07:25:00",
     "Category": "Forbes Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.forbes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151558"
+    "Scraped_At": "2026-02-09T07:16:49.109683"
   },
   {
-    "Title": "BridgePay Network Solutions Ransomware Attack: Nationwide Payment Gateway Outage and Impact Analysis",
+    "Title": "Quorum Cyber 2026 Global Cyber Risk Outlook Finds Cybercrime Has Entered an Industrial Phase Driven by AI and Ransomware",
     "Link": "https://news.google.com/read/CBMixwFBVV95cUxONFNOaWdmUmtUOFNva1IyTkppN09QTVVpRVNuaXkwdXdXd0hUWENmazhuLUR4Z1FpZTZzVk83WlBHZ2Z3VFlxcjhORlZaUWlJYk1ucjlxclNSTFlUejh0TThrcDgxVWMzNi1OeThORFNwdmhFZTlfbnhEOVJsS1h5Ym1vNjdRcHJQbFo5d2hoT0NjcExkeWtNWE5qbllOWU1TdjZ1ZTBDTXpydmZfX1ZfTXphdGtSQmhQOTZ4WW5rYnl3Z1dKMzI4",
     "Source": "More",
-    "Published": "19 hours ago",
+    "Published": "23 hours ago",
     "Datetime": "2026-02-08T07:20:51",
     "Category": "Ransomware",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.rescana.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151560"
+    "Scraped_At": "2026-02-09T07:16:49.109685"
   },
   {
     "Title": "Germany Warns of Sophisticated Signal Phishing Attacks Targeting Politicians, Military, and Journalists",
     "Link": "https://news.google.com/read/CBMixgFBVV95cUxOanJ6ZU13MlhlR21NVG93QjJvejh4SFR5bEVDNWgzbXk3T2dhbXZKTWFfc240LVB0c0dMWUxZUnJHMHRLNVIyMFd3Rlh2YjVEV0VlNEwxUGRlWTEtVDR1ZW1BV2YycUpRSDdNUXVHeHBCcnJuSW1fMFdHN1JKYm4xMzZ2ZjJFUkx4dlVKWWJUWFJrTEtxXzRkZVg3Y3poMjZ4d0QwU3h1WnJPZG1YZzBCSTMwdDJRWThUeDY2dE9QNVdqWUllc2c",
     "Source": "More",
-    "Published": "19 hours ago",
+    "Published": "23 hours ago",
     "Datetime": "2026-02-08T07:20:51",
-    "Category": "APT Groups",
+    "Category": "Advanced Threats",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.rescana.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151564"
+    "Scraped_At": "2026-02-09T07:16:49.109687"
   },
   {
     "Title": "Phishing and Social Engineering Still the Main Gaps of Digital Crimes",
     "Link": "https://news.google.com/read/CBMiQkFVX3lxTE1pbWRoMjc5MkZ4WDMyQkxYY24wblhOZDMwTzRBTkZRRUdWU1JEYlo2Z2lJNUVHWHNSeDVmbmt4UXM3UdIBQkFVX3lxTE1pbWRoMjc5MkZ4WDMyQkxYY24wblhOZDMwTzRBTkZRRUdWU1JEYlo2Z2lJNUVHWHNSeDVmbmt4UXM3UQ",
     "Source": "More",
-    "Published": "19 hours ago",
+    "Published": "1 day ago",
     "Datetime": "2026-02-08T07:11:23",
     "Category": "Financial Security",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://voi.id&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151566"
-  },
-  {
-    "Title": "AI Discovers Critical Zero-Click Flaw Threatening 8,500 Enterprise Remote Access Systems",
-    "Link": "https://news.google.com/read/CBMihAFBVV95cUxQOGlCa0UyeG1jVU41WU9xbzhQWl80ZGtjQ21nMTJpamZXZ1dYSldkbmo2bnBvYjR3TnFuVmdHT19UZ0h5S0FHMWJpakZLMllneWNyWFBmQnZkbDI1WS1wM0VwbXRHQ1Fqd1JlZEsxMk10Zmt2R2xIS3pkY0lFT2RrclVRNzY",
-    "Source": "More",
-    "Published": "19 hours ago",
-    "Datetime": "2026-02-08T07:11:00",
-    "Category": "Vulnerabilities",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cyberkendra.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151569"
+    "Scraped_At": "2026-02-09T07:16:49.109690"
   },
   {
     "Title": "Rising Critical Infrastructure Cyber Risks Highlight Demand for Deep Software Visibility Solutions",
     "Link": "https://news.google.com/read/CBMi3wFBVV95cUxNU2c5b1lBTGVlblE5T040XzRTUFoyUjQ2a1VRc3QxSUc4bzRQVWhwckoyWWdCN00wM2I4Mnc2eUJRUkZkWXdzdFloVW4tUnhEeGVOdlBuTmt6c3JUODZGbFdEQm9UNXEtcmlBZUJBNXotNDJCMm5Xd1dKN2lwZkhNS1VIbHYzbXlxQXVvcTVxbkdVUXNUblVzUzN3eTFBRVRhZl9uM2kxb1BXRkl4dUJvbk1BZDlndUFKeE9vZkVsTmR1SndORnE5V0R3ZXNDUGRrMWluZmk2TFQ5Y24wLWRZ",
     "Source": "More",
-    "Published": "20 hours ago",
+    "Published": "1 day ago",
     "Datetime": "2026-02-08T06:35:20",
     "Category": "Critical Infrastructure",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.tipranks.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151571"
+    "Scraped_At": "2026-02-09T07:16:49.109692"
   },
   {
     "Title": "Can Europe get kids off social media?",
     "Link": "https://news.google.com/read/CBMicEFVX3lxTFBoVVJ5eE1qOWRCOTlvT19Idm9ZRXRRMjExckdXaEJJcVdraVJNYzRQTkU1LVkzcjd0VHExSTN6c2tXclNiSmxHdUtTRVp5N3U1UEFpaGdSX2tOVW9vb2pkSHlVRVkxRjNtcV9kNHVzTU8",
     "Source": "More",
-    "Published": "20 hours ago",
+    "Published": "1 day ago",
     "Datetime": "2026-02-08T06:22:30",
     "Category": "FT Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ft.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151573"
+    "Scraped_At": "2026-02-09T07:16:49.109694"
   },
   {
-    "Title": "‘Progressive Democrats’ opposition to US arms sales will increase’",
-    "Link": "https://news.google.com/read/CBMijAFBVV95cUxOTjFaeTdScnY5X1QycU5DT3ptMmpUcW92bkdESmtlWEtVdGJ4QThCejFJcUJQTW1WYnN3UjRoSFFUSTgwcG1Wb19hWmI3NEtfUU9BRWdhR2syVS1FVkJ3RUVxLWwxZDB1aFRfaDM5UVJpLXJYNm5OMWlHSUkwZVByemJ5a2tLbmRXd1VKag",
-    "Source": "More",
-    "Published": "20 hours ago",
-    "Datetime": "2026-02-08T06:18:37",
-    "Category": "Middle East Cyber",
-    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.jns.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151576"
-  },
-  {
-    "Title": "Union Minister Jitendra Singh and Andhra CM lays foundation stone for Quantum Valley complex in Amravati",
+    "Title": "Google Urges Governments and Industry to Brace for Quantum-Era Cybersecurity Risks",
     "Link": "https://news.google.com/read/CBMia0FVX3lxTE0xdS1Mc1huRTA0dHVCeUJ3V1lBOVd6NjRWN1pnY3JZMnNkVzEtcXVkdUxoMnRVUDdZM2NjeVNEVngwQzJxTVNlcnNsTGpDU3BBY2Y4QlZoMFhucGtmYUtKU1lTSUxSaWUxX1pF",
     "Source": "More",
-    "Published": "21 hours ago",
+    "Published": "1 day ago",
     "Datetime": "2026-02-08T05:39:56",
     "Category": "Quantum Threats",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://the420.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151578"
+    "Scraped_At": "2026-02-09T07:16:49.109697"
   },
   {
     "Title": "Is Israel prepared for the antisemitic fallout of a US‑Iran war? - opinion",
     "Link": "https://news.google.com/read/CBMiV0FVX3lxTE1QVGp2TkRpdkRoTVVTcWJkT3hYYUp1N3ZJTHpjX3I2eVUyWmJqT3p2VFg2TTdrb1NVQVJsZGphNnRrT3lYM1AyaVRJQklDcmpyb2FyYTdORQ",
     "Source": "More",
-    "Published": "21 hours ago",
+    "Published": "1 day ago",
     "Datetime": "2026-02-08T05:19:08",
-    "Category": "Iran Cyber",
+    "Category": "Middle East Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.jpost.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151581"
-  },
-  {
-    "Title": "Galaxy S21 retired: Should users upgrade to the S26 or hold?",
-    "Link": "https://news.google.com/read/CBMinAFBVV95cUxNNktCRmRheUxVMW9vUE9haVg2UFdxT3BwUnY1d0g0cVFVNmRJRUFBb3VYYVozZldnWVlzR2xVZ0xLV2xCNU5naHlwM01zRmN3UXdvc2U3emU3a2p1YTdYS1RIVU95RmZUa21WREN2UVg5cU5WN0k5OXRLQzFuVXd3M3BZbGZFSkZSb2x0RnBUUnQ2bm1IdHFOLUlRNzHSAaIBQVVfeXFMUFRFT2h5VF9nTGVJMWZwdE15dnZvUXJhS3Q2bDNULXRRN2hCcmJvR2k5ZDZ0bTJraFQ5bk1qejJ2OGJ1OVNpdzFJZERWbFRrQWVhX2NOLWZFRDFVS2U0eUQ3MjUxdmpSOVJFOEJIcUktbGJHM3hNYTQtUnhyZk5aYVJmdUIxNzY4QUF1Nm1iN0Zkc0hzRkdyOHJpRk5LQXpPN0RB",
-    "Source": "More",
-    "Published": "21 hours ago",
-    "Datetime": "2026-02-08T05:14:48",
-    "Category": "Zero Days",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.sammyfans.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151583"
+    "Scraped_At": "2026-02-09T07:16:49.109699"
   },
   {
     "Title": "Italian olive oil farmers say flood of imports is causing price collapse",
     "Link": "https://news.google.com/read/CBMicEFVX3lxTFBJMTNOalRqb2EyVFJuLXhWVEtTZzFFdTdZaW0zXzRBNUZINUZBaWlUbWRCdjNvc0otRWREWFJrSWx3ZVh5NHdZbFpEVmtFXzB0MndRbEx3QkpLQ1RzbHZabFhtNml3czdFNFFRWnpLdVU",
     "Source": "More",
-    "Published": "21 hours ago",
+    "Published": "1 day ago",
     "Datetime": "2026-02-08T05:03:45",
     "Category": "FT Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ft.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151585"
+    "Scraped_At": "2026-02-09T07:16:49.109703"
   },
   {
     "Title": "Is mid-life career malaise a joke?",
     "Link": "https://news.google.com/read/CBMicEFVX3lxTE1EQ3R3cDRrd2Rnc1NuSFQyTDNiVnZ3dlg5SkRuajhrbzJjNEpBbUFqSFdSWWxkYktjX05OMkxZbndRR1E3WUIwUzlBbUpYQzJHMEs1eWtGdDNsQkdjcktLc0dRdzZUUnVUMnFlQUFwMno",
     "Source": "More",
-    "Published": "21 hours ago",
+    "Published": "1 day ago",
     "Datetime": "2026-02-08T05:00:27",
     "Category": "FT Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.ft.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151588"
+    "Scraped_At": "2026-02-09T07:16:49.109707"
   },
   {
     "Title": "Bandwidth capacity of MyKasih boosted to ensure smooth operations",
     "Link": "https://news.google.com/read/CBMitAFBVV95cUxQbU5uUWV5Z3FlTHlXZ05rbVlTWE5mb1l6dVFLRE0wZjVLVHh3QXhHZkZsR3UtXzJFZmI1THlEdzVzcHlHNlVFd1ZzZjR5ckFqZjhPSm1SbGtWaW4wNzVKMTlaaEM1TU9RZklMN0hsRThVUkNqU0h5TXBQbVpfRi1PR0RhWFlIdHBiN253RDBqaGdKSVRXN3lqakdySDR6YWI0eEthbTlWd1ZlQnJIZHJQNDFEY2HSAbQBQVVfeXFMUG1OblFleWdxZUx5V2dOa21ZU1hOZm9ZenVRS0RNMGY1S1R4d0F4R2ZGbEd1LV8yRWZiNUx5RHc1c3B5RzZVRXdWc2Y0eXJBamY4T0ptUmxrVmluMDc1SjE5WmhDNU1PUWZJTDdIbEU4VVJDalNIeU1wUG1aX0YtT0dEYVhZSHRwYjdud0QwamhnSklUVzd5ampHckg0emFiNHhLYW05VndWZUJySGRyUDQxRGNh",
     "Source": "More",
-    "Published": "22 hours ago",
+    "Published": "1 day ago",
     "Datetime": "2026-02-08T04:40:16",
     "Category": "New Straits Times",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nst.com.my&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151590"
+    "Scraped_At": "2026-02-09T07:16:49.109710"
   },
   {
-    "Title": "Lee Chan-jin puts consumer protection first, overhauls South Korea’s FSS inspections - CHOSUNBIZ",
+    "Title": "Police Extradite Leader of 59 Billion Won Illegal Gambling Sites from Thailand",
     "Link": "https://news.google.com/read/CBMiiAFBVV95cUxNTE5kYXc5b09TNGUtWkNJZmx2MlVUTGRqMXZBY1dNZDR5MF9hcUVyMkJwQUJPMkQ4b25DUE01b2dkbUpuQzlGcVZTdHJXdEpVMXZYME13TEQ1R2xRX0dGaDd1bGlWaEljWUczRm9idXp5X3ZtQmM4TUdFa2VjWVFidTVKUEhYVHJv",
     "Source": "More",
-    "Published": "23 hours ago",
+    "Published": "1 day ago",
     "Datetime": "2026-02-08T03:43:45",
     "Category": "Chosun Cyber",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.chosun.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151592"
+    "Scraped_At": "2026-02-09T07:16:49.109714"
   },
   {
     "Title": "Russia News - Latest Russia News, Breaking Russia News, Russia News Headlines",
     "Link": "https://news.google.com/read/CBMiV0FVX3lxTE1BdjhqdjBXUWlxMjQyQURaQ1l6eXZieFc0RnJFWXhhNU5DbGJxN01JaUVHOFNkLTl1cmpiM2wzR2VTaXd5V1dGT2d5WkRuUG9zNUxsamNIWQ",
     "Source": "More",
-    "Published": "23 hours ago",
+    "Published": "1 day ago",
     "Datetime": "2026-02-08T02:51:09",
     "Category": "WION News",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.wionews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151595"
-  },
-  {
-    "Title": "IT talent export to KSA hits new high",
-    "Link": "https://news.google.com/read/CBMif0FVX3lxTE9yMlA0cEpzbHFxRnNoZmxfUWIwZ0dnQ3pEZXQtN0FQMjNXNlZ0UHhtM0x4NUo2WThkemRXUG5qWktBWUMxZHl3bnB2azhaeFhmMXpraUxGcExYMUF5cm54VzZHMW5XQTRQQlN2TGpRSzI1VFg1SktoOWVEMlhDcUHSAYcBQVVfeXFMTk4tc2Vmb0pPUDBwaXI5N25QZDJQYUdkaS1pT2o3YkMyQllfSzREMko1a2ItMDJ1TEJuQVpyM1Q0TmI0NXhtcEpqc3JwUnNNLWJVcHBIVGtJSXVxYmF4T1J2UnhVR1FQdE5PTUFjcHY5N0tWQnBWLS1KdlJOOW1Dc3ljMmkxZzBv",
-    "Source": "More",
-    "Published": "1 day ago",
-    "Datetime": "2026-02-08T01:36:36",
-    "Category": "Healthcare Security",
-    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://tribune.com.pk&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151597"
+    "Scraped_At": "2026-02-09T07:16:49.109717"
   },
   {
     "Title": "TechCrunch Mobility: Is $16B enough to build a profitable robotaxi business?",
@@ -1247,7 +1547,7 @@
     "Datetime": "2026-02-08T01:26:49",
     "Category": "TechCrunch Security",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://techcrunch.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151599"
+    "Scraped_At": "2026-02-09T07:16:49.109719"
   },
   {
     "Title": "How NATO can stop Russia's attack on the Baltics — General Hodges' arguments",
@@ -1257,27 +1557,17 @@
     "Datetime": "2026-02-07T23:59:00",
     "Category": "Russia Cyber",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://news.online.ua&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151602"
+    "Scraped_At": "2026-02-09T07:16:49.109722"
   },
   {
-    "Title": "The Growing Importance of Cybersecurity in the Digital Age",
-    "Link": "https://news.google.com/read/CBMiiwFBVV95cUxObnVTM1ZUczBONEtTLVpBYnRNWWt4MnZiSWJjLVVLcDRYVE9fUEVkVGtkMUxOTG96WDBhcTVkbVZXc2tMeU1DYy1MQy1UYTZtc2drMlRzQ1lYZi05eWJFYlpBZ3J5dlI3Sm02S0xUa25WNEo1WUhvOWFpN2szS0tWQnplWG1id3VhcmNj",
-    "Source": "More",
-    "Published": "1 day ago",
-    "Datetime": "2026-02-07T22:51:53",
-    "Category": "Advanced Threats",
-    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://techbullion.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151604"
-  },
-  {
-    "Title": "2026 Winter Olympics Live Updates: Opening Ceremony Formally Kicks Off Milan Games",
+    "Title": "2026 Winter Olympics Live Updates: Opening Ceremony Formally Kicks Off Milan Games - The New York Times",
     "Link": "https://news.google.com/read/CBMijAFBVV95cUxORXIxZVZYeFdDUExFV2FlejctR0I2MHRYY3RqeUZnTFNhdmVVMVZiUVZrdlBMTVhJN1Y0dTl5em55M1JlUU8tTUtUbzcwMGZ6b1JReVc0R1prM0h2VUU2eDVJVGV1RjZCdS1IVlI5ZS1aZnN6eWxLeVdjaWE2ZmRLc2c4X0g5UndHZGZGTQ",
     "Source": "More",
     "Published": "1 day ago",
     "Datetime": "2026-02-07T22:44:16",
     "Category": "NYT Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nytimes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151607"
+    "Scraped_At": "2026-02-09T07:16:49.109724"
   },
   {
     "Title": "Adobe ColdFusion CAR File Parsing Directory Traversal Remote Code Execution Vulnerability (CVE-2025-61808)",
@@ -1287,7 +1577,7 @@
     "Datetime": "2026-02-07T22:36:17",
     "Category": "Vulnerabilities",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.sophos.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151609"
+    "Scraped_At": "2026-02-09T07:16:49.109726"
   },
   {
     "Title": "Bitcoin developers race to prepare for quantum computing risks",
@@ -1297,7 +1587,7 @@
     "Datetime": "2026-02-07T21:45:35",
     "Category": "CyberNews",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://cybernews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151612"
+    "Scraped_At": "2026-02-09T07:16:49.109729"
   },
   {
     "Title": "NBA star Giannis Antetokounmpo joins Kalshi as an investor",
@@ -1307,17 +1597,7 @@
     "Datetime": "2026-02-07T21:30:41",
     "Category": "TechCrunch Security",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://techcrunch.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151614"
-  },
-  {
-    "Title": "Signal Under Siege: How Russian-Linked Hackers Are Exploiting the Encrypted Messenger's Trust to Infiltrate High-Value Targets",
-    "Link": "https://news.google.com/read/CBMi5wFBVV95cUxOVDhFSC12TUo4R2dmbFk5Qmp0d21GUnVnNE8tQmpUQ2FaNXZJTGRWZDZWdkI5QnBER2h1aVFNWTRJRi1sM3RUUzNLdldPanE0aXZvUW02Yk9WSUdBYXdFYkZKWWE1QXZMM01uY19zNHpIVW4xQUl6MDlLM0R0TFBTX3U2bUtVLUtjLUJpdUpxZDY0SlRCNFZFaDE3bGJwNzd6VXRyeUJmUHh3dll4Nk51RHp4UC1RMlpPMDZCZHBOTVIwQ2dpaU05aUVEQkRRSE9Sa2tHSzZnYkc2NlFVZW44WmktRk1PTFU",
-    "Source": "More",
-    "Published": "1 day ago",
-    "Datetime": "2026-02-07T20:59:43",
-    "Category": "Zero Days",
-    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.webpronews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151617"
+    "Scraped_At": "2026-02-09T07:16:49.109731"
   },
   {
     "Title": "What Security Teams Need to Know About OpenClaw, the AI Super Agent",
@@ -1327,7 +1607,7 @@
     "Datetime": "2026-02-07T20:51:51",
     "Category": "CrowdStrike",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.crowdstrike.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151619"
+    "Scraped_At": "2026-02-09T07:16:49.109733"
   },
   {
     "Title": "Southern hospital IT outage caused by third-party hardware failure, Health NZ says",
@@ -1337,17 +1617,7 @@
     "Datetime": "2026-02-07T20:42:16",
     "Category": "Healthcare Security",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.rnz.co.nz&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151621"
-  },
-  {
-    "Title": "Bithumb Mistakenly Sends 620,000 Bitcoin ($40B) to Customer Accounts",
-    "Link": "https://news.google.com/read/CBMickFVX3lxTE1hbUlTV3A2NmRaUjlPdEgwWHdYUTYtTHBKTzk5aEhnLXdEVHpyZDYzQzJZbFJodC1Hdi1WeXJ2dVlFT05EdGNKSS05bFBfSVZjVnJLX0xTRGJkaUszQWJWWTV4Ry1SZ0UtOGJQNk1rZEhVUQ",
-    "Source": "More",
-    "Published": "1 day ago",
-    "Datetime": "2026-02-07T20:10:25",
-    "Category": "Hackers",
-    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://hackread.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151623"
+    "Scraped_At": "2026-02-09T07:16:49.109736"
   },
   {
     "Title": "NGINX servers hijacked in global campaign to redirect traffic",
@@ -1357,7 +1627,7 @@
     "Datetime": "2026-02-07T20:06:31",
     "Category": "Malware",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.msn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151626"
+    "Scraped_At": "2026-02-09T07:16:49.109738"
   },
   {
     "Title": "Cyber Truck Turns Into A Teeter Totter After Loosing All Its Brakes!",
@@ -1367,7 +1637,7 @@
     "Datetime": "2026-02-07T19:06:49",
     "Category": "MSN Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.msn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151628"
+    "Scraped_At": "2026-02-09T07:16:49.109740"
   },
   {
     "Title": "More hacking groups operate from China than from any other country, researchers say",
@@ -1377,7 +1647,7 @@
     "Datetime": "2026-02-07T19:00:36",
     "Category": "CyberNews",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://cybernews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151631"
+    "Scraped_At": "2026-02-09T07:16:49.109743"
   },
   {
     "Title": "Cyber Media (India) Ltd (CYBERPP)",
@@ -1387,17 +1657,17 @@
     "Datetime": "2026-02-07T18:39:17",
     "Category": "MSN Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.msn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151633"
+    "Scraped_At": "2026-02-09T07:16:49.109745"
   },
   {
     "Title": "Still using WinRAR? You should probably look out for these potentially dangerous security flaws",
     "Link": "https://news.google.com/read/CBMi-AJBVV95cUxPdm5sSVB3ZjliZEVfdllqUWdRcnZTWGdERGZaVnpKODB4VjE1cGVMV0VYZm1pdWtQY2VuZFRrbUpfRUtlVkdVN3JjSWF3SnEybkVtTFRBVEc3SXgyY2lqc04xUk9DUWk5SWhva3J2RDVsLUFNajJpNzJTZmRPZFo3enBmOF9JY3lTNmdvRmloVkUza3ZkbTlJeFVqYVpER2xoWGlNaFd0eWpUaGZLcnZTU1NHTnliQmJzLWFFRnBUY3BmN2stbWVmQ3VUakJjRndHS3prUlRWUlN5eVY1MU00QkVYNWpJZW9YSFI4M3o1YThVSG1sU1RHWXp5bjVwM3RfWHNlS05WMWJXd2hKdzk1N2FpcGhWU1piUWdOcG1RMWNOdUtpa1Qzd3BCanRUOURPWlBVeXROTnlicVFlMTBSLTl5RW12NWZJeW5ZN29RSWJqYk12Y1JkQ3c0TDZabVJMaUdnVmFVZDlSSVBZSDdRMkdXOUJZbXd1",
     "Source": "More",
     "Published": "1 day ago",
-    "Datetime": "2026-02-07T18:31:47",
+    "Datetime": "2026-02-07T18:31:48",
     "Category": "State-Sponsored Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.msn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151636"
+    "Scraped_At": "2026-02-09T07:16:49.109747"
   },
   {
     "Title": "New York lawmakers propose a three-year pause on new data centers",
@@ -1407,7 +1677,7 @@
     "Datetime": "2026-02-07T18:23:04",
     "Category": "TechCrunch Security",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://techcrunch.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151638"
+    "Scraped_At": "2026-02-09T07:16:49.109750"
   },
   {
     "Title": "Italian university La Sapienza still offline to mitigate recent cyber attack",
@@ -1417,7 +1687,7 @@
     "Datetime": "2026-02-07T18:10:11",
     "Category": "Ransomware",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://securityaffairs.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151641"
+    "Scraped_At": "2026-02-09T07:16:49.109752"
   },
   {
     "Title": "Advik Capital Limited Takes Website Offline Following Cyber Security Breach",
@@ -1427,17 +1697,7 @@
     "Datetime": "2026-02-07T17:31:55",
     "Category": "Financial Security",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://scanx.trade&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151643"
-  },
-  {
-    "Title": "Spying for China: Colonel Involved in Patriot Modernization Detained in Greece",
-    "Link": "https://news.google.com/read/CBMirgFBVV95cUxQdGZIdXRCZElab3VsaTdSQ3B5NUo1SUQtWHloU2J1SmJzME1IVC1hX3BYdlBPOHpsX21iQ1RoSmVyaEtDeVR0dkQ3eFhOUGp2VTY0TTl1YkViX1lZeE04TWRmZG1xdHkyZjBJeEJWRm82djFxWUoxRWpJMDNacENYd1BIMWZySDk3eGZIZy01ZUlBcXBCZFF4MDhWLV9DM2tiQjZIdzFkYk1KdFRYdnc",
-    "Source": "More",
-    "Published": "1 day ago",
-    "Datetime": "2026-02-07T16:42:52",
-    "Category": "China Cyber",
-    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://militarnyi.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151646"
+    "Scraped_At": "2026-02-09T07:16:49.109754"
   },
   {
     "Title": "Threat Actors Exploit Fortinet Devices and Steal Firewall Configurations",
@@ -1447,7 +1707,7 @@
     "Datetime": "2026-02-07T16:22:12",
     "Category": "Firewall Security",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.itsecuritynews.info&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151648"
+    "Scraped_At": "2026-02-09T07:16:49.109757"
   },
   {
     "Title": "Abandoned scam compound exposes brutality, banality of fraud",
@@ -1457,7 +1717,7 @@
     "Datetime": "2026-02-07T16:11:57",
     "Category": "New Straits Times",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nst.com.my&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151650"
+    "Scraped_At": "2026-02-09T07:16:49.109759"
   },
   {
     "Title": "A Conversation With Haleon CMO Katie Williams On Leading Marketing Through Disruptive Change Using A Marriage Of Empathy + Purpose",
@@ -1467,7 +1727,7 @@
     "Datetime": "2026-02-07T16:09:43",
     "Category": "Forbes Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.forbes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151652"
+    "Scraped_At": "2026-02-09T07:16:49.109762"
   },
   {
     "Title": "Cloud logs under threat? The method that exposes attackers early",
@@ -1477,7 +1737,7 @@
     "Datetime": "2026-02-07T16:07:33",
     "Category": "Red Hot Cyber",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.redhotcyber.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151655"
+    "Scraped_At": "2026-02-09T07:16:49.109765"
   },
   {
     "Title": "Russian Nuclear Strikes Endanger All of Europe, Ukraine’s MFA Warns",
@@ -1487,7 +1747,7 @@
     "Datetime": "2026-02-07T16:04:48",
     "Category": "United 24",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://united24media.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151657"
+    "Scraped_At": "2026-02-09T07:16:49.109767"
   },
   {
     "Title": "Kraken ransomware moves laterally across networks using stolen credentials",
@@ -1497,7 +1757,7 @@
     "Datetime": "2026-02-07T15:58:57",
     "Category": "Malware",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.msn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151660"
+    "Scraped_At": "2026-02-09T07:16:49.109769"
   },
   {
     "Title": "A week in France - Paris cyber crime unit raids X offices, concerned by deepfakes and child safeguarding online",
@@ -1507,7 +1767,7 @@
     "Datetime": "2026-02-07T15:41:20",
     "Category": "France24 Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.france24.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151662"
+    "Scraped_At": "2026-02-09T07:16:49.109772"
   },
   {
     "Title": "Just Security - A Forum on Law, Rights, and U.S. National Security",
@@ -1517,7 +1777,7 @@
     "Datetime": "2026-02-07T15:14:24",
     "Category": "Just Security",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.justsecurity.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151664"
+    "Scraped_At": "2026-02-09T07:16:49.109774"
   },
   {
     "Title": "Trojan:Win32/Malgent!MSR Uphero.exe, hero.exe, HidSpiCx.exe - Virus, Trojan, Spyware, and Malware Removal Help",
@@ -1527,17 +1787,17 @@
     "Datetime": "2026-02-07T15:09:46",
     "Category": "Bleeping Computer",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.bleepingcomputer.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151667"
+    "Scraped_At": "2026-02-09T07:16:49.109776"
   },
   {
-    "Title": "Machine learning could yield faster, cheaper lithium-ion battery development",
+    "Title": "LLMs need companion bots to check work, keep them honest",
     "Link": "https://news.google.com/read/CBMihwFBVV95cUxPT2RRTHF4NW9TYVk3MWQzT2xVYVpHdWxSVFk3ZGxNRVRyYklNTDVSQUxYOWZnT2x5Rmg1aVFkOE5jbm9aRmVBVS1DbzJNTWY3eW03QXEza09HNVFYRmFuSjBxV0F0TTdyU1pWQjdnR0pEOTFfNFFLSTk0aUVaSmJ5S1I1ME94RFE",
     "Source": "More",
     "Published": "1 day ago",
     "Datetime": "2026-02-07T15:00:00",
     "Category": "The Register",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.theregister.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151669"
+    "Scraped_At": "2026-02-09T07:16:49.109779"
   },
   {
     "Title": "A 24% Success Rate for AI Agents - Is That Acceptable?",
@@ -1547,7 +1807,7 @@
     "Datetime": "2026-02-07T14:29:39",
     "Category": "Bank Info Security",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.bankinfosecurity.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151672"
+    "Scraped_At": "2026-02-09T07:16:49.109781"
   },
   {
     "Title": "A New Technological Revolution in Andhra Pradesh - Foundation Laid for Amaravati Quantum Valley",
@@ -1557,7 +1817,27 @@
     "Datetime": "2026-02-07T14:18:01",
     "Category": "Quantum Threats",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.etvbharat.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151674"
+    "Scraped_At": "2026-02-09T07:16:49.109783"
+  },
+  {
+    "Title": "Ukraine denies role in attack on Russian spy chief deputy",
+    "Link": "https://news.google.com/read/CBMigwFBVV95cUxQazNnZG5OYktseFlaV3FZblZyZ0wtUnkwTXZSc0VBU29EYmZuMXdUSlhINWtGT1VHZVVoRWV4Yzd3SUNzc3cwUTRPNzU2OVgtMG45MFo5TkNpWlBtNG1IeGdWTW9sUUgzcXpPbFpxQnowOEhsLWZnb0F1QnF2MjUzWVNLWQ",
+    "Source": "More",
+    "Published": "1 day ago",
+    "Datetime": "2026-02-07T14:08:13",
+    "Category": "Ukraine Conflict",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://tvpworld.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109786"
+  },
+  {
+    "Title": "Union Minister Jitendra Singh and Andhra CM lays foundation stone for Quantum Valley complex in Amravati",
+    "Link": "https://news.google.com/read/CBMi3AFBVV95cUxPTWFGamU1cWlZajVqOXhZRjB0eE5lY2k5THcyS09NbkFTcE1jUGdWU2xOYm0wX3U0VE5FTnM2X3JJanZrVUVtblRFajVSVDk5VkhqRUdJTElQX002NVNNVzFGTll6VGRqZ21nTlc4UDFFMzltdkhzZlgtREVnaXplclVGdTBmeThROGxtUGxUNDNiUmpaZV9BUHZLdnBXYUxBcEdJQUd0aWRHNjV1dllCTjBRNjBLOWU4WFdmU0NZWURJUjZ1cDlqY08ydTcwazdhbW1MQ2xQWXZHX0dW",
+    "Source": "More",
+    "Published": "1 day ago",
+    "Datetime": "2026-02-07T14:01:00",
+    "Category": "Quantum Threats",
+    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.irishsun.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109788"
   },
   {
     "Title": "A Tesla Cybertruck Owner Breaks Down a Year of Charging Costs and Saves Over $4,000, Adds, “It’s Going to Be Hard to Go Back to a Gas or Diesel Truck”",
@@ -1567,17 +1847,7 @@
     "Datetime": "2026-02-07T13:38:14",
     "Category": "Energy Security",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.torquenews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151677"
-  },
-  {
-    "Title": "China-Linked DKnife Threat Underscores Risks to Network Edge Devices",
-    "Link": "https://news.google.com/read/CBMiowFBVV95cUxNNzJUc3RoWHlsUVNkcnVFWGl3VzdKeWE0MkY1VWlPRktVZTNXQ2RWSmdjYVNQV1lYRGJWbUtfa3lNZ2xGZXVpMWlIRDF1a0QwTHcweFdOQWtyeU0zVUU3bk9UZ3BHQkQwX0VoTTdxVVU4Mm1QU2FRaEtld3hIc2ZzODNfYXozUmtkWWdiQ2VaWlpPeTlJWGFSQ3dQSm9LeFVPNEdR",
-    "Source": "More",
-    "Published": "1 day ago",
-    "Datetime": "2026-02-07T13:22:31",
-    "Category": "Advanced Threats",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.itsecuritynews.info&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151679"
+    "Scraped_At": "2026-02-09T07:16:49.109791"
   },
   {
     "Title": "From disinformation to espionage – Russia’s hybrid actions against Poland",
@@ -1587,7 +1857,17 @@
     "Datetime": "2026-02-07T13:15:48",
     "Category": "Russia Cyber",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://defence24.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151682"
+    "Scraped_At": "2026-02-09T07:16:49.109793"
+  },
+  {
+    "Title": "SCOR expands Baobab cyber capacity via Lloyd’s",
+    "Link": "https://news.google.com/read/CBMiswJBVV95cUxOakRTSnlsejRCeklqLV9odGN0SUxWbXJjblRxM2JNN0wtZHRadUFuUDlmUHN2S3lZMmNPZEdQMG84QXl0ejlJalhLS3pxX0ZPbDJpTDhTdHowRzF2c2k2MmU0ejREU3RSY041bFBDVm9rNlVGZlp0RDQ1a2RiSi1JXzNtdG1vMTdvYy12cjZYakZaQjYtN181REJISXgzWDk2TGljWU12VDRmR200elRCZUtuVWdKcDNqS3F0TTc2UDZLcGQ5aU5ObjlWZjdMeVdLRGdOMk85YUJRZ0k4Q1BsM0ttV09GaTZYUEM2alBIWUhaTmNaWnRnM0JKQVV4SkttMS1KOXJVd1dhRVA1aVpjNmZYeHozMGRPUEcycFkyTlpKNEtENTRSeDVUVVA4RHBpYVlZ",
+    "Source": "More",
+    "Published": "1 day ago",
+    "Datetime": "2026-02-07T13:11:17",
+    "Category": "MSN Cyber",
+    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.msn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109795"
   },
   {
     "Title": "Hack-Proofing Our Space Infrastructure",
@@ -1597,7 +1877,7 @@
     "Datetime": "2026-02-07T13:06:44",
     "Category": "Real Clear Defense",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.realcleardefense.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151684"
+    "Scraped_At": "2026-02-09T07:16:49.109798"
   },
   {
     "Title": "Ukraine Blinds Russian Air Defenses, Destroying Pantsir, Two Tor Systems, and Critical Radars",
@@ -1607,7 +1887,7 @@
     "Datetime": "2026-02-07T13:03:14",
     "Category": "United 24",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://united24media.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151687"
+    "Scraped_At": "2026-02-09T07:16:49.109800"
   },
   {
     "Title": "AI week in quotes: Altman calls Anthropic’s Super Bowl ads dishonest",
@@ -1617,7 +1897,7 @@
     "Datetime": "2026-02-07T13:00:35",
     "Category": "CyberNews",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://cybernews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151689"
+    "Scraped_At": "2026-02-09T07:16:49.109803"
   },
   {
     "Title": "How Popular Is Kid Rock, Turning Point USA’s Halftime Headliner?",
@@ -1627,7 +1907,17 @@
     "Datetime": "2026-02-07T13:00:00",
     "Category": "Forbes Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.forbes.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151692"
+    "Scraped_At": "2026-02-09T07:16:49.109805"
+  },
+  {
+    "Title": "OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills",
+    "Link": "https://news.google.com/read/CBMijwFBVV95cUxQaWlYcDNEeVdTNlhSUzNKeXFvUksxR0V5cXRpOGFnQUNtYm4xbVREblFCdXJXRnBBelVtcDhCc3BJb0pNd1lMZ2lhWVphMUJuR3U1Wjc1eEJYWEVwYXVrUlR5ZkF2bXM4Yi1qekloOWxCUGQ5ajlMNlJJUGtwaVBSV212b2NTS0JiMW9XUVRsd9IBlAFBVV95cUxQQktpNkRTeTJEQmVnVFhzc1VBMFoxQjU2dXlCelV3Uy1MWExFVVIwelBHSVd4YVNuTG9PTENtYWJTMnNWQkhka05qdUx4MWZuMlVlNVlaOFVJZVFfWDJTWk5ZaUdLcTF5MDZxanREeDd1eFZnbWh1NjFvZFNMWC1vLTUydXRHeDNSUWhCTUVZYXBRTjlE",
+    "Source": "More",
+    "Published": "1 day ago",
+    "Datetime": "2026-02-07T13:00:00",
+    "Category": "Network Security",
+    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.securityweek.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+    "Scraped_At": "2026-02-09T07:16:49.109807"
   },
   {
     "Title": "All posts tagged \"edge device\"",
@@ -1637,17 +1927,7 @@
     "Datetime": "2026-02-07T12:49:51",
     "Category": "SecurityWeek",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.securityweek.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151694"
-  },
-  {
-    "Title": "Karnataka CID Busts Massive Cyber Fraud Network",
-    "Link": "https://news.google.com/read/CBMiekFVX3lxTE5QUGxHUDlpSi0teDNOX1hnd2NpVjJ5RF9zWkY2MzVLUkh6Q21RNy1IZmZtd2NSclBqMTBpY2VhODI3Yk14eHpjNkw3dXhrbm0teFNlMjVSNHNXWXZYNmpTQXJ1OWFadGFadTBtZEdRYVAtaUN2TGNMcXhn",
-    "Source": "More",
-    "Published": "1 day ago",
-    "Datetime": "2026-02-07T12:45:12",
-    "Category": "Energy Security",
-    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://khaborwala.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151696"
+    "Scraped_At": "2026-02-09T07:16:49.109810"
   },
   {
     "Title": "NERC: Long-Term Reliability Assessment (Jan 2026)",
@@ -1657,7 +1937,7 @@
     "Datetime": "2026-02-07T12:44:00",
     "Category": "Energy Security",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://afludiary.blogspot.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151699"
+    "Scraped_At": "2026-02-09T07:16:49.109812"
   },
   {
     "Title": "Securonix Highlights Advanced Malware Campaign Research With Potential to Bolster Threat Detection Offering",
@@ -1667,7 +1947,7 @@
     "Datetime": "2026-02-07T12:39:51",
     "Category": "Malware",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.tipranks.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151701"
+    "Scraped_At": "2026-02-09T07:16:49.109815"
   },
   {
     "Title": "New Apple Pay Phishing Attack Poses Serious Risk to Your Payment Details",
@@ -1677,7 +1957,7 @@
     "Datetime": "2026-02-07T12:35:14",
     "Category": "Phishing",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://cyberpress.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151703"
+    "Scraped_At": "2026-02-09T07:16:49.109817"
   },
   {
     "Title": "Study confirms experience beats youthful enthusiasm",
@@ -1687,17 +1967,7 @@
     "Datetime": "2026-02-07T12:30:00",
     "Category": "The Register",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.theregister.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151706"
-  },
-  {
-    "Title": "NBA DFS Picks & Lineup Advice: Saturday (2/7)",
-    "Link": "https://news.google.com/read/CBMiiAFBVV95cUxNY3NZc2hBcjdyaWx3Q2RYUFdJQVBRbDBKRnFmR0VhbnE1LWJpNllKcU5lVVp4dG5kclZUMFdWbElXUVBpRkhZWnZLeWp5emJzekYwaFM1MDlYeHlTak8zOEd6NDNWblJLaW5UUkJTZUFKZEF1cHhUOEJLZWg3UEJYaU81V0RCLTUt0gGIAUFVX3lxTE1jc1lzaEFyN3JpbHdDZFhQV0lBUFFsMEpGcWZHRWFucTUtYmk2WUpxTmVVWnh0bmRyVlQwV1ZsSVdRUGlGSFladkt5anl6YnN6RjBoUzUwOVh4eVNqTzM4R3o0M1ZuUktpblRSQlNlQUpkQXVweFQ4QktlaDdQQlhpTzVXREItNS0",
-    "Source": "More",
-    "Published": "1 day ago",
-    "Datetime": "2026-02-07T12:21:00",
-    "Category": "Zero Days",
-    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.fantasypros.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151708"
+    "Scraped_At": "2026-02-09T07:16:49.109819"
   },
   {
     "Title": "Hackers Linked to State Actors Target Signal Messages of Military Officials and Journalists",
@@ -1707,7 +1977,7 @@
     "Datetime": "2026-02-07T12:08:46",
     "Category": "State-Sponsored Cyber",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://cybersecuritynews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151710"
+    "Scraped_At": "2026-02-09T07:16:49.109822"
   },
   {
     "Title": "Russia Tried to Sell Fake Antonov Plane to Peru in $63M Scam Deal",
@@ -1717,17 +1987,7 @@
     "Datetime": "2026-02-07T12:06:04",
     "Category": "United 24",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://united24media.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151713"
-  },
-  {
-    "Title": "Nitrogen ransomware programmers lock themselves out of a payment — key management bug encrypts victims' data forever",
-    "Link": "https://news.google.com/read/CBMigAJBVV95cUxQQ0tWcjFCVFpGR0dWZXBxeHlyWnJlM0NUc0FpZW51U2RjVVI1RVExcDcwR0hjaHhPWkxlcUhOQzA0XzlRNHlqV2NjdkZ1TlFGZUxmWC1vbFdGeUNuVkFNaHFVWG1RX0VPYzhXVUZwT25WUm52bmVpVUdhWTMzQkwxTjA4bVRGbmh1S2ZoWmw5bGtqb1VwekZUdXkxUU1RN1lRU21aRkpzcXV2M0tVMEFMZHZEczFOOFlPWlV0Q3c2eTM2WHN3dlZVa01peXpvYUcyR0o2U0pKZW5faW5HRnp6YW9rQXY2OFN3TGNwMy1UdzRrcGQyQ09xeDljWlMyVXJP",
-    "Source": "More",
-    "Published": "1 day ago",
-    "Datetime": "2026-02-07T12:00:00",
-    "Category": "Ransomware",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.tomshardware.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151715"
+    "Scraped_At": "2026-02-09T07:16:49.109824"
   },
   {
     "Title": "GBHackers Security | #1 Globally Trusted Cyber Security News Platform | GBhackers Offering Exclusive Cyber Security News Coverage, New Research papers & Technology Updates.",
@@ -1737,7 +1997,7 @@
     "Datetime": "2026-02-07T11:54:20",
     "Category": "GBHackers",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://gbhackers.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151718"
+    "Scraped_At": "2026-02-09T07:16:49.109826"
   },
   {
     "Title": "Ukraine Power Grid Attack 2026 Kyiv Shocking Escalation",
@@ -1747,7 +2007,7 @@
     "Datetime": "2026-02-07T11:44:23",
     "Category": "Energy Security",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://brusselsmorning.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151720"
+    "Scraped_At": "2026-02-09T07:16:49.109829"
   },
   {
     "Title": "Digest of Recent Articles on Just Security (Feb. 2-6, 2026)",
@@ -1757,7 +2017,7 @@
     "Datetime": "2026-02-07T11:44:21",
     "Category": "Just Security",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.justsecurity.org&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151723"
+    "Scraped_At": "2026-02-09T07:16:49.109832"
   },
   {
     "Title": "Security News This Week: Moltbook, the Social Network for AI Agents, Exposed Real Humans’ Data",
@@ -1767,17 +2027,7 @@
     "Datetime": "2026-02-07T11:30:00",
     "Category": "Wired Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.wired.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151725"
-  },
-  {
-    "Title": "Top Russian GRU general and cyber ops chief shot in Moscow attack",
-    "Link": "https://news.google.com/read/CBMi5wFBVV95cUxOaXNXQkJaQ1h0LVJkYklNcUNtN0NFZGYwNHgzYWs3QXBmUGpySVhQeV80eDh6aTBfYVRmZV9wT1VOQ2N1Y3NVYVlpV2wwdmpLZWwwOEM1eXBhT292by1YT0UwUkxfRHZ2TFF1ank2YU05azluRkFIeUFxTTlZVVc2dExPS1pTTnlzaGhTNkJoTFp1cTdkekRIVWlLQl95c2lXYXpqTWlwNTRwWm9Fb0R5a05feWwxYnpLOWdDLUI3c1F3WmgxN056NVNFNEdSTkJ2TVZCQXRZMlBLWGMzMWZTQ1NIRHpfU0U",
-    "Source": "More",
-    "Published": "1 day ago",
-    "Datetime": "2026-02-07T11:27:35",
-    "Category": "MSN Cyber",
-    "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.msn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151727"
+    "Scraped_At": "2026-02-09T07:16:49.109834"
   },
   {
     "Title": "Organizations Urged to Replace Discontinued Edge Devices",
@@ -1787,7 +2037,7 @@
     "Datetime": "2026-02-07T11:23:16",
     "Category": "SecurityWeek",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.securityweek.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151730"
+    "Scraped_At": "2026-02-09T07:16:49.109836"
   },
   {
     "Title": "Social engineering tops cyber threats in Philippines BSP study in 2025",
@@ -1797,7 +2047,7 @@
     "Datetime": "2026-02-07T11:19:22",
     "Category": "Financial Security",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.msn.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151733"
+    "Scraped_At": "2026-02-09T07:16:49.109839"
   },
   {
     "Title": "The Smart Intervention: Military Asymmetry and the Collapse of the Iranian Islamic Regime",
@@ -1807,7 +2057,7 @@
     "Datetime": "2026-02-07T10:36:00",
     "Category": "Iran Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.fairobserver.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151735"
+    "Scraped_At": "2026-02-09T07:16:49.109841"
   },
   {
     "Title": "Letters | Trilingualism the way forward for Malaysia",
@@ -1817,7 +2067,7 @@
     "Datetime": "2026-02-07T10:26:44",
     "Category": "New Straits Times",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nst.com.my&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151737"
+    "Scraped_At": "2026-02-09T07:16:49.109843"
   },
   {
     "Title": "■ 侵入の痕跡（Indicators of Compromise、IoC）",
@@ -1827,7 +2077,7 @@
     "Datetime": "2026-02-07T09:58:26",
     "Category": "Trend Micro",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.trendmicro.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151740"
+    "Scraped_At": "2026-02-09T07:16:49.109846"
   },
   {
     "Title": "Russia to interrogate two suspects over attempted killing of general, report says",
@@ -1837,7 +2087,7 @@
     "Datetime": "2026-02-07T09:48:31",
     "Category": "Reuters Cyber",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reuters.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151742"
+    "Scraped_At": "2026-02-09T07:16:49.109848"
   },
   {
     "Title": "Payments platform BridgePay confirms ransomware attack behind outage",
@@ -1847,7 +2097,7 @@
     "Datetime": "2026-02-07T09:47:10",
     "Category": "Bleeping Computer",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.bleepingcomputer.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151745"
+    "Scraped_At": "2026-02-09T07:16:49.109850"
   },
   {
     "Title": "'Robots need your body': Are you up to 'rent' yourself to Artificial Intelligence? Deets inside",
@@ -1857,7 +2107,7 @@
     "Datetime": "2026-02-07T09:39:00",
     "Category": "WION News",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.wionews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151747"
+    "Scraped_At": "2026-02-09T07:16:49.109853"
   },
   {
     "Title": "Viral AI, Invisible Risks: What OpenClaw Reveals About Agentic Assistants",
@@ -1867,7 +2117,7 @@
     "Datetime": "2026-02-07T09:21:55",
     "Category": "Trend Micro",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.trendmicro.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151750"
+    "Scraped_At": "2026-02-09T07:16:49.109855"
   },
   {
     "Title": "Zelenskyy Raises Concerns Over Reported $12 Trillion Russia–US Deal: “No Agreements About Ukraine Without Ukraine”",
@@ -1877,7 +2127,7 @@
     "Datetime": "2026-02-07T09:08:56",
     "Category": "United 24",
     "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://united24media.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151752"
+    "Scraped_At": "2026-02-09T07:16:49.109857"
   },
   {
     "Title": "NETSCOUT: Why Healthcare Needs AI-Powered Cyber Resilience",
@@ -1887,7 +2137,7 @@
     "Datetime": "2026-02-07T09:01:04",
     "Category": "Cyber Attacks",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://cybermagazine.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151754"
+    "Scraped_At": "2026-02-09T07:16:49.109860"
   },
   {
     "Title": "Scammers using clever way to infect victims with malware: download virtual disk instead of PDF",
@@ -1897,7 +2147,7 @@
     "Datetime": "2026-02-07T08:48:43",
     "Category": "CyberNews",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://cybernews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151757"
+    "Scraped_At": "2026-02-09T07:16:49.109862"
   },
   {
     "Title": "9 Identity Security Predictions for 2026",
@@ -1907,17 +2157,7 @@
     "Datetime": "2026-02-07T08:37:25",
     "Category": "The Hacker News",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://thehackernews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151759"
-  },
-  {
-    "Title": "BeyondTrust Remote Access Products 0-Day Vulnerability Allows Remote Code Execution",
-    "Link": "https://news.google.com/read/CBMijgFBVV95cUxPa0FLNDBBSEFKbnFwcGlpSTdGeHg0WGxST2d4dVE1NmxOTnZQMzByVE9fX0JHcklfaW8zWVVMaWNtbUZlMmJ2ZFQtUkN6Q1pvWWFxdVJzR0Jzak1nMWFEcU1mTE1BTVA0QWEyYW1IQjNKVE8xZ3hpb3dMdlY3RlllRWtNa2p3ODg3X0tGTnFR",
-    "Source": "More",
-    "Published": "1 day ago",
-    "Datetime": "2026-02-07T08:34:25",
-    "Category": "Cybersecurity",
-    "img": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://cybersecuritynews.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151761"
+    "Scraped_At": "2026-02-09T07:16:49.109865"
   },
   {
     "Title": "Top Russian general reportedly behind Salisbury poisonings shot in assassination bid in Moscow",
@@ -1927,7 +2167,7 @@
     "Datetime": "2026-02-07T08:30:00",
     "Category": "Independent Cyber",
     "img": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.independent.co.uk&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151764"
+    "Scraped_At": "2026-02-09T07:16:49.109867"
   },
   {
     "Title": "Your Supply Chain is Only as Secure as the Weakest Link",
@@ -1937,17 +2177,7 @@
     "Datetime": "2026-02-07T08:23:38",
     "Category": "Supply Chain",
     "img": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.sdcexec.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151766"
-  },
-  {
-    "Title": "GMC Handwara: On-duty Surgeon assaulted, doctors' associations condemn attack",
-    "Link": "https://news.google.com/read/CBMizgFBVV95cUxNdDNia2MtN2JLMENlSXZtS1NoSGZ1WjVrbjNiU0w4RHdvMElpRmgwYUFvWHhaSzhfaXZnTzY1eEY0VHYwMjBZQzJ2ZXRUNG1tWnpEYVZpY3htS3ctQzZpaE9QcE1Idlg3a1VoZXVsMnFoOFUyZGkwZ2xFeVlNQmxHWHJIYW92MUNxclFPaUhqc1Fxb2FfR2h0N05TVW9DMVBrOUR5OXFFbGlLWDZ1VHc4NjR1NkZBNFpIZV93Y19HR3dsNUtOUW9sNkJacHh3Z9IBzgFBVV95cUxNdDNia2MtN2JLMENlSXZtS1NoSGZ1WjVrbjNiU0w4RHdvMElpRmgwYUFvWHhaSzhfaXZnTzY1eEY0VHYwMjBZQzJ2ZXRUNG1tWnpEYVZpY3htS3ctQzZpaE9QcE1Idlg3a1VoZXVsMnFoOFUyZGkwZ2xFeVlNQmxHWHJIYW92MUNxclFPaUhqc1Fxb2FfR2h0N05TVW9DMVBrOUR5OXFFbGlLWDZ1VHc4NjR1NkZBNFpIZV93Y19HR3dsNUtOUW9sNkJacHh3Zw",
-    "Source": "More",
-    "Published": "1 day ago",
-    "Datetime": "2026-02-07T08:15:16",
-    "Category": "Healthcare Security",
-    "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://medicaldialogues.in&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151769"
+    "Scraped_At": "2026-02-09T07:16:49.109869"
   },
   {
     "Title": "HBMHCW Addresses $370 Million Q1 2026 Crypto Theft Crisis with Multi-Layer Phishing Defense as Attacks Escalate",
@@ -1957,6 +2187,6 @@
     "Datetime": "2026-02-07T08:01:23",
     "Category": "Phishing",
     "img": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.24-7pressrelease.com&client=NEWS_360&size=96&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
-    "Scraped_At": "2026-02-09T02:51:33.151771"
+    "Scraped_At": "2026-02-09T07:16:49.109872"
   }
 ]
